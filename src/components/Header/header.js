@@ -35,7 +35,7 @@ class Header extends React.Component {
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <a className="nav-link page-scroll buhen-header-email" href="mailto:example@mail.com">
-                    <BsEnvelope /> {this.props.lan == '/en' ? 'example@mail.com' : this.props.lan == '/ar' ? 'arabic@mail.com' : this.props.lan == '/ch' ? 'chinese@mail.com' : ""}
+                    <BsEnvelope /> {this.props.lan == '/en' ? 'english@mail.com' : this.props.lan == '/ar' ? 'arabic@mail.com' : this.props.lan == '/ch' ? 'chinese@mail.com' : 'english@mail.com'}
                   </a>
                 </li>
                 <li className="nav-item">

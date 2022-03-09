@@ -9,7 +9,7 @@ import Hidden from '@material-ui/core/Hidden';
 
 import ModalVideo from "react-modal-video";
 
-import language from "./../../data/language";
+import {language} from "./../../data/language.js";
 
 import {BsFillPlayFill} from "react-icons/bs";
 
@@ -106,10 +106,10 @@ class HeroSection extends React.Component {
                     }`}
                 >
                   <h2 className="text-white banner-heading">
-                    {this.props.lan == '/' || this.props.lan == '/en' ? language.english.topSection.header : this.props.lan == '/ar' ? 'arabic@mail.com' : this.props.lan == '/ch' ? language.chinese.topSection.header : ""}
+                    {this.props.lan == '/' || this.props.lan == '/en' ? language.english.topSection.header : this.props.lan == '/ar' ? language.arabic.topSection.header : this.props.lan == '/ch' ? language.chinese.topSection.header : language.english.topSection.header }
                   </h2>
                   <p className="lead">
-                    {this.props.lan == '/' || this.props.lan == '/en' ? language.english.topSection.paragraph : this.props.lan == '/ar' ? 'arabic@mail.com' : this.props.lan == '/ch' ? language.chinese.topSection.paragraph : ""}
+                    {this.props.lan == '/' || this.props.lan == '/en' ? language.english.topSection.paragraph : this.props.lan == '/ar' ? language.english.topSection.paragraph : this.props.lan == '/ch' ? language.chinese.topSection.paragraph : language.english.topSection.paragraph }
                   </p>
                   <a href="#why-invest-in-dubai" class="rozella-btn">
                     <span class="shine"></span>

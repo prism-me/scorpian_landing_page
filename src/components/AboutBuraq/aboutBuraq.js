@@ -12,7 +12,7 @@ import RozellaDesign from "./../../assets/Images/LandingPage/Rozella-Design.png"
 import RozellaLine1 from "./../../assets/Images/LandingPage/Rozella-Line-Long.png";
 import RozellaLine2 from "./../../assets/Images/LandingPage/Rozella-Line-Short.png";
 
-import language from "./../../data/language.json";
+import {language} from "../../data/language.js";
 
 const AboutBuraq = (props) => {
   return (
@@ -82,14 +82,14 @@ const AboutBuraq = (props) => {
             <div class="rozella-heading">
               <span style={{position: "relative"}}>
                 <img src={RozellaDesign} className="rozella-wing-design" />
-                {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.header : props.lan == '/ar' ? 'arabic@mail.com' : props.lan == '/ch' ? language.chinese.whyInvestInDubai.header : ""}
+                {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.header : props.lan == '/ar' ? language.arabic.whyInvestInDubai.header : props.lan == '/ch' ? language.chinese.whyInvestInDubai.header : language.english.whyInvestInDubai.header}
                 <img src={RozellaLine1} className="rozella-line1"/>
                 <img src={RozellaLine2} className="rozella-line2"/>
               </span>
             </div>
-            <p className="first">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.firstLine : props.lan == '/ar' ? 'arabic@mail.com' : props.lan == '/ch' ? language.chinese.whyInvestInDubai.firstLine : ""}</p>
-            <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph1 : props.lan == '/ar' ? 'arabic@mail.com' : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : ""}</p>
-            <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph2 : props.lan == '/ar' ? 'arabic@mail.com' : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : ""}</p>
+            <p className="first">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.firstLine : props.lan == '/ar' ? language.arabic.whyInvestInDubai.firstLine : props.lan == '/ch' ? language.chinese.whyInvestInDubai.firstLine : language.english.whyInvestInDubai.firstLine}</p>
+            <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph1 : props.lan == '/ar' ? language.arabic.whyInvestInDubai.paragraph1 : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : language.english.whyInvestInDubai.paragraph1}</p>
+            <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph2 : props.lan == '/ar' ? language.arabic.whyInvestInDubai.paragraph2 : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : language.english.whyInvestInDubai.paragraph2}</p>
           </Col>
         </Row>
       </Container>

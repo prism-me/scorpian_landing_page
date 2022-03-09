@@ -7,11 +7,90 @@ import { content } from "./../../data/data";
 import { IoPlayOutline } from "react-icons/io5";
 import ModalVideo from "react-modal-video";
 
+import {language} from "../../data/language.js";
+
 
 function VideoSlider(props) {
   const [openVideo, setOpenVideo] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const { global } = props;
+
+  const englishSlider = language.english.reasonsToInvestInDubai.slider;
+  const arabicSlider = language.english.reasonsToInvestInDubai.slider;
+  const chineseSlider = language.chinese.reasonsToInvestInDubai.slider;
+
+  let languageSlider;
+
+  if (props.lan == '/' || props.lan == '/en') {
+    languageSlider = englishSlider.map((x) => {
+      return <div>
+        <div className="video-image-wrapper">
+          <img src={x.sliderImage} alt="" loading="lazy" />
+        </div>
+        <div className="slide-content py-3">
+          <h5>{x.sliderTitle}</h5>
+          <div className="description">{x.sliderDescription}</div>
+          <br />
+          <a href="#" class="rozella-btn">
+            <span class="shine"></span>
+            <span>ENQUIRE NOW</span>
+          </a>
+        </div>
+      </div>
+      })
+  } else if (props.lan == '/ar') {
+    languageSlider = arabicSlider.map((x) => {
+      return <div>
+        <div className="video-image-wrapper">
+          <img src={x.sliderImage} alt="" loading="lazy" />
+        </div>
+        <div className="slide-content py-3">
+          <h5>{x.sliderTitle}</h5>
+          <div className="description">{x.sliderDescription}</div>
+          <br />
+          <a href="#" class="rozella-btn">
+            <span class="shine"></span>
+            <span>ENQUIRE NOW</span>
+          </a>
+        </div>
+      </div>
+      })
+  } else if (props.lan == '/ch') {
+    languageSlider = chineseSlider.map((x) => {
+      return <div>
+        <div className="video-image-wrapper">
+          <img src={x.sliderImage} alt="" loading="lazy" />
+        </div>
+        <div className="slide-content py-3">
+          <h5>{x.sliderTitle}</h5>
+          <div className="description">{x.sliderDescription}</div>
+          <br />
+          <a href="#" class="rozella-btn">
+            <span class="shine"></span>
+            <span>ENQUIRE NOW</span>
+          </a>
+        </div>
+      </div>
+      })
+  } else {
+    languageSlider = englishSlider.map((x) => {
+      return <div>
+        <div className="video-image-wrapper">
+          <img src={x.sliderImage} alt="" loading="lazy" />
+        </div>
+        <div className="slide-content py-3">
+          <h5>{x.sliderTitle}</h5>
+          <div className="description">{x.sliderDescription}</div>
+          <br />
+          <a href="#" class="rozella-btn">
+            <span class="shine"></span>
+            <span>ENQUIRE NOW</span>
+          </a>
+        </div>
+      </div>
+      })
+  }
+  
   return (
     <div className="video-slider" id="reasons-to-invest-in-dubai">
       <Container>
@@ -43,104 +122,8 @@ function VideoSlider(props) {
         interval={3000}
 
       >
-        {content?.home?.sliderSection?.sliderData?.map((x, index) => (
-          <div>
-            <div className="video-image-wrapper">
-              {/* {x?.[props.activeLanguage].youtubelink && (
-                <div
-                  className="play-button-wrap"
-                >
-                  <div
-                    className="play-button"
-                    onClick={() => {
-                      setCurrentIndex(index);
-                      setOpenVideo(true);
-                    }}
-                  >
-                    <IoPlayOutline />
-                  </div>
-                </div>
-              )} */}
-              <img
-                src={x?.[props.activeLanguage].image}
-                alt=""
-                loading="lazy"
-              />
-              {/* <a
-                href={x?.[props.activeLanguage].youtubelink}
-                className="popup-youtube video-play-icon d-inline-block"
-              >
-                <span
-                  className="ti-control-play"
-                  style={{ color: "#2E3751" }}
-                ></span>
-              </a> */}
-
-            </div>
-            <div className="slide-content py-3">
-              <h5>{x?.[props.activeLanguage].text}</h5>
-              <div
-                className="description"
-                dangerouslySetInnerHTML={{
-                  __html:
-                    x?.[props.activeLanguage].description,
-                }}
-              ></div>
-              <br />
-              <a href="#" class="rozella-btn">
-                <span class="shine"></span>
-                <span>ENQUIRE NOW</span></a>
-            </div>
-          </div>
-        ))}
+        {languageSlider}
       </Carousel>
-      <ModalVideo
-        channel="youtube"
-        autoplay= {1}
-        isOpen={openVideo}
-        videoId={
-          content?.home?.sliderSection?.sliderData[currentIndex]?.[props.activeLanguage].youtubelink?.split("/watch?v=")[1]
-        }
-        onClose={() => setOpenVideo(false)}
-      />
-
-
-      {/* {content?.home?.sliderSection?.sliderData?.map(
-          (x, index) => (
-
-            <div key={index} className="product-slider">
-              <img
-                src={x?.[props.activeLanguage].image}
-                alt=""
-              />
-              <div className="video-promo-content mt-4 text-center">
-                <a
-                  href={x?.[props.activeLanguage].youtubelink}
-                  className="popup-youtube video-play-icon d-inline-block"
-                >
-                  <span
-                    className="ti-control-play"
-                    style={{ color: "#2E3751" }}
-                  ></span>
-                </a>
-
-              </div>
-              <div className="buhen-slider-description">
-                <h5
-                  className={`slider-heading ${props.activeLanguage === "arabic"
-                    ? "slider-arabic-title"
-                    : "english"
-                    }`}
-                >
-                  {x?.[props.activeLanguage].text}
-                </h5>
-                <p className="about-text-detail">
-                  {x?.[props.activeLanguage].description}
-                </p>
-              </div>
-            </div>
-          )
-        )} */}
     </div>
   );
 }
