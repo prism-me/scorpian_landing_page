@@ -1,0 +1,85 @@
+@import "./../../styles/variables";
+
+.Webinar_main_col {
+  padding: 5rem 0 3rem 0;
+  @media #{$xsm}{
+    padding: 3rem 0 3rem 0;
+  }
+  .row {
+    // display    : flex;
+    // align-items: center;
+
+    .webinar_text {
+      h5.about-buraq-heading {
+        font-size  : 24px;
+        font-weight: 700;
+        display    : block;
+        width      : 100%;
+        
+        @media #{$xsm}{
+          font-size: 22px;
+          text-align: center;
+        }
+      }
+
+      ul {
+        list-style  : disc;
+        padding-left: 5px;
+        font-size: 16px;
+
+        ul {
+          padding-left: 30px;
+          list-style  : circle;
+        }
+      }
+      @media #{$xsm}{
+        padding: 0px 15px;
+       
+      }
+    }
+
+    .webinar_sche {
+      padding: 3rem;
+      background-color: #2e3751;
+      box-shadow: 0 0 10px #2e3751;
+      color: #fff;
+      h5 {
+        color: #fff;
+      }
+      p {
+        span {
+          font-weight: 900;
+          color      : #fff;
+        }
+      }
+    }
+  }
+}
+
+h5.about-buraq-heading.webinar_title {
+  padding: 0 0 2rem 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  color: #2e3751;
+  @media #{$xsm}{
+    font-size: 22px;
+    padding-bottom: 1rem;
+  }
+}
+
+.mobile-control-text{
+  @media #{$xsm}{
+    order: 2;
+  }
+
+}
+
+.mobile-control-badge{
+  @media #{$xsm}{
+    order: 1;
+    margin-bottom: 3rem !important;
+  }
+
+}
+

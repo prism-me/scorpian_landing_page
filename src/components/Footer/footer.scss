@@ -1,0 +1,153 @@
+@import "./../../styles/variables";
+
+.social-list-wrap {
+  text-align: end;
+  @media #{$sm} {
+    text-align: center;
+  }
+}
+.copyrights-text-wrap {
+  @media #{$sm} {
+    text-align: center;
+  }
+}
+
+.copyright-text-para span a {
+  color: #fff;
+}
+
+.footer-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  .copyrights-text-wrap {
+    display: flex;
+    justify-content: flex-end;
+
+    @media #{$sm} {
+      justify-content: center;
+    }
+  }
+  .footer-icon-wrap-col {
+    display: flex;
+    justify-content: flex-start;
+    @media #{$sm} {
+      justify-content: center;
+    }
+  }
+}
+
+.copyright-arabic-text {
+  font-family: $cairo;
+}
+
+.buhin-footer {
+  background: #01052D;
+}
+
+.footer-section {
+  position: relative;
+  text-align: center;
+
+  .rozella-subscribe-wrap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #rozella-footer-subscribe {
+
+    position: absolute;
+    bottom: 80px;
+    
+    input {
+      border: none;
+      padding: 30px;
+      width: 900px;
+      height: 100px;
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border: none;
+      padding: 0px 80px;
+      background: #02030D;
+      color: #FFFFFF;
+      margin: 5px;
+      font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+      font-weight: 700;
+    }
+  }
+}
+
+.rozella-social-icon {
+
+  border: 1px solid #9D2CDC;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 14px 6px;
+  background: #111;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+
+  &:hover {
+    background: linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
+    color: #FFFFFF;
+
+    .shine {
+      z-index: 1;
+      animation: sheen 2s alternate;
+    }
+  }
+
+}
+
+.copyright-text-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Rozella Media Queries
+
+@media (max-width: 1024px) {
+  .footer-section #rozella-footer-subscribe input {
+    width: 500px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section #rozella-footer-subscribe input {
+    width: 300px;
+    height: 50px;
+  }
+
+  .footer-section #rozella-footer-subscribe button {
+    padding: 0px 10px;
+  }
+
+  .copyrights-text-wrap .copyright-text-para {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-section #rozella-footer-subscribe {
+    bottom: 100px;
+  }
+
+  .rozella-social-icon {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background: transparent;
+  padding: 20px 0;
+}
+
+.custom-nav.affix {
+   
+  background: #1b1b1b !important;
+  /* border-bottom: 1px solid #333333 !important; */
+
+}

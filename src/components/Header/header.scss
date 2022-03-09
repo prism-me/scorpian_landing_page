@@ -1,0 +1,140 @@
+@import "./../../styles/variables";
+
+.language-option-list {
+  color: #fff !important;
+}
+.item-list-wrap {
+  color: #000 !important;
+}
+.popup-small-screen {
+  @media #{$sm} {
+    left: 55%;
+    top: 68%;
+  }
+  @media #{$md} {
+    left: 75%;
+    top: 68%;
+  }
+}
+.language-toggle-list {
+  color: #2e3751 !important;
+  display: none;
+  @media #{$sm} {
+    display: block;
+  }
+  @media #{$md} {
+    display: block;
+  }
+}
+
+
+.navbar{
+
+  @media #{$xsm} {
+    background: #2e3751 !important;
+  }
+
+  .page-scroll{
+    @media #{$xsm}{
+      display: none;
+    }
+  }
+
+
+
+}
+
+
+.buhen-header-email {
+  font-size: 16px;
+}
+
+.navbar-brand {
+
+  display: flex;
+  width: auto;
+
+  img {
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .buhen-logo {
+    margin: auto auto;
+    margin-right: 10px;
+  }
+
+  .buhen-logo-name {
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  .navbar {
+    background: #333333 !important;
+    border-bottom: 1px solid #333333;
+    padding: 1.5rem 1rem;
+  }
+
+  .custom-nav ul li a {
+    color: #FFFFFF !important;
+  }
+
+  .navbar-brand {
+  
+    img {
+      height: auto !important;
+      width: auto !important;
+    }
+  
+    .buhen-logo {
+      margin: auto auto;
+      margin-right: 10px;
+    }
+  
+    .buhen-logo-name {
+      font-size: 26px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .buhen-header-email {
+    display: block !important;
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+
+    width: auto !important;
+  
+    img {
+      height: 45px !important;
+      // width: 26px !important;
+    }
+  
+    .buhen-logo {
+      margin: auto auto;
+      margin-right: 10px;
+    }
+  
+    .buhen-logo-name {
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .nav-item {
+    margin-right: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+}

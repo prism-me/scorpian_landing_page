@@ -1,0 +1,162 @@
+@import "./../../styles/variables";
+
+.about-buraq-wrap {
+  padding    : 0px 0px 70px;
+  //background-color: #111;
+  //font-family: $quicksand;
+  color: #FFFFFF;
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+
+  @media #{$sm} {
+    margin-top   : 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-text-wrap {
+    height    : 100%;
+    text-align: center;
+
+    @media #{$sm} {
+      margin-top: 1rem;
+      text-align: justify;
+    }
+
+    .about-buraq-heading {
+      padding    : 0 0 2rem 0;
+      text-align : center;
+      // font-size  : 30px;
+      line-height: 45px;
+      font-weight: 900;
+      color      : #333333;
+
+      @media #{$xsm} {
+
+        font-size: 22px;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .about-arabic-text-wrap {
+    @media #{$sm} {
+      text-align: right;
+    }
+  }
+
+  .about-image-wrap {
+    width : 80%;
+    height: 100%;
+
+    @media #{$sm} {
+      text-align: center;
+      width     : 100%;
+    }
+
+    img {
+      width     : 100%;
+      height    : 100%;
+      object-fit: contain;
+
+      @media #{$sm} {
+        width: 85%;
+      }
+    }
+  }
+
+  //! --Abrabic Style--
+  .about-arabic-style {
+    display       : flex;
+    flex-direction: row-reverse;
+    text-align    : right;
+  }
+
+  .about-buraq-row {
+    @media #{$sm} {
+      display       : flex;
+      flex-direction: column;
+    }
+  }
+
+  .rozella-row {
+    padding: 50px 0px;
+  }
+
+  .rozella-row2 {
+    padding: 0px 0px;
+  }
+
+  .rozella-btn2::before {
+    background: url('../../assets/ButtonIcons/rozella-btn-icon2.png'), linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .rozella-btn2 {
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    background-color: #01052D;
+    line-height: 70px;
+    border: none;
+  }
+
+  .rozella-btn3 {
+    background: none;
+  }
+}
+
+#why-choose-us {
+  background-color: #01052D;
+}
+
+.rozella-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.rozella-subheading {
+  font-size: 20px;
+}
+
+.about-text-detail {
+  font-size: 16px;
+  color: #333333;
+}
+
+.about-arabic-text {
+  h5 {
+    font-family: $cairo;
+  }
+
+  p {
+    font-family: $cairo;
+  }
+}
+
+.about-text-wrap {
+  text-align: justify;
+}
+
+.rozella-content {
+  padding: 50px 100px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+  .about-buraq-wrap {
+    margin: 0px;
+  }
+
+  p, ul {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .rozella-content {
+    padding: 50px 35px;
+    text-align: center;
+  }
+}
