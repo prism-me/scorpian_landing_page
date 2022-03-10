@@ -203,7 +203,8 @@ td {
 
 body {
   background-color: #ffffff;
-  font-family     : "Quicksand", sans-serif;
+  /* font-family     : "Quicksand", sans-serif; */
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
   font-size       : 1rem;
   color           : #707070;
   font-weight     : 400;
@@ -212,7 +213,8 @@ body {
 
 p {
   margin-bottom: 1.25em;
-  font-family  : "Quicksand", sans-serif;
+  /* font-family  : "Quicksand", sans-serif; */
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
 }
 
 h1,
@@ -222,7 +224,8 @@ h4,
 h5 {
   margin        : 0 0 1rem;
   /* font-family: "Montserrat", sans-serif; */
-  font-family   : "Quicksand", sans-serif;
+  /* font-family   : "Quicksand", sans-serif; */
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
   font-weight   : 600;
   line-height   : 1.21;
   color         : initial;
@@ -264,7 +267,8 @@ strong,
 b {
   font-weight   : 500;
   /* font-family: "Montserrat", sans-serif; */
-  font-family   : "Quicksand", sans-serif;
+  /* font-family   : "Quicksand", sans-serif; */
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
 }
 
 .badge {
@@ -273,7 +277,8 @@ b {
   font-size     : 80%;
   font-weight   : 600;
   /* font-family: "Montserrat", sans-serif; */
-  font-family   : "Quicksand", sans-serif;
+  /* font-family   : "Quicksand", sans-serif; */
+  font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
   line-height   : 1;
   text-align    : center;
   white-space   : nowrap;

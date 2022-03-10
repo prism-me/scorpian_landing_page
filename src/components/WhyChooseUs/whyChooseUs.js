@@ -35,12 +35,6 @@ const WhyChooseUs = (props) => {
             </div>
             <ul style={{listStyleType: "disc"}}>
               {props.lan == '/' || props.lan == '/en' ? language.english.whyChooseUs.content.map((x) => {return <li>{x}</li>}) : props.lan == '/ar' ? language.arabic.whyChooseUs.content.map((x) => {return <li>{x}</li>}) : props.lan == '/ch' ? language.chinese.whyChooseUs.content.map((x) => {return <li>{x}</li>}) : language.english.whyChooseUs.content.map((x) => {return <li>{x}</li>})}
-              {/* <li>Ut nibh at vel eu amet ligula cras vel semper. Sed non, diam et sit nisi. Facilisis eu habitant elit semper fringilla consectetur id diam ac.</li>
-              <li>Sociis odio elit cras risus facilisis cum. Vitae, risus bibendum quam eu a nunc. A eget magna felis, at.</li>
-              <li>Donec velit augue auctor adipiscing non egestas neque. Augue praesent egestas pellentesque natoque orci proin euismod.</li>
-              <li>Elementum id viverra mi volutpat. Purus varius cursus aenean aliquet. Purus et semper augue facilisis amet.</li>
-              <li>Ornare consectetur amet, in orci mi pellentesque. Lectus sed enim, proin dignissim nisl et ultricies.</li>
-              <li>Morbi fusce fringilla dictum venenatis, ipsum placerat. Sociis mi auctor bibendum facilisis aenean tincidunt.</li> */}
             </ul>
             <br />
             <a href="#" class="rozella-btn rozella-btn3">
