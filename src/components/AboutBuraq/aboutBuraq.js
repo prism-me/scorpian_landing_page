@@ -12,7 +12,7 @@ import RozellaDesign from "./../../assets/Images/LandingPage/Rozella-Design.png"
 import RozellaLine1 from "./../../assets/Images/LandingPage/Rozella-Line-Long.png";
 import RozellaLine2 from "./../../assets/Images/LandingPage/Rozella-Line-Short.png";
 
-import {language} from "../../data/language.js";
+import { language } from "../../data/language.js";
 
 const AboutBuraq = (props) => {
   return (
@@ -24,7 +24,7 @@ const AboutBuraq = (props) => {
             : "english"
             }`}
         >
-          <Col lg={4} xs={12} sm={12}>
+          <Col lg={3} xs={12} sm={12}>
             {/* <div
               className={`about-text-wrap ${props.activeLanguage === "arabic"
                 ? "about-arabic-text-wrap"
@@ -49,42 +49,48 @@ const AboutBuraq = (props) => {
               </div>
             </div> */}
             <a href="#why-invest-in-dubai" class="rozella-btn rozella-btn2">
-                    <span class="shine"></span>
-                    <span>Why Invest In Dubai</span>
-                  </a>
+              <span class="shine"></span>
+              <span>Why Invest In Dubai</span>
+            </a>
 
           </Col>
-          <Col lg={4} xs={12} sm={12}>
-          <a href="#why-choose-us" class="rozella-btn rozella-btn2">
-                    <span class="shine"></span>
-                    <span>Why Choose Us</span>
-          </a>
+          <Col lg={3} xs={12} sm={12}>
+            <a href="#why-choose-us" class="rozella-btn rozella-btn2">
+              <span class="shine"></span>
+              <span>Why Choose Us</span>
+            </a>
           </Col>
-          <Col  lg={4} xs={12} sm={12}>
-          <a href="#reasons-to-invest-in-dubai" class="rozella-btn rozella-btn2">
-                    <span class="shine"></span>
-                    <span>Reasons To Invest In Dubai</span>
-          </a>
+          <Col lg={3} xs={12} sm={12}>
+            <a href="#reasons-to-invest-in-dubai" class="rozella-btn rozella-btn2">
+              <span class="shine"></span>
+              <span>Reasons To Invest In Dubai</span>
+            </a>
+          </Col>
+          <Col lg={3} xs={12} sm={12}>
+            <a href="#our-team" class="rozella-btn rozella-btn2">
+              <span class="shine"></span>
+              <span>Our Team</span>
+            </a>
           </Col>
         </Row>
         <Row
           className={`about-buraq-row ${props.activeLanguage === "arabic"
-          ? "about-arabic-style"
-          : "english"
-          }
+            ? "about-arabic-style"
+            : "english"
+            }
           rozella-row`}
           id="why-invest-in-dubai"
         >
           <Col lg={6} md={12} xs={12} sm={12}>
-            <img src={Image1} style={{width: "100%"}} />
+            <img src={Image1} style={{ width: "100%" }} className="zoom-in-out-box" />
           </Col>
           <Col lg={6} md={12} xs={12} sm={12} >
             <div class="rozella-heading">
-              <span style={{position: "relative"}}>
+              <span style={{ position: "relative" }}>
                 <img src={RozellaDesign} className="rozella-wing-design" />
                 {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.header : props.lan == '/ar' ? language.arabic.whyInvestInDubai.header : props.lan == '/ch' ? language.chinese.whyInvestInDubai.header : language.english.whyInvestInDubai.header}
-                <img src={RozellaLine1} className="rozella-line1"/>
-                <img src={RozellaLine2} className="rozella-line2"/>
+                <img src={RozellaLine1} className="rozella-line1" />
+                <img src={RozellaLine2} className="rozella-line2" />
               </span>
             </div>
             <p className="first">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.firstLine : props.lan == '/ar' ? language.arabic.whyInvestInDubai.firstLine : props.lan == '/ch' ? language.chinese.whyInvestInDubai.firstLine : language.english.whyInvestInDubai.firstLine}</p>

@@ -6,6 +6,7 @@ import FooterSection from "../components/Footer";
 import BuraqSlider from "../components/BuraqSlider";
 import AboutBuraq from "../components/AboutBuraq";
 import WhyChooseUs from "../components/WhyChooseUs/whyChooseUs";
+import OurTeam from "../components/OurTeam/OurTeam"
 
 class Theme extends Component {
   state = {
@@ -43,9 +44,9 @@ class Theme extends Component {
             lan={window.location.pathname}
           />
 
-          {/* <BannerFormBottom
-            activeLanguage={this.state.activeLanguage} 
-          /> */}
+          <OurTeam
+            activeLanguage={this.state.activeLanguage}
+          />
 
         </div>
         <FooterSection

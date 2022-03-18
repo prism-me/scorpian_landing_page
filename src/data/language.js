@@ -38,11 +38,13 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
+                    video_link: "https://youtu.be/DohvORAMlHs",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
                     sliderImage: slider2,
                     sliderTitle: "Reason 2",
+                    video_link: "https://youtu.be/DohvORAMlHs",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {

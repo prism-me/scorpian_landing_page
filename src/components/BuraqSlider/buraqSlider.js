@@ -7,12 +7,13 @@ import { content } from "./../../data/data";
 import { IoPlayOutline } from "react-icons/io5";
 import ModalVideo from "react-modal-video";
 
-import {language} from "../../data/language.js";
+import { language } from "../../data/language.js";
 
 
 function VideoSlider(props) {
   const [openVideo, setOpenVideo] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+
   const { global } = props;
 
   const englishSlider = language.english.reasonsToInvestInDubai.slider;
@@ -22,9 +23,22 @@ function VideoSlider(props) {
   let languageSlider;
 
   if (props.lan == '/' || props.lan == '/en') {
-    languageSlider = englishSlider.map((x) => {
+    languageSlider = englishSlider.map((x, index) => {
       return <div>
         <div className="video-image-wrapper">
+          {x.video_link && (
+            <div className="play-button-wrap">
+              <div
+                className="play-button"
+                onClick={() => {
+                  setCurrentIndex(index);
+                  setOpenVideo(true);
+                }}
+              >
+                <IoPlayOutline />
+              </div>
+            </div>
+          )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
         <div className="slide-content py-3">
@@ -33,15 +47,28 @@ function VideoSlider(props) {
           <br />
           <a href="#" class="rozella-btn">
             <span class="shine"></span>
-            <span>ENQUIRE NOW</span>
+            <span>CONTACT US</span>
           </a>
         </div>
       </div>
-      })
+    })
   } else if (props.lan == '/ar') {
-    languageSlider = arabicSlider.map((x) => {
+    languageSlider = arabicSlider.map((x, index) => {
       return <div>
         <div className="video-image-wrapper">
+          {x.video_link && (
+            <div className="play-button-wrap">
+              <div
+                className="play-button"
+                onClick={() => {
+                  setCurrentIndex(index);
+                  setOpenVideo(true);
+                }}
+              >
+                <IoPlayOutline />
+              </div>
+            </div>
+          )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
         <div className="slide-content py-3">
@@ -50,15 +77,28 @@ function VideoSlider(props) {
           <br />
           <a href="#" class="rozella-btn">
             <span class="shine"></span>
-            <span>ENQUIRE NOW</span>
+            <span>CONTACT US</span>
           </a>
         </div>
       </div>
-      })
+    })
   } else if (props.lan == '/ch') {
-    languageSlider = chineseSlider.map((x) => {
+    languageSlider = chineseSlider.map((x, index) => {
       return <div>
         <div className="video-image-wrapper">
+          {x.video_link && (
+            <div className="play-button-wrap">
+              <div
+                className="play-button"
+                onClick={() => {
+                  setCurrentIndex(index);
+                  setOpenVideo(true);
+                }}
+              >
+                <IoPlayOutline />
+              </div>
+            </div>
+          )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
         <div className="slide-content py-3">
@@ -67,15 +107,28 @@ function VideoSlider(props) {
           <br />
           <a href="#" class="rozella-btn">
             <span class="shine"></span>
-            <span>ENQUIRE NOW</span>
+            <span>CONTACT US</span>
           </a>
         </div>
       </div>
-      })
+    })
   } else {
-    languageSlider = englishSlider.map((x) => {
+    languageSlider = englishSlider.map((x, index) => {
       return <div>
         <div className="video-image-wrapper">
+          {x.video_link && (
+            <div className="play-button-wrap">
+              <div
+                className="play-button"
+                onClick={() => {
+                  setCurrentIndex(index);
+                  setOpenVideo(true);
+                }}
+              >
+                <IoPlayOutline />
+              </div>
+            </div>
+          )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
         <div className="slide-content py-3">
@@ -84,13 +137,13 @@ function VideoSlider(props) {
           <br />
           <a href="#" class="rozella-btn">
             <span class="shine"></span>
-            <span>ENQUIRE NOW</span>
+            <span>CONTACT US</span>
           </a>
         </div>
       </div>
-      })
+    })
   }
-  
+
   return (
     <div className="video-slider" id="reasons-to-invest-in-dubai">
       <Container>
@@ -124,6 +177,35 @@ function VideoSlider(props) {
       >
         {languageSlider}
       </Carousel>
+      {
+        props.lan == '/' || props.lan == '/en' ?
+          <ModalVideo
+            channel="youtube"
+            isOpen={openVideo}
+            videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
+            onClose={() => setOpenVideo(false)}
+          />
+          : props.lan == '/ch' ?
+            <ModalVideo
+              channel="youtube"
+              isOpen={openVideo}
+              videoId={chineseSlider[currentIndex]?.video_link?.split("/")[3]}
+              onClose={() => setOpenVideo(false)}
+            /> : props.lan == '/ar' ?
+              <ModalVideo
+                channel="youtube"
+                isOpen={openVideo}
+                videoId={arabicSlider[currentIndex]?.video_link?.split("/")[3]}
+                onClose={() => setOpenVideo(false)}
+              /> :
+              <ModalVideo
+                channel="youtube"
+                isOpen={openVideo}
+                videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
+                onClose={() => setOpenVideo(false)}
+              />
+      }
+
     </div>
   );
 }
