@@ -236,9 +236,15 @@ p.lead {
 .header_cta_mobile {
   display: none;
 
-  @media #{$xsm} {
+  @media #{$sm} {
     display: block;
     margin : 21px auto;
+  }
+}
+.zohoFormDisplayOnDesktop{
+  display: block; 
+  @media #{$sm} {
+    display: none;
   }
 }
 
