@@ -7,6 +7,8 @@ import sliderEnglish1 from "./../../assets/sliderImages/airlife-sa-stand-alone-d
 import { content } from "./../../data/data";
 import "./aboutBuraq.scss";
 
+import dubaigif from "../../assets/Dubai_Falls2.gif"
+
 import Image1 from "./../../assets/Images/LandingPage/Rozella-Image1.png";
 import RozellaDesign from "./../../assets/Images/LandingPage/Rozella-Design.png";
 import RozellaLine1 from "./../../assets/Images/LandingPage/Rozella-Line-Long.png";
@@ -82,7 +84,9 @@ const AboutBuraq = (props) => {
           id="why-invest-in-dubai"
         >
           <Col lg={6} md={12} xs={12} sm={12}>
-            <img src={Image1} style={{ width: "100%" }} className="zoom-in-out-box" />
+            <img src={dubaigif} style={{ width: "100%", height: "100%" }}
+            // className="zoom-in-out-box" 
+            />
           </Col>
           <Col lg={6} md={12} xs={12} sm={12} >
             <div class="rozella-heading">
