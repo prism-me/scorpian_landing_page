@@ -180,28 +180,32 @@ function VideoSlider(props) {
       {
         props.lan == '/' || props.lan == '/en' ?
           <ModalVideo
-            channel="youtube"
+            channel="custom"
             isOpen={openVideo}
-            videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
+            url={englishSlider[currentIndex]?.video_link}
+            // videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
             onClose={() => setOpenVideo(false)}
           />
           : props.lan == '/ch' ?
             <ModalVideo
-              channel="youtube"
+              channel="custom"
               isOpen={openVideo}
-              videoId={chineseSlider[currentIndex]?.video_link?.split("/")[3]}
+              url={chineseSlider[currentIndex]?.video_link}
+              // videoId={chineseSlider[currentIndex]?.video_link?.split("/")[3]}
               onClose={() => setOpenVideo(false)}
             /> : props.lan == '/ar' ?
               <ModalVideo
-                channel="youtube"
+                channel="custom"
                 isOpen={openVideo}
-                videoId={arabicSlider[currentIndex]?.video_link?.split("/")[3]}
+                url={arabicSlider[currentIndex]?.video_link}
+                // videoId={arabicSlider[currentIndex]?.video_link?.split("/")[3]}
                 onClose={() => setOpenVideo(false)}
               /> :
               <ModalVideo
-                channel="youtube"
+                channel="custom"
                 isOpen={openVideo}
-                videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
+                url={englishSlider[currentIndex]?.video_link}
+                // videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
                 onClose={() => setOpenVideo(false)}
               />
       }

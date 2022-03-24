@@ -46,6 +46,7 @@ class Theme extends Component {
 
           <OurTeam
             activeLanguage={this.state.activeLanguage}
+            lan={window.location.pathname}
           />
 
         </div>

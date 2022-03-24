@@ -3,6 +3,10 @@ import slider2 from "../assets/Images/LandingPage/SliderSection/Slider-Image2.jp
 import slider3 from "../assets/Images/LandingPage/SliderSection/Slider-Image3.jpg";
 import slider4 from "../assets/Images/LandingPage/SliderSection/Slider-Image4.jpg";
 
+import team1 from "../assets/Images/LandingPage/Home-Team-Member1.png"
+import team2 from "../assets/Images/LandingPage/Home-Team-Member2.png"
+import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
+
 export const language = {
     english: {
         topSection: {
@@ -38,13 +42,12 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
-                    video_link: "https://youtu.be/DohvORAMlHs",
+                    video_link: "https://rozella.b-cdn.net/Final%20Crest%20Video-Chinese.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
                     sliderImage: slider2,
                     sliderTitle: "Reason 2",
-                    video_link: "https://youtu.be/DohvORAMlHs",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {
@@ -56,6 +59,26 @@ export const language = {
                     sliderImage: slider4,
                     sliderTitle: "Reason 4",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
+                }
+            ]
+        },
+        ourTeam: {
+            header: "OUR TEAM",
+            teamsData: [
+                {
+                    img: team1,
+                    name: "John Doe",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "Tommy Doe",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team3,
+                    name: "Hash Doe",
+                    designation: "Accusantium qui dolo"
                 }
             ]
         }
@@ -94,6 +117,7 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
+                    video_link: "https://rozella.b-cdn.net/Final%20Crest%20Video-Chinese.mp4",
                     sliderDescription: "迪拜是世界最繁忙的航空枢纽之一，同时也是亚欧非的贸易中转站，常年被评为世界最安全的城市之一，以及全球首选的热门旅游目的地。"
                 },
                 {
@@ -110,6 +134,26 @@ export const language = {
                     sliderImage: slider4,
                     sliderTitle: "Reason 4",
                     sliderDescription: "作为一个发展迅速的多元化城市，迪拜目前正处于成熟的城市红利期，无疑为海外房产的投资者带来了丰厚的收益。"
+                }
+            ]
+        },
+        ourTeam: {
+            header: "我们的队伍",
+            teamsData: [
+                {
+                    img: team1,
+                    name: "约翰·多伊",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "汤米·多伊",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team3,
+                    name: "哈希Doe",
+                    designation: "Accusantium qui dolo"
                 }
             ]
         }
@@ -148,6 +192,7 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
+                    video_link: "https://rozella.b-cdn.net/Final%20Crest%20Video-Chinese.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
@@ -164,6 +209,26 @@ export const language = {
                     sliderImage: slider4,
                     sliderTitle: "Reason 4",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
+                }
+            ]
+        },
+        ourTeam: {
+            header: "OUR TEAM",
+            teamsData: [
+                {
+                    img: team1,
+                    name: "John Doe",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "Tommy Doe",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team3,
+                    name: "Hash Doe",
+                    designation: "Accusantium qui dolo"
                 }
             ]
         }

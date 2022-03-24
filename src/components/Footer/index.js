@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa";
 
 import footerLogo from "./../../assets/Images/logo/Footer Logo.png";
 
-import {FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram} from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -25,10 +25,14 @@ class Footer extends React.Component {
       <React.Fragment>
         <footer className="footer-section">
           <div className="rozella-subscribe-wrap">
-            <label id="rozella-footer-subscribe">
-              <input type="text" name="" placeholder="example@mail.com" />
-              <button>SUBSCRIBE</button>
-            </label>
+            {/* <label id="rozella-footer-subscribe">
+              <input type="text" name="" placeholder="example@mail.com" /> */}
+            {/* <button>SUBSCRIBE</button> */}
+            <a href="#bannerForm" class="rozella-btn rozella-btn2 mb-n3 py-3">
+              <span class="shine"></span>
+              <span>ENQUIRE NOW</span>
+            </a>
+            {/* </label> */}
           </div>
           <div className="footer-bottom gray-light-bg pt-5 pb-2 buhin-footer">
             <div className="container-fluid footer-wrap">
@@ -52,22 +56,22 @@ class Footer extends React.Component {
                       <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span>
                     )}
                     <span>
-                    <a href="" className="rozella-social-icon">
-                      <span class="shine"></span>
-                      <FaFacebookF />
-                    </a>
-                    <a href="" className="rozella-social-icon">
-                      <span class="shine"></span>
-                      <FaLinkedinIn />
-                    </a>
-                    <a href="" className="rozella-social-icon">
-                      <span class="shine"></span>
-                      <FaTwitter />
-                    </a>
-                    <a href="" className="rozella-social-icon">
-                      <span class="shine"></span>
-                      <FaInstagram />
-                    </a>
+                      <a href="" className="rozella-social-icon">
+                        <span class="shine"></span>
+                        <FaFacebookF />
+                      </a>
+                      <a href="" className="rozella-social-icon">
+                        <span class="shine"></span>
+                        <FaLinkedinIn />
+                      </a>
+                      <a href="" className="rozella-social-icon">
+                        <span class="shine"></span>
+                        <FaTwitter />
+                      </a>
+                      <a href="" className="rozella-social-icon">
+                        <span class="shine"></span>
+                        <FaInstagram />
+                      </a>
                     </span>
                   </p>
                 </div>

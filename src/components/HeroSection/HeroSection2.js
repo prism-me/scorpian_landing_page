@@ -65,7 +65,7 @@ class HeroSection extends React.Component {
                     <span class="shine"></span>
                     <span>WHY INVEST IN DUBAI</span>
                   </a>
-                  <button class="button btn solid-btn english header_cta_mobile hero_banner_button" id="submit-footer"
+                  <button class="button btn solid-btn english header_cta_mobile hero_banner_button" id={"bannerForm"}
                     onClick={this.handleShow}
                   >Submit</button>
                   <PopupForm
@@ -74,7 +74,7 @@ class HeroSection extends React.Component {
                   />
                 </div>
               </div>
-              <div className="col-md-6 col-lg-5 zohoFormDisplayOnDesktop">
+              <div className="col-md-6 col-lg-5 zohoFormDisplayOnDesktop" id={"bannerForm"}>
                 <ZohoBannerForm />
               </div>
             </div>

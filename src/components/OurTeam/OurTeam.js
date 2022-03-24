@@ -1,55 +1,117 @@
 
-import React, { useEffect, useState } from 'react';
-import team1 from "../../assets/Images/LandingPage/Home-Team-Member1.png"
-import team2 from "../../assets/Images/LandingPage/Home-Team-Member2.png"
-import team3 from "../../assets/Images/LandingPage/Home-Team-Member3.png"
+import React from 'react';
 import "./OurTeam.scss";
-import { BsEnvelope, BsPhone } from "react-icons/bs";
+
+import { language } from "../../data/language.js";
+
 const OurTeam = (props) => {
 
-    const teamsData = [
-        {
-            img: team1,
-            name: "John Doe",
-            designation: "Accusantium qui dolo"
-        },
-        {
-            img: team2,
-            name: "Tommy Doe",
-            designation: "Accusantium qui dolo"
-        },
-        {
-            img: team3,
-            name: "Hash Doe",
-            designation: "Accusantium qui dolo"
-        }
-    ]
     return (
         <div className='our-team container'
             id="our-team"
         >
-            <h3 className="rozella-heading">
-                OUR TEAM
-            </h3>
-            <div className='row'>
-                {
-                    teamsData?.map((x, i) => (
-                        <div className='col-md-4'>
-                            <div className="image-wraper">
-                                <img
-                                    src={x?.img}
-                                    className="img-fluid"
-                                    alt="Imageteam"
-                                />
-                                <div class="bottom-left">
-                                    {x?.name}
-                                </div>
-                            </div>
-                        </div>
-                    ))
-                }
+            {
+                props.lan == '/' || props.lan == '/en' ?
+                    <>
+                        <h3 className="rozella-heading">
+                            {language.english.ourTeam.header}
+                        </h3>
+                        <div className='row'>
+                            {
+                                language.english.ourTeam.teamsData?.map((x, i) => (
+                                    <div className='col-md-4'>
+                                        <div className="image-wraper">
+                                            <img
+                                                src={x?.img}
+                                                className="img-fluid"
+                                                alt="Imageteam"
+                                            />
+                                            <div class="bottom-left">
+                                                {x?.name}
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))
+                            }
 
-            </div>
+                        </div>
+                    </>
+                    : props.lan == '/ch' ?
+                        <>
+                            <h3 className="rozella-heading">
+                                {language.chinese.ourTeam.header}
+                            </h3>
+                            <div className='row'>
+                                {
+                                    language.chinese.ourTeam.teamsData?.map((x, i) => (
+                                        <div className='col-md-4'>
+                                            <div className="image-wraper">
+                                                <img
+                                                    src={x?.img}
+                                                    className="img-fluid"
+                                                    alt="Imageteam"
+                                                />
+                                                <div class="bottom-left">
+                                                    {x?.name}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))
+                                }
+
+                            </div>
+                        </>
+                        : props.lan == '/ar' ?
+                            <>
+                                <h3 className="rozella-heading">
+                                    {language.arabic.ourTeam.header}
+                                </h3>
+                                <div className='row'>
+                                    {
+                                        language.arabic.ourTeam.teamsData?.map((x, i) => (
+                                            <div className='col-md-4'>
+                                                <div className="image-wraper">
+                                                    <img
+                                                        src={x?.img}
+                                                        className="img-fluid"
+                                                        alt="Imageteam"
+                                                    />
+                                                    <div class="bottom-left">
+                                                        {x?.name}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+
+                                </div>
+                            </>
+                            :
+                            <>
+                                <h3 className="rozella-heading">
+                                    {language.english.ourTeam.header}
+                                </h3>
+                                <div className='row'>
+                                    {
+                                        language.english.ourTeam.teamsData?.map((x, i) => (
+                                            <div className='col-md-4'>
+                                                <div className="image-wraper">
+                                                    <img
+                                                        src={x?.img}
+                                                        className="img-fluid"
+                                                        alt="Imageteam"
+                                                    />
+                                                    <div class="bottom-left">
+                                                        {x?.name}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+
+                                </div>
+                            </>
+            }
         </div>
     )
 }
