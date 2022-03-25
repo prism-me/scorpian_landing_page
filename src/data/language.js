@@ -42,7 +42,7 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
-                    video_link: "https://rozella.b-cdn.net/Final%20Crest%20Video-Chinese.mp4",
+                    video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
@@ -117,12 +117,13 @@ export const language = {
                 {
                     sliderImage: slider1,
                     sliderTitle: "Reason 1",
-                    video_link: "https://rozella.b-cdn.net/Final%20Crest%20Video-Chinese.mp4",
+                    video_link: "https://rozella.b-cdn.net/video/Crest-Tower-C-1920x1080-Chinese.mp4",
                     sliderDescription: "迪拜是世界最繁忙的航空枢纽之一，同时也是亚欧非的贸易中转站，常年被评为世界最安全的城市之一，以及全球首选的热门旅游目的地。"
                 },
                 {
                     sliderImage: slider2,
                     sliderTitle: "Reason 2",
+                    video_link: "https://rozella.b-cdn.net/video/Damac%20Hills%20Chinese%20Video.mp4",
                     sliderDescription: "据权威数据 – 全球化与世界城市研究网络(GaWc) 排名显示，迪拜的城市排名已经超过了大多数欧洲的中心城市，仅位于伦敦和纽约之后，排名全球第二。"
                 },
                 {

@@ -182,6 +182,7 @@ function VideoSlider(props) {
           <ModalVideo
             channel="custom"
             isOpen={openVideo}
+            autoPlay={1}
             url={englishSlider[currentIndex]?.video_link}
             // videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
             onClose={() => setOpenVideo(false)}
@@ -190,6 +191,7 @@ function VideoSlider(props) {
             <ModalVideo
               channel="custom"
               isOpen={openVideo}
+              autoPlay={1}
               url={chineseSlider[currentIndex]?.video_link}
               // videoId={chineseSlider[currentIndex]?.video_link?.split("/")[3]}
               onClose={() => setOpenVideo(false)}
@@ -197,6 +199,7 @@ function VideoSlider(props) {
               <ModalVideo
                 channel="custom"
                 isOpen={openVideo}
+                autoPlay={1}
                 url={arabicSlider[currentIndex]?.video_link}
                 // videoId={arabicSlider[currentIndex]?.video_link?.split("/")[3]}
                 onClose={() => setOpenVideo(false)}
@@ -204,6 +207,7 @@ function VideoSlider(props) {
               <ModalVideo
                 channel="custom"
                 isOpen={openVideo}
+                autoPlay={1}
                 url={englishSlider[currentIndex]?.video_link}
                 // videoId={englishSlider[currentIndex]?.video_link?.split("/")[3]}
                 onClose={() => setOpenVideo(false)}

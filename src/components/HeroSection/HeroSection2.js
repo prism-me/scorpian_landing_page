@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import PopupForm from "../popup/PopupForm.js";
-import headerBackgroundImage from "./../../assets/Images/LandingPage/Top-Section-Background.png";
+// import headerBackgroundImage from "./../../assets/Images/LandingPage/Top-Section-Background.png";
 import "./HerroSection2.scss";
 
 import { language } from "./../../data/language.js";
