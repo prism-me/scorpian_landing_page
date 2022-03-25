@@ -17,6 +17,25 @@ import RozellaLine2 from "./../../assets/Images/LandingPage/Rozella-Line-Short.p
 import { language } from "../../data/language.js";
 
 const AboutBuraq = (props) => {
+
+
+  const scrollToBottom1 = () => {
+    const bottomEle = document.getElementById("why-invest-in-dubai");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+  const scrollToBottom2 = () => {
+    const bottomEle = document.getElementById("why-choose-us");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+  const scrollToBottom3 = () => {
+    const bottomEle = document.getElementById("reasons-to-invest-in-dubai");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+  const scrollToBottom4 = () => {
+    const bottomEle = document.getElementById("our-team");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <div className="about-buraq-wrap">
       <Container>
@@ -50,29 +69,78 @@ const AboutBuraq = (props) => {
                 </p>
               </div>
             </div> */}
-            <a href="#why-invest-in-dubai" class="rozella-btn rozella-btn2">
+            <button class="rozella-btn rozella-btn2"
+              onClick={scrollToBottom1}
+            >
               <span class="shine"></span>
-              <span>Why Invest In Dubai</span>
-            </a>
+              <span>
+                {
+                  props.lan == '/' || props.lan == '/en' ?
+                    "Why Invest In Dubai" :
+                    props.lan == '/ch' ?
+                      "为什么投资迪拜？" :
+                      props.lan == '/ar' ?
+                        "Why Invest In Dubai" :
+                        "Why Invest In Dubai"
+                }
+              </span>
+            </button>
 
           </Col>
           <Col lg={3} xs={12} sm={12}>
-            <a href="#why-choose-us" class="rozella-btn rozella-btn2">
+            <button class="rozella-btn rozella-btn2"
+              onClick={scrollToBottom2}
+            >
               <span class="shine"></span>
-              <span>Why Choose Us</span>
-            </a>
+              <span>
+
+                {
+                  props.lan == '/' || props.lan == '/en' ?
+                    "Why Choose Us?" :
+                    props.lan == '/ch' ?
+                      " 为什么选择我们？" :
+                      props.lan == '/ar' ?
+                        "Why Choose Us?" :
+                        "Why Choose Us?"
+                }
+              </span>
+            </button>
           </Col>
           <Col lg={3} xs={12} sm={12}>
-            <a href="#reasons-to-invest-in-dubai" class="rozella-btn rozella-btn2">
+            <button class="rozella-btn rozella-btn2"
+              onClick={scrollToBottom3}
+            >
               <span class="shine"></span>
-              <span>Reasons To Invest In Dubai</span>
-            </a>
+              <span>
+                {
+                  props.lan == '/' || props.lan == '/en' ?
+                    "The Reason To Invest In Dubai" :
+                    props.lan == '/ch' ?
+                      "投资迪拜的理由" :
+                      props.lan == '/ar' ?
+                        "The Reason To Invest In Dubai" :
+                        "The Reason To Invest In Dubai"
+                }
+              </span>
+            </button>
           </Col>
           <Col lg={3} xs={12} sm={12}>
-            <a href="#our-team" class="rozella-btn rozella-btn2">
+            <button class="rozella-btn rozella-btn2"
+              onClick={scrollToBottom4}
+            >
               <span class="shine"></span>
-              <span>Our Team</span>
-            </a>
+              <span>
+                {
+                  props.lan == '/' || props.lan == '/en' ?
+                    "OUR TEAM" :
+                    props.lan == '/ch' ?
+                      "我们的队伍" :
+                      props.lan == '/ar' ?
+                        "OUR TEAM" :
+                        "OUR TEAM"
+                }
+              </span>
+            </button>
           </Col>
         </Row>
         <Row

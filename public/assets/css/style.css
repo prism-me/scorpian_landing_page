@@ -3915,6 +3915,10 @@ body {
   animation: sheen .6s alternate; 
 }
 
+.rozella-btn:focus{
+  outline: 0;
+}
+
 .shine {
   content: '';
   position: absolute !important;

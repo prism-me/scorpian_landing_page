@@ -39,7 +39,17 @@ const WhyChooseUs = (props) => {
             <br />
             <a href="#" class="rozella-btn rozella-btn3">
               <span class="shine"></span>
-              <span>CTA EXAMPLE</span>
+              <span>
+                {
+                  props.lan == '/' || props.lan == '/en' ?
+                    "CTA EXAMPLE" :
+                    props.lan == '/ch' ?
+                      "CTA 示例" :
+                      props.lan == '/ar' ?
+                        "CTA EXAMPLE" :
+                        "CTA EXAMPLE"
+                }
+              </span>
             </a>
           </Col>
           <Col lg={6} xs={12} sm="12"

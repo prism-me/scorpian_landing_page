@@ -34,13 +34,13 @@ class Header extends React.Component {
               </a>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link page-scroll buhen-header-email" href="mailto:example@mail.com">
-                    <BsEnvelope /> {this.props.lan == '/en' ? 'english@mail.com' : this.props.lan == '/ar' ? 'arabic@mail.com' : this.props.lan == '/ch' ? 'chinese@mail.com' : 'english@mail.com'}
+                  <a className="nav-link page-scroll buhen-header-email" href="mailto:info@rozellarealestate.com">
+                    <BsEnvelope /> {this.props.lan == '/en' ? 'info@rozellarealestate.com' : this.props.lan == '/ar' ? 'info@rozellarealestate.com' : this.props.lan == '/ch' ? 'info@rozellarealestate.com' : 'info@rozellarealestate.com'}
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page-scroll buhen-header-email" href="tel:012 234 45678">
-                    <BsPhone /> 012 234 45678
+                  <a className="nav-link page-scroll buhen-header-email" href="tel:+971 45689 536">
+                    <BsPhone /> +971 45689 536
                   </a>
                 </li>
               </ul>

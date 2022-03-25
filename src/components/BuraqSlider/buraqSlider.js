@@ -107,7 +107,7 @@ function VideoSlider(props) {
           <br />
           <a href="#" class="rozella-btn">
             <span class="shine"></span>
-            <span>CONTACT US</span>
+            <span>联系我们</span>
           </a>
         </div>
       </div>
@@ -154,7 +154,16 @@ function VideoSlider(props) {
             }`}
         >
           <h3 className="rozella-heading">
-            Reasons To Invest In Dubai
+            {
+              props.lan == '/' || props.lan == '/en' ?
+                language.english.reasonsToInvestInDubai.header
+                : props.lan == '/ch' ?
+                  language.chinese.reasonsToInvestInDubai.header
+                  : props.lan == '/ar' ?
+                    language.arabic.reasonsToInvestInDubai.header
+                    :
+                    language.arabic.reasonsToInvestInDubai.header
+            }
           </h3>
         </Row>
       </Container>

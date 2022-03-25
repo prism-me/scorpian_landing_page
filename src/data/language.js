@@ -10,17 +10,17 @@ import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
 export const language = {
     english: {
         topSection: {
-            header: "According to the Global Real Estate Index,",
-            paragraph: "property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
+            header: "According to the Global Real Estate Index",
+            paragraph: "Property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
         },
         whyInvestInDubai: {
-            header: "Why Invest in Dubai",
+            header: "Why Invest in Dubai?",
             firstLine: "Overseas real estate investment,",
             paragraph1: "In addition to the preservation and appreciation of assets, can also obtain the golden resident status of the whole family. The so-called \"one set of real estate, the whole family is logged in\", more and more Chinese people are now turning their attention to the overseas real estate market and buying properties overseas. It is no longer a simple investment behavior, but is related to long-term family planning such as children's education, entertainment and pension.",
             paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
         },
         whyChooseUs: {
-            header: "Why Choose Us",
+            header: "Why Choose Us?",
             subheader: "Eu Amet Diam",
             content: [
                 "8% average rental return",
@@ -41,7 +41,7 @@ export const language = {
             slider: [
                 {
                     sliderImage: slider1,
-                    sliderTitle: "Reason 1",
+                    sliderTitle: "Crest Tower",
                     video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
@@ -89,13 +89,13 @@ export const language = {
             paragraph: "与亚洲、北美和欧洲的房地产市场相比，迪拜的房地产价格十分合理。在最新的全球房地产热点排名中排名第 34 位，与世界其他主要目的地相比，迪拜的房地产均价是最低的之一。是获得长期利益的最佳投资地点之一。"
         },
         whyInvestInDubai: {
-            header: "Why Invest in Dubai",
+            header: "为什么投资迪拜？",
             firstLine: "海外置业",
             paragraph1: "海外房产投资，除了让资产达到保值升值外，还可以获得全家黄金居民身份，所谓“一套房产，全家登陆”，目前越来越多的国人将目光投向了海外房产市场，在海外购房不再是单纯的投资行为，而是与子女教育、娱乐养老等家庭长期规划相关联。",
             paragraph2: "各国房地产市场法规完善，有效降低了投资风险，除因土地增值房产增值外，繁华地带的房屋的租金也是一笔不小的回报。"
         },
         whyChooseUs: {
-            header: "Why Choose Us",
+            header: "为什么选择我们？",
             subheader: "Eu Amet Diam",
             content: [
                 "8%平均租金回报率",
@@ -112,17 +112,17 @@ export const language = {
             ]
         },
         reasonsToInvestInDubai: {
-            header: "Reasons To Invest In Dubai",
+            header: "投资迪拜的理由",
             slider: [
                 {
                     sliderImage: slider1,
-                    sliderTitle: "Reason 1",
+                    sliderTitle: "顶楼",
                     video_link: "https://rozella.b-cdn.net/video/Crest-Tower-C-1920x1080-Chinese.mp4",
                     sliderDescription: "迪拜是世界最繁忙的航空枢纽之一，同时也是亚欧非的贸易中转站，常年被评为世界最安全的城市之一，以及全球首选的热门旅游目的地。"
                 },
                 {
                     sliderImage: slider2,
-                    sliderTitle: "Reason 2",
+                    sliderTitle: "达马克山",
                     video_link: "https://rozella.b-cdn.net/video/Damac%20Hills%20Chinese%20Video.mp4",
                     sliderDescription: "据权威数据 – 全球化与世界城市研究网络(GaWc) 排名显示，迪拜的城市排名已经超过了大多数欧洲的中心城市，仅位于伦敦和纽约之后，排名全球第二。"
                 },
@@ -171,7 +171,7 @@ export const language = {
             paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
         },
         whyChooseUs: {
-            header: "Why Choose Us",
+            header: "Why Choose Us?",
             subheader: "Eu Amet Diam",
             content: [
                 "8% average rental return",
@@ -188,7 +188,7 @@ export const language = {
             ]
         },
         reasonsToInvestInDubai: {
-            header: "Reasons To Invest In Dubai",
+            header: "The Reason To Invest In Dubai",
             slider: [
                 {
                     sliderImage: slider1,

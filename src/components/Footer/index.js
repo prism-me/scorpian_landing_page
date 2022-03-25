@@ -20,6 +20,11 @@ class Footer extends React.Component {
      */
   }
 
+  scrollToBottom5 = () => {
+    const bottomEle = document.getElementById("crmWebToEntityForm");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -28,10 +33,24 @@ class Footer extends React.Component {
             {/* <label id="rozella-footer-subscribe">
               <input type="text" name="" placeholder="example@mail.com" /> */}
             {/* <button>SUBSCRIBE</button> */}
-            <a href="#bannerForm" class="rozella-btn rozella-btn2 mb-n3 py-3">
+            <button class="rozella-btn rozella-btn2 mb-n3 py-3"
+              onClick={this.scrollToBottom5}
+            >
               <span class="shine"></span>
-              <span>ENQUIRE NOW</span>
-            </a>
+              <span>
+
+                {
+                  this.props.lan == '/' || this.props.lan == '/en' ?
+                    "ENQUIRE NOW" :
+                    this.props.lan == '/ch' ?
+                      "立即咨询" :
+                      this.props.lan == '/ar' ?
+                        "ENQUIRE NOW" :
+                        "ENQUIRE NOW"
+                }
+
+              </span>
+            </button>
             {/* </label> */}
           </div>
           <div className="footer-bottom gray-light-bg pt-5 pb-2 buhin-footer">
@@ -49,12 +68,15 @@ class Footer extends React.Component {
                       : "english"
                       }`}
                   >
-                    {this.props.activeLanguage ===
-                      "arabic" ? (
-                      <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span>
-                    ) : (
-                      <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span>
-                    )}
+                    {
+                      this.props.lan == '/' || this.props.lan == '/en' ?
+                        <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span> :
+                        this.props.lan == '/ch' ?
+                          <span>由 <a href="https://www.prism-me.com/">Prism Digital</a> 设计和管理 </span> :
+                          this.props.lan == '/ar' ?
+                            <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span> :
+                            <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span>
+                    }
                     <span>
                       <a href="" className="rozella-social-icon">
                         <span class="shine"></span>
@@ -80,7 +102,7 @@ class Footer extends React.Component {
           </div>
         </footer>
         {/* <BottomTabNavigator /> */}
-      </React.Fragment>
+      </React.Fragment >
     );
   }
 }

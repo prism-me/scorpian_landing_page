@@ -52,6 +52,7 @@ class Theme extends Component {
         </div>
         <FooterSection
           activeLanguage={this.state.activeLanguage}
+          lan={window.location.pathname}
         />
         {/* <BottomTabNavigator /> */}
       </React.Fragment>

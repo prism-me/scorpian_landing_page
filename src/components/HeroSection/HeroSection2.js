@@ -63,9 +63,19 @@ class HeroSection extends React.Component {
                   </p>
                   <a href="#why-invest-in-dubai" class="rozella-btn">
                     <span class="shine"></span>
-                    <span>WHY INVEST IN DUBAI</span>
+                    <span>
+                      {
+                        this.props.lan == '/' || this.props.lan == '/en' ?
+                          "Why Invest In Dubai" :
+                          this.props.lan == '/ch' ?
+                            "为什么投资迪拜？" :
+                            this.props.lan == '/ar' ?
+                              "Why Invest In Dubai" :
+                              "Why Invest In Dubai"
+                      }
+                    </span>
                   </a>
-                  <button class="button btn solid-btn english header_cta_mobile hero_banner_button" id={"bannerForm"}
+                  <button class="button btn solid-btn english header_cta_mobile hero_banner_button"
                     onClick={this.handleShow}
                   >Submit</button>
                   <PopupForm
@@ -74,7 +84,7 @@ class HeroSection extends React.Component {
                   />
                 </div>
               </div>
-              <div className="col-md-6 col-lg-5 zohoFormDisplayOnDesktop" id={"bannerForm"}>
+              <div className="col-md-6 col-lg-5 zohoFormDisplayOnDesktop" >
                 <ZohoBannerForm />
               </div>
             </div>
