@@ -22,17 +22,18 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
 
   .video-row {
     h3 {
-      font-size  : 30px;
-      font-weight: 700;
+      font-size  : 35px;
+      font-weight: 600;
       color      : #FFFFFF;
-      font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
       width: 100%;
       text-align: center;
     }
   }
 
   .video-carousel {
-    font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
+
     .control-arrow {
       background : #333;
       opacity    : 1;
@@ -132,7 +133,7 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
             color      : #FFFFFF;
             font-weight: bold;
             margin-top : 1rem;
-            font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
           }
 
           ul {
@@ -473,7 +474,6 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
 // }
 
 // .slider-arabic-title {
-//   font-family: $cairo;
 // }
 
 // .video-image-wrapper h5 {

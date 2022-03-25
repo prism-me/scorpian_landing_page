@@ -10,8 +10,8 @@ import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
 export const language = {
     english: {
         topSection: {
-            header: "According to the Global Real Estate Index",
-            paragraph: "Property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
+            header: "Investing in property in Dubai, one of the world's most luxurious cities, gives you the whole package.",
+            // paragraph: "Property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
         },
         whyInvestInDubai: {
             header: "Why Invest in Dubai?",
@@ -85,8 +85,8 @@ export const language = {
     },
     chinese: {
         topSection: {
-            header: "根据全球房地产指数，",
-            paragraph: "与亚洲、北美和欧洲的房地产市场相比，迪拜的房地产价格十分合理。在最新的全球房地产热点排名中排名第 34 位，与世界其他主要目的地相比，迪拜的房地产均价是最低的之一。是获得长期利益的最佳投资地点之一。"
+            header: "在世界上最豪华的城市之一迪拜投资房地产，为您提供全套服务。",
+            // paragraph: "与亚洲、北美和欧洲的房地产市场相比，迪拜的房地产价格十分合理。在最新的全球房地产热点排名中排名第 34 位，与世界其他主要目的地相比，迪拜的房地产均价是最低的之一。是获得长期利益的最佳投资地点之一。"
         },
         whyInvestInDubai: {
             header: "为什么投资迪拜？",
@@ -161,8 +161,8 @@ export const language = {
     },
     arabic: {
         topSection: {
-            header: "According to the Global Real Estate Index,",
-            paragraph: "property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
+            header: "Investing in property in Dubai, one of the world's most luxurious cities, gives you the whole package.",
+            // paragraph: "property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
         },
         whyInvestInDubai: {
             header: "Why Invest in Dubai",

@@ -38,7 +38,8 @@
 }
 
 .copyright-arabic-text {
-  font-family: $cairo;
+  // font-family: $cairo;
+  font-family: Arial, sans-serif;
 }
 
 .buhin-footer {
@@ -77,7 +78,8 @@
       background: #02030D;
       color: #FFFFFF;
       margin: 5px;
-      font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+      // font-family     : "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
       font-weight: 700;
     }
   }

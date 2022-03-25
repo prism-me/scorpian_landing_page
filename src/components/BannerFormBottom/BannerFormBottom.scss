@@ -139,8 +139,8 @@
 }
 
 .banner-heading {
-  font-size  : 60px;
-  font-weight: 900 !important;
+  font-size  : 35px;
+  font-weight: 600 !important;
   // text-align : right;
 }
 
@@ -152,11 +152,11 @@
   }
 
   h2 {
-    font-family: $cairo !important;
+    font-family: Arial, sans-serif !important;
   }
 
   p {
-    font-family: $cairo;
+    font-family: Arial, sans-serif;
   }
 }
 

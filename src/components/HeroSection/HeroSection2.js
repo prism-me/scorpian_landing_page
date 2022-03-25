@@ -31,6 +31,11 @@ class HeroSection extends React.Component {
 
   };
 
+  scrollToBottom6 = () => {
+    const bottomEle = document.getElementById("why-invest-in-dubai");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -61,7 +66,9 @@ class HeroSection extends React.Component {
                   <p className="lead">
                     {this.props.lan == '/' || this.props.lan == '/en' ? language.english.topSection.paragraph : this.props.lan == '/ar' ? language.english.topSection.paragraph : this.props.lan == '/ch' ? language.chinese.topSection.paragraph : language.english.topSection.paragraph}
                   </p>
-                  <a href="#why-invest-in-dubai" class="rozella-btn">
+                  <button class="rozella-btn"
+                    onClick={this.scrollToBottom6}
+                  >
                     <span class="shine"></span>
                     <span>
                       {
@@ -74,7 +81,7 @@ class HeroSection extends React.Component {
                               "Why Invest In Dubai"
                       }
                     </span>
-                  </a>
+                  </button>
                   <button class="button btn solid-btn english header_cta_mobile hero_banner_button"
                     onClick={this.handleShow}
                   >Submit</button>
