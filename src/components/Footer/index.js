@@ -33,7 +33,7 @@ class Footer extends React.Component {
             {/* <label id="rozella-footer-subscribe">
               <input type="text" name="" placeholder="example@mail.com" /> */}
             {/* <button>SUBSCRIBE</button> */}
-            <button class="rozella-btn rozella-btn2 mb-n3 py-3"
+            <button class="rozella-btn rozella-btn2 my-5 py-3"
               onClick={this.scrollToBottom5}
             >
               <span class="shine"></span>

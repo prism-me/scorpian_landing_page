@@ -22,12 +22,16 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
 
   .video-row {
     h3 {
-      font-size  : 35px;
+      font-size  : 33px;
       font-weight: 600;
       color      : #FFFFFF;
   font-family: Arial, sans-serif;
       width: 100%;
       text-align: center;
+    }
+    @media #{$sm} {
+      font-size: 25px;
+      padding: 0 1rem;
     }
   }
 

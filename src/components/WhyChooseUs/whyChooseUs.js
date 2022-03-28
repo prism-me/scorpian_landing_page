@@ -33,7 +33,7 @@ const WhyChooseUs = (props) => {
             <div class="rozella-heading">
               {props.lan == '/' || props.lan == '/en' ? language.english.whyChooseUs.header : props.lan == '/ar' ? language.arabic.whyChooseUs.header : props.lan == '/ch' ? language.chinese.whyChooseUs.header : language.english.whyChooseUs.header}
             </div>
-            <ul style={{ listStyleType: "disc" }}>
+            <ul style={{ listStyleType: "disc", textAlign: "left" }}>
               {props.lan == '/' || props.lan == '/en' ? language.english.whyChooseUs.content.map((x) => { return <li>{x}</li> }) : props.lan == '/ar' ? language.arabic.whyChooseUs.content.map((x) => { return <li>{x}</li> }) : props.lan == '/ch' ? language.chinese.whyChooseUs.content.map((x) => { return <li>{x}</li> }) : language.english.whyChooseUs.content.map((x) => { return <li>{x}</li> })}
             </ul>
             <br />

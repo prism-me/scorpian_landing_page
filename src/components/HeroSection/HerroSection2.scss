@@ -62,12 +62,17 @@
 
   @media #{$sm} {
     height    : 315px;
-    margin-top: 78px;
+    margin-top: 80px;
   }
 
   @media #{$md} {
     margin-top: 85px;
-    height    : 500px;
+    height    : 700px;
+    padding: 3rem 0;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1024px) {
+  margin-top: 6rem;
   }
 
   @media #{$xsm} {
@@ -153,7 +158,7 @@
 }
 
 .banner-heading {
-  font-size  : 35px;
+  font-size  : 33px;
   font-weight: 600 !important;
   font-family: Arial, sans-serif;
 
@@ -280,7 +285,7 @@ p.lead {
 .banner-section {
 
   .banner-heading {
-    font-size: 35px !important;
+    font-size: 33px !important;
   }
 
   .lead {

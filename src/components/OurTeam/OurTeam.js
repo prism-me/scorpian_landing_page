@@ -1,6 +1,9 @@
 
 import React from 'react';
 import "./OurTeam.scss";
+import { FiPhone } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
+import { RiLinkedinFill } from "react-icons/ri";
 
 import { language } from "../../data/language.js";
 
@@ -26,9 +29,25 @@ const OurTeam = (props) => {
                                                 className="img-fluid"
                                                 alt="Imageteam"
                                             />
-                                            <div class="bottom-left">
-                                                {x?.name}
+                                            <div className='bottomDivmain'>
+                                                <div class="d-flex justify-content-between align-items-center bottomDiv ">
+                                                    <h3>{x?.name} </h3>
+                                                    <div className="TextOverlayDiv">
+                                                        <div className='d-flex justify-content-end align-items-center detailDiv'>
+                                                            <a href='tel:+971 45689 536'>
+                                                                <FiPhone className='iconSize' />
+                                                            </a>
+                                                            <a href='mailto:info@rozellarealestate.com'>
+                                                                <HiOutlineMail className='iconSize' />
+                                                            </a>
+                                                            <a href='https://www.linkedin.com/' target='_blank'>
+                                                                <RiLinkedinFill className='iconSize' />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 ))
@@ -51,8 +70,23 @@ const OurTeam = (props) => {
                                                     className="img-fluid"
                                                     alt="Imageteam"
                                                 />
-                                                <div class="bottom-left">
-                                                    {x?.name}
+                                                <div className='bottomDivmain'>
+                                                    <div class="d-flex justify-content-between align-items-center bottomDiv ">
+                                                        <h3>{x?.name} </h3>
+                                                        <div className="TextOverlayDiv">
+                                                            <div className='d-flex justify-content-end align-items-center detailDiv'>
+                                                                <a href='tel:+971 45689 536'>
+                                                                    <FiPhone className='iconSize' />
+                                                                </a>
+                                                                <a href='mailto:info@rozellarealestate.com'>
+                                                                    <HiOutlineMail className='iconSize' />
+                                                                </a>
+                                                                <a href='https://www.linkedin.com/' target='_blank'>
+                                                                    <RiLinkedinFill className='iconSize' />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,8 +110,23 @@ const OurTeam = (props) => {
                                                         className="img-fluid"
                                                         alt="Imageteam"
                                                     />
-                                                    <div class="bottom-left">
-                                                        {x?.name}
+                                                    <div className='bottomDivmain'>
+                                                        <div class="d-flex justify-content-between align-items-center bottomDiv ">
+                                                            <h3>{x?.name} </h3>
+                                                            <div className="TextOverlayDiv">
+                                                                <div className='d-flex justify-content-end align-items-center detailDiv'>
+                                                                    <a href='tel:+971 45689 536'>
+                                                                        <FiPhone className='iconSize' />
+                                                                    </a>
+                                                                    <a href='mailto:info@rozellarealestate.com'>
+                                                                        <HiOutlineMail className='iconSize' />
+                                                                    </a>
+                                                                    <a href='https://www.linkedin.com/' target='_blank'>
+                                                                        <RiLinkedinFill className='iconSize' />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,8 +150,23 @@ const OurTeam = (props) => {
                                                         className="img-fluid"
                                                         alt="Imageteam"
                                                     />
-                                                    <div class="bottom-left">
-                                                        {x?.name}
+                                                    <div className='bottomDivmain'>
+                                                        <div class="d-flex justify-content-between align-items-center bottomDiv ">
+                                                            <h3>{x?.name} </h3>
+                                                            <div className="TextOverlayDiv">
+                                                                <div className='d-flex justify-content-end align-items-center detailDiv'>
+                                                                    <a href='tel:+971 45689 536'>
+                                                                        <FiPhone className='iconSize' />
+                                                                    </a>
+                                                                    <a href='mailto:info@rozellarealestate.com'>
+                                                                        <HiOutlineMail className='iconSize' />
+                                                                    </a>
+                                                                    <a href='https://www.linkedin.com/' target='_blank'>
+                                                                        <RiLinkedinFill className='iconSize' />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

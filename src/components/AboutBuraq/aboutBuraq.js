@@ -76,12 +76,12 @@ const AboutBuraq = (props) => {
               <span>
                 {
                   props.lan == '/' || props.lan == '/en' ?
-                    "Why Invest In Dubai" :
+                    "Why Invest In Dubai?" :
                     props.lan == '/ch' ?
                       "为什么投资迪拜？" :
                       props.lan == '/ar' ?
-                        "Why Invest In Dubai" :
-                        "Why Invest In Dubai"
+                        "Why Invest In Dubai?" :
+                        "Why Invest In Dubai?"
                 }
               </span>
             </button>
@@ -114,12 +114,12 @@ const AboutBuraq = (props) => {
               <span>
                 {
                   props.lan == '/' || props.lan == '/en' ?
-                    "The Reason To Invest In Dubai" :
+                    "Investment Opportunities" :
                     props.lan == '/ch' ?
-                      "投资迪拜的理由" :
+                      "投资机会" :
                       props.lan == '/ar' ?
-                        "The Reason To Invest In Dubai" :
-                        "The Reason To Invest In Dubai"
+                        "Investment Opportunities" :
+                        "Investment Opportunities"
                 }
               </span>
             </button>
@@ -132,12 +132,12 @@ const AboutBuraq = (props) => {
               <span>
                 {
                   props.lan == '/' || props.lan == '/en' ?
-                    "OUR TEAM" :
+                    "Our Team" :
                     props.lan == '/ch' ?
                       "我们的队伍" :
                       props.lan == '/ar' ?
-                        "OUR TEAM" :
-                        "OUR TEAM"
+                        "Our Team" :
+                        "Our Team"
                 }
               </span>
             </button>
@@ -167,7 +167,10 @@ const AboutBuraq = (props) => {
             </div>
             <p className="first">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.firstLine : props.lan == '/ar' ? language.arabic.whyInvestInDubai.firstLine : props.lan == '/ch' ? language.chinese.whyInvestInDubai.firstLine : language.english.whyInvestInDubai.firstLine}</p>
             <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph1 : props.lan == '/ar' ? language.arabic.whyInvestInDubai.paragraph1 : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : language.english.whyInvestInDubai.paragraph1}</p>
-            <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph2 : props.lan == '/ar' ? language.arabic.whyInvestInDubai.paragraph2 : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : language.english.whyInvestInDubai.paragraph2}</p>
+            <ul style={{ listStyleType: "disc", paddingLeft: "15px", textAlign: "left" }}>
+              {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.content.map((x) => { return <li>{x}</li> }) : props.lan == '/ar' ? language.arabic.whyInvestInDubai.content.map((x) => { return <li>{x}</li> }) : props.lan == '/ch' ? language.chinese.whyInvestInDubai.content.map((x) => { return <li>{x}</li> }) : language.english.whyInvestInDubai.content.map((x) => { return <li>{x}</li> })}
+            </ul>
+            {/* <p className="rozella-para">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.paragraph2 : props.lan == '/ar' ? language.arabic.whyInvestInDubai.paragraph2 : props.lan == '/ch' ? language.chinese.whyInvestInDubai.paragraph1 : language.english.whyInvestInDubai.paragraph2}</p> */}
           </Col>
         </Row>
       </Container>

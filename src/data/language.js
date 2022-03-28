@@ -10,14 +10,22 @@ import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
 export const language = {
     english: {
         topSection: {
-            header: "Investing in property in Dubai, one of the world's most luxurious cities, gives you the whole package.",
+            header: "Invest in Dubai’s lucrative real estate market with Rozella, the most trusted and reliable real estate brokers in Dubai",
             // paragraph: "Property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
         },
         whyInvestInDubai: {
             header: "Why Invest in Dubai?",
             firstLine: "Overseas real estate investment,",
-            paragraph1: "In addition to the preservation and appreciation of assets, can also obtain the golden resident status of the whole family. The so-called \"one set of real estate, the whole family is logged in\", more and more Chinese people are now turning their attention to the overseas real estate market and buying properties overseas. It is no longer a simple investment behavior, but is related to long-term family planning such as children's education, entertainment and pension.",
-            paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
+            paragraph1: "UAE’s investment-friendly real estate laws and regulations have effectively reduced investment risks and constant real estate appreciation means greater returns. In addition to the preservation and appreciation of assets, the possibility of obtaining the golden resident status for the whole family makes it a whole package, attracting more and more people from China to invest in real estate in Dubai and also plan a complete settlement including children's education, entertainment, and pension. Some of the distinctive features of UAE’s real estate market are:",
+            content: [
+                "8% average rental return",
+                "The average price in the city center is ￥30,000/square meter",
+                "Freehold property without property tax",
+                "Fixed exchange rate US dollar assets",
+                "No foreign exchange control suitable asset allocation",
+                "Permanent residency"
+            ]
+            // paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
         },
         whyChooseUs: {
             header: "Why Choose Us?",
@@ -37,7 +45,7 @@ export const language = {
             ]
         },
         reasonsToInvestInDubai: {
-            header: "Reasons To Invest In Dubai",
+            header: "Start Investing in Dubai’s ever-growing real estate sector now!",
             slider: [
                 {
                     sliderImage: slider1,
@@ -47,37 +55,40 @@ export const language = {
                 },
                 {
                     sliderImage: slider2,
-                    sliderTitle: "Reason 2",
+                    sliderTitle: "The Heart of Europe",
+                    video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {
                     sliderImage: slider3,
-                    sliderTitle: "Reason 3",
+                    sliderTitle: "Gardenia Villas",
+                    video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "Dubai has world-class infrastructure and many of the world's best, as well as green and spring-friendly communities."
                 },
                 {
                     sliderImage: slider4,
-                    sliderTitle: "Reason 4",
+                    sliderTitle: "Trump International Golf Club",
+                    video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
                 }
             ]
         },
         ourTeam: {
-            header: "OUR TEAM",
+            header: "Our Team",
             teamsData: [
                 {
                     img: team1,
-                    name: "John Doe",
-                    designation: "Accusantium qui dolo"
-                },
-                {
-                    img: team2,
-                    name: "Tommy Doe",
+                    name: "Mohammed Hamza",
                     designation: "Accusantium qui dolo"
                 },
                 {
                     img: team3,
-                    name: "Hash Doe",
+                    name: "Nourhane Al-Khofajie",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "Barry Qin",
                     designation: "Accusantium qui dolo"
                 }
             ]
@@ -85,14 +96,22 @@ export const language = {
     },
     chinese: {
         topSection: {
-            header: "在世界上最豪华的城市之一迪拜投资房地产，为您提供全套服务。",
+            header: "与迪拜最值得信赖和可靠的房地产经纪人 Rozella 一起投资迪拜利润丰厚的房地产市场",
             // paragraph: "与亚洲、北美和欧洲的房地产市场相比，迪拜的房地产价格十分合理。在最新的全球房地产热点排名中排名第 34 位，与世界其他主要目的地相比，迪拜的房地产均价是最低的之一。是获得长期利益的最佳投资地点之一。"
         },
         whyInvestInDubai: {
             header: "为什么投资迪拜？",
             firstLine: "海外置业",
-            paragraph1: "海外房产投资，除了让资产达到保值升值外，还可以获得全家黄金居民身份，所谓“一套房产，全家登陆”，目前越来越多的国人将目光投向了海外房产市场，在海外购房不再是单纯的投资行为，而是与子女教育、娱乐养老等家庭长期规划相关联。",
-            paragraph2: "各国房地产市场法规完善，有效降低了投资风险，除因土地增值房产增值外，繁华地带的房屋的租金也是一笔不小的回报。"
+            paragraph1: "阿联酋投资友好的房地产法律法规有效降低了投资风险，房地产持续升值意味着更大的回报。除了资产保值增值外，全家获得黄金居民身份的可能性使其成为一揽子计划，吸引越来越多的中国人来迪拜投资房地产，并规划包括儿童房在内的完整定居点。教育、娱乐和养老。阿联酋房地产市场的一些显着特点是：",
+            content: [
+                "8% 的平均租金回报",
+                "市中心均价30,000元/平方米",
+                "无财产税的永久业权财产",
+                "固定汇率美元资产",
+                "没有适合外汇管制的资产配置",
+                "永久居留"
+            ]
+            // paragraph2: "各国房地产市场法规完善，有效降低了投资风险，除因土地增值房产增值外，繁华地带的房屋的租金也是一笔不小的回报。"
         },
         whyChooseUs: {
             header: "为什么选择我们？",
@@ -112,7 +131,7 @@ export const language = {
             ]
         },
         reasonsToInvestInDubai: {
-            header: "投资迪拜的理由",
+            header: "立即开始投资迪拜不断发展的房地产行业！",
             slider: [
                 {
                     sliderImage: slider1,
@@ -128,12 +147,14 @@ export const language = {
                 },
                 {
                     sliderImage: slider3,
-                    sliderTitle: "Reason 3",
+                    sliderTitle: "Waves Grande 在海滨区",
+                    video_link: "https://rozella.b-cdn.net/video/Waves%20Grande_CN_Horizontal.mp4",
                     sliderDescription: "迪拜拥有世界级基础设施和众多世界之最，同时也有绿意盎然，春暖花开的宜居社区。"
                 },
                 {
                     sliderImage: slider4,
-                    sliderTitle: "Reason 4",
+                    sliderTitle: "首霸哈特兰",
+                    video_link: "https://rozella.b-cdn.net/video/Hartland_Apartments%20&%20Villas%20Chinese.mp4",
                     sliderDescription: "作为一个发展迅速的多元化城市，迪拜目前正处于成熟的城市红利期，无疑为海外房产的投资者带来了丰厚的收益。"
                 }
             ]
@@ -143,17 +164,17 @@ export const language = {
             teamsData: [
                 {
                     img: team1,
-                    name: "约翰·多伊",
-                    designation: "Accusantium qui dolo"
-                },
-                {
-                    img: team2,
-                    name: "汤米·多伊",
+                    name: "穆罕默德哈姆扎",
                     designation: "Accusantium qui dolo"
                 },
                 {
                     img: team3,
-                    name: "哈希Doe",
+                    name: "努尔哈内·阿尔科法杰",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "巴里秦",
                     designation: "Accusantium qui dolo"
                 }
             ]
@@ -161,14 +182,22 @@ export const language = {
     },
     arabic: {
         topSection: {
-            header: "Investing in property in Dubai, one of the world's most luxurious cities, gives you the whole package.",
+            header: "Invest in Dubai’s lucrative real estate market with Rozella, the most trusted and reliable real estate brokers in Dubai",
             // paragraph: "property prices in Dubai are very reasonable compared to real estate markets in Asia, North America and Europe. Ranked 34th in the latest ranking of global real estate hotspots, Dubai has one of the lowest average property prices compared to other major destinations in the world. One of the best places to invest for long-term benefits."
         },
         whyInvestInDubai: {
             header: "Why Invest in Dubai",
             firstLine: "Overseas real estate investment,",
-            paragraph1: "In addition to the preservation and appreciation of assets, can also obtain the golden resident status of the whole family. The so-called \"one set of real estate, the whole family is logged in\", more and more Chinese people are now turning their attention to the overseas real estate market and buying properties overseas. It is no longer a simple investment behavior, but is related to long-term family planning such as children's education, entertainment and pension.",
-            paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
+            paragraph1: "UAE’s investment-friendly real estate laws and regulations have effectively reduced investment risks and constant real estate appreciation means greater returns. In addition to the preservation and appreciation of assets, the possibility of obtaining the golden resident status for the whole family makes it a whole package, attracting more and more people from China to invest in real estate in Dubai and also plan a complete settlement including children's education, entertainment, and pension. Some of the distinctive features of UAE’s real estate market are:",
+            content: [
+                "8% average rental return",
+                "The average price in the city center is ￥30,000/square meter",
+                "Freehold property without property tax",
+                "Fixed exchange rate US dollar assets",
+                "No foreign exchange control suitable asset allocation",
+                "Permanent residency"
+            ]
+            // paragraph2: "The perfect real estate market laws and regulations in various countries have effectively reduced investment risks. In addition to the appreciation of real estate due to the appreciation of land, the rent of houses in prosperous areas is also a large return."
         },
         whyChooseUs: {
             header: "Why Choose Us?",
@@ -188,7 +217,7 @@ export const language = {
             ]
         },
         reasonsToInvestInDubai: {
-            header: "The Reason To Invest In Dubai",
+            header: "Start Investing in Dubai’s ever-growing real estate sector now!",
             slider: [
                 {
                     sliderImage: slider1,
@@ -198,37 +227,37 @@ export const language = {
                 },
                 {
                     sliderImage: slider2,
-                    sliderTitle: "Reason 2",
+                    sliderTitle: "The Heart of Europe",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {
                     sliderImage: slider3,
-                    sliderTitle: "Reason 3",
+                    sliderTitle: "Gardenia Villas",
                     sliderDescription: "Dubai has world-class infrastructure and many of the world's best, as well as green and spring-friendly communities."
                 },
                 {
                     sliderImage: slider4,
-                    sliderTitle: "Reason 4",
+                    sliderTitle: "Trump International Golf Club",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
                 }
             ]
         },
         ourTeam: {
-            header: "OUR TEAM",
+            header: "Our Team",
             teamsData: [
                 {
                     img: team1,
-                    name: "John Doe",
-                    designation: "Accusantium qui dolo"
-                },
-                {
-                    img: team2,
-                    name: "Tommy Doe",
+                    name: "Mohammed Hamza",
                     designation: "Accusantium qui dolo"
                 },
                 {
                     img: team3,
-                    name: "Hash Doe",
+                    name: "Nourhane Al-Khofajie",
+                    designation: "Accusantium qui dolo"
+                },
+                {
+                    img: team2,
+                    name: "Barry Qin",
                     designation: "Accusantium qui dolo"
                 }
             ]
