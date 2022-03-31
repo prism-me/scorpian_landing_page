@@ -3,6 +3,7 @@ import slider2 from "../assets/Images/LandingPage/SliderSection/Slider-Image2.jp
 import slider3 from "../assets/Images/LandingPage/SliderSection/Slider-Image3.jpg";
 import slider4 from "../assets/Images/LandingPage/SliderSection/Slider-Image4.jpg";
 
+import quality from "../assets/quality.png"
 import team1 from "../assets/Images/LandingPage/Home-Team-Member1.png"
 import team2 from "../assets/Images/LandingPage/Home-Team-Member2.png"
 import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
@@ -29,19 +30,32 @@ export const language = {
         },
         whyChooseUs: {
             header: "Why Choose Us?",
-            subheader: "Eu Amet Diam",
-            content: [
-                "8% average rental return",
-                "Flexible interest-free installment payment",
-                "No public booth decoration + free parking space",
-                "EXPO2020 Dubai World Expo",
-                "The average price in the city center is ￥30,000/square meter",
-                "The fourth largest tourist city in the world",
-                "Freehold property without property tax",
-                "Fixed exchange rate US dollar assets",
-                "No foreign exchange control suitable asset allocation",
-                "Permanent residency",
-                "World-class education and medical care"
+            title: "We are committed to be the leading real estate company that guarantees your annual return on investment*",
+            subtitle: "Creating a whole new concept of a unique real estate company, we are not an ordinary real estate agency, we are the bridge between you and the future",
+            quote: "",
+            aboutus: "About US",
+            aboutusp: ["Rozella real estate company was established in 2016. The founder, Mr. Mohamed Hamza, started his 'Dubai journey' in 2010. When he first came to Dubai, he was just a customer service receptionist. His keen insight and self-discipline led him to be promoted to the administrative department in a short period.",
+                "Rozella Real Estate Company is committed to providing a complete set of solutions for real estate in Dubai to Chinese domestically and abroad. Our business includes three widly categories of real estate purchase and transfer, leasing and custody. We also provides property value-added services and property value-preserving services to owners for free*, including Dubai visa, tourism package and mortgage consultation, schooling consultation, Interior/exterior design, and consultation on real estate laws and regulations in Dubai."
+            ],
+            visionmission: "VISION &  MISSION",
+            visionmissionp: "Our vision is that property investment in Dubai will increasingly become the first choice for global investors and it's one of the best way to avoid asset risks.Our responsibility is to guide and assist our client domestically and abroad to complete the goal of buying a property in Dubai. And we provide professional, efficient and transparent services to owners, so that you can buy/rent properties with peace of mind.",
+            awards: [
+                {
+                    icon: quality,
+                    title: "SOBHA REALTY - 2021 Champion Real Estate"
+                },
+                {
+                    icon: quality,
+                    title: "DAMAC PROPERTIES - 2020 Top Real Estate Agency "
+                },
+                {
+                    icon: quality,
+                    title: "EMAAR - Premium Partner"
+                },
+                {
+                    icon: quality,
+                    title: "AZIZI Real Estate (AZIZI) - Premium Partner"
+                }
             ]
         },
         reasonsToInvestInDubai: {
@@ -115,19 +129,33 @@ export const language = {
         },
         whyChooseUs: {
             header: "为什么选择我们？",
-            subheader: "Eu Amet Diam",
-            content: [
-                "8%平均租金回报率",
-                "灵活无息分期付款",
-                "无公摊精装修+免费送车位",
-                "EXPO2020迪拜世博会",
-                "市中心均价￥3万/平方米",
-                "全球第四大旅游城市",
-                "永久产权无房产税",
-                "固定汇率美元资产",
-                "无外汇管制适宜资产配置",
-                "永久居留权",
-                "世界一流的教育、医疗"
+            title: "我们致力于做一家业界领先，保证您年投资回报率的房产机构*",
+            subtitle: "开创全新理念打造与众不同的房产公司，我们不是普通的地产中介，我们是您与未来的桥梁。",
+            quote: "",
+            aboutus: "关于我们",
+            aboutusp: [
+                "Rozella房地产公司创始于2016年，创始人穆罕默德·汉姆泽先生于2010年扎根迪拜。刚来迪拜之时他只是一名客服接待，敏锐的洞察力和严于律己的态度使他短时间内晋升入了行政部门。四年之后，汉姆泽先生嗅到了迪拜房产的商机，从而加入了当地有名的房地产开发商达马克。短短两年里傲人的业绩使其从一名销售经理晋升为销售总监。2016年立春，汉姆泽先生与合作伙伴一拍即合，创立了属于他自己的房地产公司Rozella并将办公室设立在了当时迪拜最繁忙的商区-马克图姆街道。他在当时的迪拜房产经纪圈声名大噪，服务的客户群体来源于世界各地。",
+                " Rozella房地产公司致力于向海内外华人提供迪拜房产的全套解决方案，业务包含房产购置与转让、出租、托管三大类别，并无偿向业主提供增值服务以及保值服务*，包括迪拜签证、旅游及房产贷款咨询、室内外装潢业主子女在迪拜就学咨询、以及迪拜房产法律法规的咨询等。",
+            ],
+            visionmission: "愿景与职责",
+            visionmissionp: "我们的愿景是迪拜房产将日益成为华人海外置业及合理规避资产风险的首选。我们的职责是引导和协助海内外华人客户完成置业迪拜的目标，并向业主提供专业、高效、透明的服务，让您买房放心、租房安心、托管省心。",
+            awards: [
+                {
+                    icon: quality,
+                    title: "首霸地产(SOBHA REALTY) - 2021年度房产销售冠军"
+                },
+                {
+                    icon: quality,
+                    title: "达马克地产(DAMAC PROPERTIES) - 2020年度金牌房产代理"
+                },
+                {
+                    icon: quality,
+                    title: "伊玛尔地产(EMAAR) - 优质合伙伙伴"
+                },
+                {
+                    icon: quality,
+                    title: "AZIZI地产(AZIZI) - 优质合作伙伴"
+                }
             ]
         },
         reasonsToInvestInDubai: {
@@ -201,19 +229,32 @@ export const language = {
         },
         whyChooseUs: {
             header: "Why Choose Us?",
-            subheader: "Eu Amet Diam",
-            content: [
-                "8% average rental return",
-                "Flexible interest-free installment payment",
-                "No public booth decoration + free parking space",
-                "EXPO2020 Dubai World Expo",
-                "The average price in the city center is ￥30,000/square meter",
-                "The fourth largest tourist city in the world",
-                "Freehold property without property tax",
-                "Fixed exchange rate US dollar assets",
-                "No foreign exchange control suitable asset allocation",
-                "Permanent residency",
-                "World-class education and medical care"
+            title: "We are committed to be the leading real estate company that guarantees your annual return on investment",
+            subtitle: "Creating a whole new concept of a unique real estate company, we are not an ordinary real estate agency, we are the bridge between you and the future",
+            quote: "",
+            aboutus: "About US",
+            aboutusp: ["Rozella real estate company was established in 2016. The founder, Mr. Mohamed Hamza, started his 'Dubai journey' in 2010. When he first came to Dubai, he was just a customer service receptionist. His keen insight and self-discipline led him to be promoted to the administrative department in a short period.",
+                "Rozella Real Estate Company is committed to providing a complete set of solutions for real estate in Dubai to Chinese domestically and abroad. Our business includes three widly categories of real estate purchase and transfer, leasing and custody. We also provides property value-added services and property value-preserving services to owners for free*, including Dubai visa, tourism package and mortgage consultation, schooling consultation, Interior/exterior design, and consultation on real estate laws and regulations in Dubai."
+            ],
+            visionmission: "VISION &  MISSION",
+            visionmissionp: "Our vision is that property investment in Dubai will increasingly become the first choice for global investors and it's one of the best way to avoid asset risks.Our responsibility is to guide and assist our client domestically and abroad to complete the goal of buying a property in Dubai. And we provide professional, efficient and transparent services to owners, so that you can buy/rent properties with peace of mind.",
+            awards: [
+                {
+                    icon: quality,
+                    title: "SOBHA REALTY - 2021 Champion Real Estate"
+                },
+                {
+                    icon: quality,
+                    title: "DAMAC PROPERTIES - 2020 Top Real Estate Agency "
+                },
+                {
+                    icon: quality,
+                    title: "EMAAR - Premium Partner"
+                },
+                {
+                    icon: quality,
+                    title: "AZIZI Real Estate (AZIZI) - Premium Partner"
+                }
             ]
         },
         reasonsToInvestInDubai: {

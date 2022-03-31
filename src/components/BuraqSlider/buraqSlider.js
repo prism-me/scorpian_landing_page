@@ -11,6 +11,12 @@ import { language } from "../../data/language.js";
 
 
 function VideoSlider(props) {
+  const scrollToBottom7 = () => {
+    const bottomEle = document.getElementById("crmWebToEntityForm");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  }
+
+
   const [openVideo, setOpenVideo] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,7 +51,10 @@ function VideoSlider(props) {
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
-          <a href="#" class="rozella-btn">
+          <a class="rozella-btn"
+            onClick={scrollToBottom7}
+            style={{ cursor: "pointer" }}
+          >
             <span class="shine"></span>
             <span>CONTACT US</span>
           </a>
@@ -75,7 +84,10 @@ function VideoSlider(props) {
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
-          <a href="#" class="rozella-btn">
+          <a class="rozella-btn"
+            onClick={scrollToBottom7}
+            style={{ cursor: "pointer" }}
+          >
             <span class="shine"></span>
             <span>CONTACT US</span>
           </a>
@@ -105,7 +117,10 @@ function VideoSlider(props) {
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
-          <a href="#" class="rozella-btn">
+          <a class="rozella-btn"
+            onClick={scrollToBottom7}
+            style={{ cursor: "pointer" }}
+          >
             <span class="shine"></span>
             <span>联系我们</span>
           </a>
@@ -135,7 +150,10 @@ function VideoSlider(props) {
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
-          <a href="#" class="rozella-btn">
+          <a class="rozella-btn"
+            onClick={scrollToBottom7}
+            style={{ cursor: "pointer" }}
+          >
             <span class="shine"></span>
             <span>CONTACT US</span>
           </a>
