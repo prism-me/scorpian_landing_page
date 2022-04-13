@@ -31,10 +31,10 @@ const AboutBuraq = (props) => {
     const bottomEle = document.getElementById("reasons-to-invest-in-dubai");
     bottomEle.scrollIntoView({ behavior: "smooth" });
   }
-  const scrollToBottom4 = () => {
-    const bottomEle = document.getElementById("our-team");
-    bottomEle.scrollIntoView({ behavior: "smooth" });
-  }
+  // const scrollToBottom4 = () => {
+  //   const bottomEle = document.getElementById("our-team");
+  //   bottomEle.scrollIntoView({ behavior: "smooth" });
+  // }
 
   return (
     <div className="about-buraq-wrap">
@@ -45,7 +45,7 @@ const AboutBuraq = (props) => {
             : "english"
             }`}
         >
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             {/* <div
               className={`about-text-wrap ${props.activeLanguage === "arabic"
                 ? "about-arabic-text-wrap"
@@ -87,7 +87,7 @@ const AboutBuraq = (props) => {
             </button>
 
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom2}
             >
@@ -106,7 +106,7 @@ const AboutBuraq = (props) => {
               </span>
             </button>
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom3}
             >
@@ -124,7 +124,7 @@ const AboutBuraq = (props) => {
               </span>
             </button>
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          {/* <Col lg={3} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom4}
             >
@@ -141,7 +141,7 @@ const AboutBuraq = (props) => {
                 }
               </span>
             </button>
-          </Col>
+          </Col> */}
         </Row>
         <Row
           className={`about-buraq-row ${props.activeLanguage === "arabic"
