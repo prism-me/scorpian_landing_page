@@ -1,12 +1,19 @@
-import slider1 from "../assets/Images/LandingPage/SliderSection/Slider-Image1.jpg";
-import slider2 from "../assets/Images/LandingPage/SliderSection/Slider-Image2.jpg";
-import slider3 from "../assets/Images/LandingPage/SliderSection/Slider-Image3.jpg";
-import slider4 from "../assets/Images/LandingPage/SliderSection/Slider-Image4.jpg";
+import slider1 from "../assets/Images/LandingPage/SliderSection/Chinese/Crest-Tower.jpg";
+import slider2 from "../assets/Images/LandingPage/SliderSection/Chinese/Damac.jpg";
+import slider3 from "../assets/Images/LandingPage/SliderSection/Chinese/Waves-Grande.jpg";
+import slider4 from "../assets/Images/LandingPage/SliderSection/Chinese/Hartland_Apartme.jpg";
+
+
+import eslider1 from "../assets/Images/LandingPage/SliderSection/English/Crest_Tower.jpg";
+import eslider2 from "../assets/Images/LandingPage/SliderSection/English/The-Heart.jpg";
+import eslider3 from "../assets/Images/LandingPage/SliderSection/English/Hartland_Villas.jpg";
+import eslider4 from "../assets/Images/LandingPage/SliderSection/English/damac.jpg";
+
 
 import quality from "../assets/quality.png"
-import team1 from "../assets/Images/LandingPage/Home-Team-Member1.png"
-import team2 from "../assets/Images/LandingPage/Home-Team-Member2.png"
-import team3 from "../assets/Images/LandingPage/Home-Team-Member3.png"
+import team1 from "../assets/Images/LandingPage/hamza.png"
+import team2 from "../assets/Images/LandingPage/barry.jpg"
+import team3 from "../assets/Images/LandingPage/nourthe.jpg"
 
 export const language = {
     english: {
@@ -62,25 +69,25 @@ export const language = {
             header: "Start Investing in Dubai’s ever-growing real estate sector now!",
             slider: [
                 {
-                    sliderImage: slider1,
+                    sliderImage: eslider1,
                     sliderTitle: "Crest Tower",
                     video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
-                    sliderImage: slider2,
+                    sliderImage: eslider2,
                     sliderTitle: "The Heart of Europe",
                     video_link: "https://rozella.b-cdn.net/video/The%20Heart%20of%20Europe%20Brand%20video.mp4",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {
-                    sliderImage: slider3,
+                    sliderImage: eslider3,
                     sliderTitle: "Gardenia Villas",
                     video_link: "https://rozella.b-cdn.net/video/Hartland_Villas.mp4",
                     sliderDescription: "Dubai has world-class infrastructure and many of the world's best, as well as green and spring-friendly communities."
                 },
                 {
-                    sliderImage: slider4,
+                    sliderImage: eslider4,
                     sliderTitle: "Trump International Golf Club",
                     video_link: "https://rozella.b-cdn.net/video/03152017%20damac%20Golf%20Promo.mp4",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
@@ -261,25 +268,25 @@ export const language = {
             header: "Start Investing in Dubai’s ever-growing real estate sector now!",
             slider: [
                 {
-                    sliderImage: slider1,
+                    sliderImage: eslider1,
                     sliderTitle: "Crest Tower",
                     video_link: "https://rozella.b-cdn.net/video/The%20Crest_Tower-A-AED-EN-1920x1080.mp4",
                     sliderDescription: "Dubai is one of the busiest aviation center in the world and a trade transit point for Asia, Europe and Africa."
                 },
                 {
-                    sliderImage: slider2,
+                    sliderImage: eslider2,
                     sliderTitle: "The Heart of Europe",
                     video_link: "https://rozella.b-cdn.net/video/The%20Heart%20of%20Europe%20Brand%20video.mp4",
                     sliderDescription: "According to the authoritative data - Globalization and World Cities Research Network (GaWc) ranking, Dubai's city ranking has surpassed most European central cities, ranking second in the world after London and New York."
                 },
                 {
-                    sliderImage: slider3,
+                    sliderImage: eslider3,
                     sliderTitle: "Gardenia Villas",
                     video_link: "https://rozella.b-cdn.net/video/Hartland_Villas.mp4",
                     sliderDescription: "Dubai has world-class infrastructure and many of the world's best, as well as green and spring-friendly communities."
                 },
                 {
-                    sliderImage: slider4,
+                    sliderImage: eslider4,
                     sliderTitle: "Trump International Golf Club",
                     video_link: "https://rozella.b-cdn.net/video/03152017%20damac%20Golf%20Promo.mp4",
                     sliderDescription: "As a rapidly developing and diversified city, Dubai is currently in a mature urban dividend period, which undoubtedly brings huge benefits to investors in overseas real estate."
