@@ -37,15 +37,15 @@ export const language = {
         },
         whyChooseUs: {
             header: "Why Choose Us?",
-            title: "We are committed to be the leading real estate company that guarantees your annual return on investment*",
-            subtitle: "Creating a whole new concept of a unique real estate company, we are not an ordinary real estate agency, we are the bridge between you and the future",
+            title: "We are committed to be the leading real estate company that guarantees your annual return on investment.",
+            subtitle: "Creating a whole new concept of a unique real estate company, we are not an ordinary real estate agency, we are the bridge between you and the future.",
             quote: "",
             aboutus: "About US",
             aboutusp: ["Rozella real estate company was established in 2016. The founder, Mr. Mohamed Hamza, started his 'Dubai journey' in 2010. When he first came to Dubai, he was just a customer service receptionist. His keen insight and self-discipline led him to be promoted to the administrative department in a short period.",
-                "Rozella Real Estate Company is committed to providing a complete set of solutions for real estate in Dubai to Chinese domestically and abroad. Our business includes three widly categories of real estate purchase and transfer, leasing and custody. We also provides property value-added services and property value-preserving services to owners for free*, including Dubai visa, tourism package and mortgage consultation, schooling consultation, Interior/exterior design, and consultation on real estate laws and regulations in Dubai."
+                "Rozella Real Estate Company is committed to providing a complete set of solutions for real estate in Dubai to Chinese domestically and abroad. Our business includes three widly categories of real estate purchase and transfer, leasing and custody."
             ],
             visionmission: "VISION &  MISSION",
-            visionmissionp: "Our vision is that property investment in Dubai will increasingly become the first choice for global investors and it's one of the best way to avoid asset risks.Our responsibility is to guide and assist our client domestically and abroad to complete the goal of buying a property in Dubai. And we provide professional, efficient and transparent services to owners, so that you can buy/rent properties with peace of mind.",
+            visionmissionp: "Our vision is that property investment in Dubai will increasingly become the first choice for global investors and it's one of the best way to avoid asset risks. And we provide professional, efficient and transparent services to owners, so that you can buy/rent properties with peace of mind.",
             awards: [
                 {
                     icon: quality,

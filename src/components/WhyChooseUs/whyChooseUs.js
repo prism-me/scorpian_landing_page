@@ -39,7 +39,7 @@ const WhyChooseUs = (props) => {
             <div class="rozella-subheading">
               {props.lan == '/' || props.lan == '/en' ? language.english.whyChooseUs.title : props.lan == '/ar' ? language.arabic.whyChooseUs.title : props.lan == '/ch' ? language.chinese.whyChooseUs.title : language.english.whyChooseUs.title}
             </div>
-            <p>
+            <p className="mt-2">
               {props.lan == '/' || props.lan == '/en' ? language.english.whyChooseUs.subtitle : props.lan == '/ar' ? language.arabic.whyChooseUs.subtitle : props.lan == '/ch' ? language.chinese.whyChooseUs.subtitle : language.english.whyChooseUs.subtitle}
             </p>
             <h4 class={"rozella-heading2"}>
