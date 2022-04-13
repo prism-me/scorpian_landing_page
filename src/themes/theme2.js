@@ -44,10 +44,10 @@ class Theme extends Component {
             lan={window.location.pathname}
           />
 
-          {/* <OurTeam
+          <OurTeam
             activeLanguage={this.state.activeLanguage}
             lan={window.location.pathname}
-          /> */}
+          />
 
         </div>
         <FooterSection

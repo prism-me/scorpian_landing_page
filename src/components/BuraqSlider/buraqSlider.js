@@ -50,14 +50,14 @@ function VideoSlider(props) {
         <div className="slide-content py-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
-          {/* <br />
+          <br />
           <a class="rozella-btn"
             onClick={scrollToBottom7}
             style={{ cursor: "pointer" }}
           >
             <span class="shine"></span>
             <span>CONTACT US</span>
-          </a> */}
+          </a>
         </div>
       </div>
     })
@@ -83,14 +83,14 @@ function VideoSlider(props) {
         <div className="slide-content py-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
-          {/* <br />
+          <br />
           <a class="rozella-btn"
             onClick={scrollToBottom7}
             style={{ cursor: "pointer" }}
           >
             <span class="shine"></span>
             <span>CONTACT US</span>
-          </a> */}
+          </a>
         </div>
       </div>
     })
@@ -116,14 +116,14 @@ function VideoSlider(props) {
         <div className="slide-content py-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
-          {/* <br />
+          <br />
           <a class="rozella-btn"
             onClick={scrollToBottom7}
             style={{ cursor: "pointer" }}
           >
             <span class="shine"></span>
             <span>联系我们</span>
-          </a> */}
+          </a>
         </div>
       </div>
     })
@@ -149,14 +149,14 @@ function VideoSlider(props) {
         <div className="slide-content py-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
-          {/* <br />
+          <br />
           <a class="rozella-btn"
             onClick={scrollToBottom7}
             style={{ cursor: "pointer" }}
           >
             <span class="shine"></span>
             <span>CONTACT US</span>
-          </a> */}
+          </a>
         </div>
       </div>
     })
