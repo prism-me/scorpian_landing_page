@@ -1,16 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import carImage from "./../../assets/About/about-img.jpg";
-import person2 from "./../../assets/DSC04426.JPG";
-import person1 from "./../../assets/Fabrizio.jpeg";
-import sliderEnglish1 from "./../../assets/sliderImages/airlife-sa-stand-alone-device1.png";
-import { content } from "../../data/data";
 import "./whyChooseUs.scss";
-
-import Image2 from "./../../assets/Images/LandingPage/Rozella-Image2.png";
-import RozellaDesign from "./../../assets/Images/LandingPage/Rozella-Design.png";
-import RozellaLine1 from "./../../assets/Images/LandingPage/Rozella-Line-Long.png";
-import RozellaLine2 from "./../../assets/Images/LandingPage/Rozella-Line-Short.png";
 
 import { language } from "../../data/language.js";
 

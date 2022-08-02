@@ -3,7 +3,6 @@ import { Carousel } from "react-responsive-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./buraqSlider.scss";
-import { content } from "./../../data/data";
 import { IoPlayOutline } from "react-icons/io5";
 import ModalVideo from "react-modal-video";
 

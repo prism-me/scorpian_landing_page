@@ -1,11 +1,5 @@
 import React from "react";
-import BottomTabNavigator from "../BottomTabNavigator/BottomTabNavigator";
 import "./footer.scss";
-import { content } from "./../../data/data";
-import { FaHeart } from "react-icons/fa";
-
-import footerLogo from "./../../assets/Images/logo/Footer Logo.png";
-
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
 class Footer extends React.Component {

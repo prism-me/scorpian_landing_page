@@ -50,6 +50,17 @@ function ZohoBannerForm() {
                 </div>
                 <div className='zcwf_row'>
                     <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                        <label for='Country'>Country<span style={{ color: "red" }}>*</span></label>
+                    </div>
+                    <div className='zcwf_col_fld'>
+                        <input type='text' id='Country' name='Country' maxlength='30'
+                            required
+                        />
+                        <div className='zcwf_col_help'></div>
+                    </div>
+                </div>
+                <div className='zcwf_row'>
+                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
                         <label for='Phone'>Phone<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>

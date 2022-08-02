@@ -1,13 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import PopupForm from "../popup/PopupForm.js";
-// import headerBackgroundImage from "./../../assets/Images/LandingPage/Top-Section-Background.png";
 import "./HerroSection2.scss";
-
 import { language } from "./../../data/language.js";
-
 import ZohoBannerForm from "../ZohoBannerForm/ZohoBannerForm.js"
-
 
 
 class HeroSection extends React.Component {
@@ -41,9 +37,6 @@ class HeroSection extends React.Component {
       <React.Fragment>
         <section
           className="hero-section-wrap pt-100 background-imgBanner"
-          // style={{
-          //   backgroundImage: `url(${headerBackgroundImage})`,
-          // }}
           id="top-banner-form"
         >
           <div className="container">

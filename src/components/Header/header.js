@@ -1,10 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import whitelogo from "./../../assets/Images/logo/Header Logo.png";
-import blackLogo from "./../../assets/Images/logo-black.png";
 import "./header.scss";
-import { DropdownButton, Dropdown } from "react-bootstrap";
-
 import { BsEnvelope, BsPhone } from "react-icons/bs";
 
 class Header extends React.Component {
@@ -17,17 +14,12 @@ class Header extends React.Component {
           <nav
             className={
               "navbar navbar-expand-lg fixed-top custom-nav"
-              // (this.props.bgColor &&
-              // this.props.bgColor === "white"
-              //   ? "custom-nav white-bg"
-              //   : "bg-transparent")
             }
           >
             <div className="container">
               <a className="navbar-brand" href="/">
                 <img
                   src={whitelogo}
-                  //width="50"
                   alt="logo"
                   className="img-fluid divinci-logo buhen-logo"
                 />

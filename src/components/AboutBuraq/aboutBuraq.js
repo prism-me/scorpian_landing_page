@@ -1,15 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import carImage from "./../../assets/About/about-img.jpg";
-import person2 from "./../../assets/DSC04426.JPG";
-import person1 from "./../../assets/Fabrizio.jpeg";
-import sliderEnglish1 from "./../../assets/sliderImages/airlife-sa-stand-alone-device1.png";
-import { content } from "./../../data/data";
 import "./aboutBuraq.scss";
 
 import dubaigif from "../../assets/Dubai_Falls2.gif"
 
-import Image1 from "./../../assets/Images/LandingPage/Rozella-Image1.png";
 import RozellaDesign from "./../../assets/Images/LandingPage/Rozella-Design.png";
 import RozellaLine1 from "./../../assets/Images/LandingPage/Rozella-Line-Long.png";
 import RozellaLine2 from "./../../assets/Images/LandingPage/Rozella-Line-Short.png";
@@ -45,7 +39,7 @@ const AboutBuraq = (props) => {
             : "english"
             }`}
         >
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             {/* <div
               className={`about-text-wrap ${props.activeLanguage === "arabic"
                 ? "about-arabic-text-wrap"
@@ -87,7 +81,7 @@ const AboutBuraq = (props) => {
             </button>
 
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom2}
             >
@@ -106,7 +100,7 @@ const AboutBuraq = (props) => {
               </span>
             </button>
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          <Col lg={4} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom3}
             >
@@ -124,7 +118,7 @@ const AboutBuraq = (props) => {
               </span>
             </button>
           </Col>
-          <Col lg={3} xs={12} sm={12}>
+          {/* <Col lg={3} xs={12} sm={12}>
             <button class="rozella-btn rozella-btn2"
               onClick={scrollToBottom4}
             >
@@ -141,7 +135,7 @@ const AboutBuraq = (props) => {
                 }
               </span>
             </button>
-          </Col>
+          </Col> */}
         </Row>
         <Row
           className={`about-buraq-row ${props.activeLanguage === "arabic"
