@@ -1,11 +1,12 @@
 import React from "react";
 import "./ZohoBannerForm.scss";
+import { CountryCode } from "../../data/CountryCodes.js"
 
 
 function ZohoBannerForm() {
 
     return (
-        <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: "#ffffffbf", color: "black", maxWidth: "420px" }}>
+        <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: "#ffffffbf", color: "black", maxWidth: "457px" }}>
             <form action='https://crm.zoho.com/crm/WebToLeadForm' name='WebToLeads5200448000000432042' method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5200448000000432042()' accept-charset='UTF-8'>
                 <input type='text' style={{ display: "none" }} name='xnQsjsdp' value='22c852729e96c7ad7066616f422dead1bdebdf45daecdbff6851ba9bb4bbd4a6' />
                 <input type='hidden' name='zc_gad' id='zc_gad' value='' />
@@ -16,7 +17,7 @@ function ZohoBannerForm() {
                 <div className='zcwf_title' style={{ maxWidth: "420px", color: "black", textAlign: "center" }}>Contact Us</div>
 
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='First_Name'>First Name<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
@@ -27,7 +28,7 @@ function ZohoBannerForm() {
                     </div>
                 </div>
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='Last_Name'>Last Name<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
@@ -38,7 +39,7 @@ function ZohoBannerForm() {
                     </div>
                 </div>
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='Email'>Email<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
@@ -49,29 +50,28 @@ function ZohoBannerForm() {
                     </div>
                 </div>
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
-                        <label for='Country'>Country<span style={{ color: "red" }}>*</span></label>
-                    </div>
-                    <div className='zcwf_col_fld'>
-                        <input type='text' id='Country' name='Country' maxlength='30'
-                            required
-                        />
-                        <div className='zcwf_col_help'></div>
-                    </div>
-                </div>
-                <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='Phone'>Phone<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
-                        <input type='text' id='Phone' name='Phone' maxlength='30'
-                            required
-                        />
+                        <div className="d-flex justify-content-between align-items-center">
+                            <select name="Country" id="Country" maxlength='30'
+                                required>
+                                {
+                                    CountryCode.map((x, i) => (
+                                        <option value={x.dial_code} key={i}>{x.dial_code}</option>
+                                    ))
+                                }
+                            </select>
+                            <input type='text' id='Phone' name='Phone' maxlength='30'
+                                required
+                            />
+                        </div>
                         <div className='zcwf_col_help'></div>
                     </div>
                 </div>
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='LEADCF1'>Budget<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
@@ -82,18 +82,19 @@ function ZohoBannerForm() {
                     </div>
                 </div>
                 <div className='zcwf_row'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='LEADCF2'>What are you looking for?<span style={{ color: "red" }}>*</span></label>
                     </div>
                     <div className='zcwf_col_fld'>
                         <textarea id='LEADCF2' name='LEADCF2'
+                            style={{ resize: "none" }}
                             required
                         />
                         <div className='zcwf_col_help'></div>
                     </div>
                 </div>
                 <div className='zcwf_row wfrm_fld_dpNn'>
-                    <div className='zcwf_col_lab' style={{ fontSize: "12px", fontFamily: "Arial" }}>
+                    <div className='zcwf_col_lab'>
                         <label for='Lead_Source'>Lead Source</label>
                     </div>
                     <div className='zcwf_col_fld'>
