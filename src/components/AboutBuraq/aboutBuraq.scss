@@ -1,33 +1,36 @@
 @import "./../../styles/variables";
 
 .about-buraq-wrap {
-  padding    : 0px 0px 70px;
+  padding: 0px 0px 70px;
   //background-color: #111;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
 
   @media #{$sm} {
-    margin-top   : 2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  .zoom-in-out-box{
+  .zoom-in-out-box {
     animation: zoom-in-zoom-out 3s ease infinite;
   }
+
   @keyframes zoom-in-zoom-out {
     0% {
       transform: scale(1, 1);
     }
+
     50% {
       transform: scale(1.1, 1.1);
     }
+
     100% {
       transform: scale(1, 1);
     }
   }
 
   .about-text-wrap {
-    height    : 100%;
+    height: 100%;
     text-align: center;
 
     @media #{$sm} {
@@ -36,12 +39,12 @@
     }
 
     .about-buraq-heading {
-      padding    : 0 0 2rem 0;
-      text-align : center;
+      padding: 0 0 2rem 0;
+      text-align: center;
       // font-size  : 30px;
       line-height: 45px;
       font-weight: 900;
-      color      : #333333;
+      color: #333333;
 
       @media #{$xsm} {
 
@@ -59,17 +62,17 @@
   }
 
   .about-image-wrap {
-    width : 80%;
+    width: 80%;
     height: 100%;
 
     @media #{$sm} {
       text-align: center;
-      width     : 100%;
+      width: 100%;
     }
 
     img {
-      width     : 100%;
-      height    : 100%;
+      width: 100%;
+      height: 100%;
       object-fit: contain;
 
       @media #{$sm} {
@@ -80,14 +83,14 @@
 
   //! --Abrabic Style--
   .about-arabic-style {
-    display       : flex;
+    display: flex;
     flex-direction: row-reverse;
-    text-align    : right;
+    text-align: right;
   }
 
   .about-buraq-row {
     @media #{$sm} {
-      display       : flex;
+      display: flex;
       flex-direction: column;
     }
   }
@@ -135,11 +138,11 @@
 
 .about-arabic-text {
   h5 {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
   }
 
   p {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
   }
 }
 
@@ -154,12 +157,6 @@
   }
 }
 
-.rozella-wing-design {
-  position: absolute;
-  left: -30px;
-  top: 0px;
-  z-index: -1;
-}
 
 .rozella-line1 {
   position: absolute;
@@ -178,7 +175,7 @@
 // Rozella Media Queries
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  
+
   .rozella-line1 {
     bottom: -5px;
     left: 0px;
@@ -201,6 +198,14 @@
     text-align: center;
   }
 
+  .rozella-heading {
+    margin-top: 2rem;
+  }
+
+  .first {
+    text-align: center;
+  }
+
   .rozella-line1 {
     bottom: -5px;
     left: -100px;
@@ -216,11 +221,27 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  
+
+
 }
 
 @media (max-width: 768px) {
+
+  .rozella-wing-wrape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: initial !important;
+  }
+
+  .rozella-wing-design {
+    position: initial !important;
+  }
+
+  .rozella-wing-wrape .rozella-wing-heading {
+    padding-left: 0px !important;
+  }
 
   .about-buraq-wrap .rozella-btn2 {
     font-size: 20px;
@@ -232,6 +253,7 @@
 
   .first {
     font-size: 20px !important;
+    text-align: center;
   }
 
   .rozella-para {
@@ -250,4 +272,20 @@
   }
 }
 
+//rozella bird style
 
+.rozella-wing-wrape {
+  position: relative;
+
+  .rozella-wing-design {
+    position: absolute;
+    left: -23px;
+    top: -10px;
+    z-index: -1;
+    width: 50px;
+  }
+
+  .rozella-wing-heading {
+    padding-left: 30px;
+  }
+}

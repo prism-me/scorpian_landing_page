@@ -152,11 +152,13 @@ const AboutBuraq = (props) => {
           </Col>
           <Col lg={6} md={12} xs={12} sm={12} >
             <div class="rozella-heading">
-              <span style={{ position: "relative" }}>
+              <span className="rozella-wing-wrape">
                 <img src={RozellaDesign} className="rozella-wing-design" />
-                {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.header : props.lan == '/ar' ? language.arabic.whyInvestInDubai.header : props.lan == '/ch' ? language.chinese.whyInvestInDubai.header : language.english.whyInvestInDubai.header}
-                <img src={RozellaLine1} className="rozella-line1" />
-                <img src={RozellaLine2} className="rozella-line2" />
+                <span className="rozella-wing-heading">
+                  {props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.header : props.lan == '/ar' ? language.arabic.whyInvestInDubai.header : props.lan == '/ch' ? language.chinese.whyInvestInDubai.header : language.english.whyInvestInDubai.header}
+                </span>
+                {/* <img src={RozellaLine1} className="rozella-line1" />
+                <img src={RozellaLine2} className="rozella-line2" /> */}
               </span>
             </div>
             <p className="first">{props.lan == '/' || props.lan == '/en' ? language.english.whyInvestInDubai.firstLine : props.lan == '/ar' ? language.arabic.whyInvestInDubai.firstLine : props.lan == '/ch' ? language.chinese.whyInvestInDubai.firstLine : language.english.whyInvestInDubai.firstLine}</p>
