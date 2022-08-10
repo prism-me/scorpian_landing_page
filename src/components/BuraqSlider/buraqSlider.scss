@@ -40,13 +40,17 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
     font-family: Arial, sans-serif;
 
     .control-arrow {
-      background: #333;
+      background: #36454F;
       opacity: 1;
       height: 50px;
       display: flex;
       align-items: center;
       position: absolute;
       top: 28%;
+
+      @media #{$sm} {
+        top: 19%;
+      }
     }
 
     .control-next {
