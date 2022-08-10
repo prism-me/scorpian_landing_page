@@ -4,21 +4,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eddcc04a;
-  color: #002049;
+  background-color: #36454F;
+  color: #FFFFFF;
 }
 
-.content {
+.content {}
+
+.linestyle {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.content h1{
+
+.content h1 {
   margin-bottom: 2rem;
   font-weight: 500;
 }
+
 .btn-submit {
   border-radius: 0;
-  background-color: #002049;
-  border-color: #002049;
-  color: #eddcc0;
+  background-color: #01052d;
+  border-color: #01052d;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
   width: 50%;
@@ -27,6 +32,6 @@
   display: block;
 }
 
-#webinar_register_container img{
-  display:  none;
+#webinar_register_container img {
+  display: none;
 }

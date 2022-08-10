@@ -145,93 +145,19 @@
   <!--custom js-->
   <script src="/assets/js/scripts.js"></script>
 
+
   <!-- zoho form -->
+  <script>function wfa_pstMesgFrmFom(evt) { if (evt.origin === 'https://crm.zoho.com' || evt.origin === 'https://crm.zohopublic.com') { var loc_obj = JSON.stringify({ origin: window.location.origin, pathname: window.location.pathname, search: window.location.search, hash: window.location.hash }); evt.source.postMessage(('prnt_wnd_pg_lc_rc_frm_prwindow_' + loc_obj), evt.origin); } } window.addEventListener('message', wfa_pstMesgFrmFom, false);</script>
+  <!-- zoho form End -->
 
-  <script>
-    function validateEmail5200448000000432042() {
-      var form = document.forms['WebToLeads5200448000000432042'];
-      var emailFld = form.querySelectorAll('[ftype=email]');
-      var i;
-      for (i = 0; i < emailFld.length; i++) {
-        var emailVal = emailFld[i].value;
-        if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
-          var atpos = emailVal.indexOf('@');
-          var dotpos = emailVal.lastIndexOf('.');
-          if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
-            alert('Please enter a valid email address. ');
-            emailFld[i].focus();
-            return false;
-          }
-        }
-      }
-      return true;
-    }
 
-    function checkMandatory5200448000000432042() {
-      var mndFileds = new Array('First Name', 'Last Name', 'Email', 'Phone', 'LEADCF1', 'LEADCF2');
-      var fldLangVal = new Array('First\x20Name', 'Last\x20Name', 'Email', 'Phone', 'Budget', 'What\x20are\x20you\x20looking\x20for\x3F');
-      for (i = 0; i < mndFileds.length; i++) {
-        var fieldObj = document.forms['WebToLeads5200448000000432042'][mndFileds[i]];
-        if (fieldObj) {
-          if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-            if (fieldObj.type == 'file') {
-              alert('Please select a file to upload.');
-              fieldObj.focus();
-              return false;
-            }
-            alert(fldLangVal[i] + ' cannot be empty.');
-            fieldObj.focus();
-            return false;
-          } else if (fieldObj.nodeName == 'SELECT') {
-            if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-              alert(fldLangVal[i] + ' cannot be none.');
-              fieldObj.focus();
-              return false;
-            }
-          } else if (fieldObj.type == 'checkbox') {
-            if (fieldObj.checked == false) {
-              alert('Please accept  ' + fldLangVal[i]);
-              fieldObj.focus();
-              return false;
-            }
-          }
-          try {
-            if (fieldObj.name == 'Last Name') {
-              name = fieldObj.value;
-            }
-          } catch (e) { }
-        }
-      }
-      if (!validateEmail5200448000000432042()) { return false; }
-      document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-    }
 
-    function tooltipShow5200448000000432042(el) {
-      var tooltip = el.nextElementSibling;
-      var tooltipDisplay = tooltip.style.display;
-      if (tooltipDisplay == 'none') {
-        var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-        for (i = 0; i < allTooltip.length; i++) {
-          allTooltip[i].style.display = 'none';
-        }
-        tooltip.style.display = 'block';
-      } else {
-        tooltip.style.display = 'none';
-      }
-    }
-  </script>
-
-  <script id='wf_anal'
-    src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=d3e32f7b53c1c7240f0dcd5fb75b7203796009a8c52d612ac3addb798dac9097gid22c852729e96c7ad7066616f422dead1bdebdf45daecdbff6851ba9bb4bbd4a6gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'>
-    </script>
-  <!-- End zoho form -->
-
-  <script
+  <!-- <script
     type="text/javascript"> _linkedin_partner_id = "4043689"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script>
   <script
     type="text/javascript"> (function (l) { if (!l) { window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) }; window.lintrk.q = [] } var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript"; b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s); })(window.lintrk); </script>
   <noscript> <img height="1" width="1" style="display:none;" alt=""
-      src="https://px.ads.linkedin.com/collect/?pid=4043689&fmt=gif" /> </noscript>
+      src="https://px.ads.linkedin.com/collect/?pid=4043689&fmt=gif" /> </noscript> -->
 </body>
 
 </html>
