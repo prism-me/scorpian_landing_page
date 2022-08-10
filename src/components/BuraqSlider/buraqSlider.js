@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-import { Container, Row, Col } from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Container, Row, Col } from "react-bootstrap";
 import "./buraqSlider.scss";
 import { IoPlayOutline } from "react-icons/io5";
 import ModalVideo from "react-modal-video";
-
 import { language } from "../../data/language.js";
 
 
