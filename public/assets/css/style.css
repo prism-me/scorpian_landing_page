@@ -3857,7 +3857,7 @@ body {
   overflow: hidden;
   font-size: 11pt;
   color: #FFFFFF;
-  background: #02030D;
+  background: #01052d;
   border: 2px solid #FFFFFF;
   border-radius: 0;
   padding: 10px 44px;
@@ -3887,7 +3887,7 @@ body {
   top: 0;
   left: 0;
   position: absolute;
-  background: url('../../img/rozella-btn-icon.png'), linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
+  background: url('../../../src/assets/ButtonIcons/rozella-btn-icon.png'), linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
   background-repeat: no-repeat;
   background-position: right;
   opacity: 0;

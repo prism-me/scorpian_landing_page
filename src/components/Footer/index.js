@@ -1,6 +1,10 @@
 import React from "react";
 import "./footer.scss";
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebookF, FaLinkedinIn,
+  // FaTwitter,
+  FaInstagram
+} from "react-icons/fa";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -15,7 +19,7 @@ class Footer extends React.Component {
   }
 
   scrollToBottom5 = () => {
-    const bottomEle = document.getElementById("crmWebToEntityForm");
+    const bottomEle = document.getElementById("top-banner-form");
     bottomEle.scrollIntoView({ behavior: "smooth" });
   }
 
@@ -64,27 +68,27 @@ class Footer extends React.Component {
                   >
                     {
                       this.props.lan == '/' || this.props.lan == '/en' ?
-                        <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span> :
+                        <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span> :
                         this.props.lan == '/ch' ?
-                          <span>由 <a href="https://www.prism-me.com/">Prism Digital</a> 设计和管理 </span> :
+                          <span>由 <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a> 设计和管理 </span> :
                           this.props.lan == '/ar' ?
-                            <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span> :
-                            <span>Designed and managed by <a href="https://www.prism-me.com/">Prism Digital</a></span>
+                            <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span> :
+                            <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span>
                     }
                     <span>
-                      <a href="" className="rozella-social-icon">
+                      <a href="https://m.facebook.com/rozellarealestate/?ref=py_c" className="rozella-social-icon" target="_blank">
                         <span class="shine"></span>
                         <FaFacebookF />
                       </a>
-                      <a href="" className="rozella-social-icon">
+                      <a href="https://www.linkedin.com/company/rosella-real-estate" className="rozella-social-icon" target="_blank">
                         <span class="shine"></span>
                         <FaLinkedinIn />
                       </a>
-                      <a href="" className="rozella-social-icon">
+                      {/* <a href="" className="rozella-social-icon" target="_blank">
                         <span class="shine"></span>
                         <FaTwitter />
-                      </a>
-                      <a href="" className="rozella-social-icon">
+                      </a> */}
+                      <a href="https://www.instagram.com/accounts/login/?next=/rozellarealestate/" className="rozella-social-icon" target="_blank">
                         <span class="shine"></span>
                         <FaInstagram />
                       </a>

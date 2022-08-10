@@ -11,7 +11,7 @@ import { language } from "../../data/language.js";
 
 function VideoSlider(props) {
   const scrollToBottom7 = () => {
-    const bottomEle = document.getElementById("crmWebToEntityForm");
+    const bottomEle = document.getElementById("top-banner-form");
     bottomEle.scrollIntoView({ behavior: "smooth" });
   }
 

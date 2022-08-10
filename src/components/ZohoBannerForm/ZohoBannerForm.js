@@ -55,7 +55,7 @@ function ZohoBannerForm() {
                     </div>
                     <div className='zcwf_col_fld'>
                         <div className="d-flex justify-content-between align-items-center">
-                            <select name="Country" id="Country" maxlength='30'
+                            <select name="Country_code" id="Country_code" maxlength='30'
                                 required>
                                 {
                                     CountryCode.map((x, i) => (
