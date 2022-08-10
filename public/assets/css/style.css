@@ -128,7 +128,7 @@ video {
 }
 
 body {
-  color: #000 !important;
+  color: #36454F !important;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -211,7 +211,7 @@ body {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
   font-size: 1rem;
-  color: #707070;
+  color: #36454F;
   font-weight: 400;
   line-height: 1.75;
 }
@@ -687,8 +687,8 @@ select.form-control.has-value {
 
 .white-bg.affix,
 .custom-nav.affix {
-  background: #2E3751;
-  border-bottom: 1px solid #2E3751;
+  background: #000;
+  border-bottom: 1px solid #000;
 }
 
 .white-bg.affix ul li a {
@@ -3411,7 +3411,7 @@ section {
 .post-header .post-title {
   font-size: 1.5625rem;
   margin-bottom: 0;
-  color: #333333;
+  color: #000;
 }
 
 .post-header .post-title a {
@@ -3849,7 +3849,7 @@ button,
 /* Rozella Custom Style */
 
 body {
-  background-color: #111;
+  background-color: #36454F;
 }
 
 .rozella-btn {

@@ -5,8 +5,8 @@ $nextArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-ne
 $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-prev.png");
 
 .video-slider {
-  padding-top: 3rem;
-  padding-bottom: 60px;
+  // padding-top: 3rem;
+  // padding-bottom: 60px;
 
   .section-title {
     text-align: center;
@@ -179,7 +179,7 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
           button {
             background-color: #fff;
             // border-color: #fff;
-            border: 1px solid $secondary-color !important;
+            border: 1px solid $secondary-color  !important;
             border-radius: 0 !important;
             width: 200px;
 

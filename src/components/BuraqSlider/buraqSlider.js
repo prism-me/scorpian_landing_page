@@ -46,7 +46,7 @@ function VideoSlider(props) {
           )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
-        <div className="slide-content py-3">
+        <div className="slide-content py-3 px-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
@@ -79,7 +79,7 @@ function VideoSlider(props) {
           )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
-        <div className="slide-content py-3">
+        <div className="slide-content py-3 px-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
@@ -112,7 +112,7 @@ function VideoSlider(props) {
           )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
-        <div className="slide-content py-3">
+        <div className="slide-content py-3 px-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />
@@ -145,7 +145,7 @@ function VideoSlider(props) {
           )}
           <img src={x.sliderImage} alt="" loading="lazy" />
         </div>
-        <div className="slide-content py-3">
+        <div className="slide-content py-3 px-3">
           <h5>{x.sliderTitle}</h5>
           <div className="description">{x.sliderDescription}</div>
           <br />

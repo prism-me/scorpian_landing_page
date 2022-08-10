@@ -1,18 +1,18 @@
 @import "./../../styles/variables";
 
 .about-buraq-wrap {
-  padding    : 0px 0px 70px;
+  padding: 0px 0px 50px;
   color: #FFFFFF;
   font-family: Arial, sans-serif;
 
 
   @media #{$sm} {
-    margin-top   : 2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
   .about-text-wrap {
-    height    : 100%;
+    height: 100%;
     text-align: center;
 
     @media #{$sm} {
@@ -21,12 +21,12 @@
     }
 
     .about-buraq-heading {
-      padding    : 0 0 2rem 0;
-      text-align : center;
+      padding: 0 0 2rem 0;
+      text-align: center;
       // font-size  : 30px;
       line-height: 45px;
       font-weight: 900;
-      color      : #333333;
+      color: #000;
 
       @media #{$xsm} {
 
@@ -43,17 +43,17 @@
   }
 
   .about-image-wrap {
-    width : 80%;
+    width: 80%;
     height: 100%;
 
     @media #{$sm} {
       text-align: center;
-      width     : 100%;
+      width: 100%;
     }
 
     img {
-      width     : 100%;
-      height    : 100%;
+      width: 100%;
+      height: 100%;
       object-fit: contain;
 
       @media #{$sm} {
@@ -64,20 +64,20 @@
 
   //! --Abrabic Style--
   .about-arabic-style {
-    display       : flex;
+    display: flex;
     flex-direction: row-reverse;
-    text-align    : right;
+    text-align: right;
   }
 
   .about-buraq-row {
     @media #{$sm} {
-      display       : flex;
+      display: flex;
       flex-direction: column;
     }
   }
 
   .rozella-row {
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
   }
 
   .rozella-row2 {
@@ -119,28 +119,34 @@
   color: #FFFFFF;
 }
 
-p{
+p {
   text-align: justify;
 }
 
 .rozella-subheading {
   font-size: 20px;
   text-align: justify;
+
+  @media #{$sm} {
+    font-size: 18px;
+    text-align: justify;
+    margin: 1rem 0;
+  }
 }
 
 .about-text-detail {
   font-size: 16px;
-  color: #333333;
+  color: #000;
 }
 
 .about-arabic-text {
   h5 {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 
   }
 
   p {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 
   }
 }
@@ -160,7 +166,8 @@ p{
     margin: 0px;
   }
 
-  p, ul {
+  p,
+  ul {
     font-size: 14px;
   }
 }
@@ -173,37 +180,40 @@ p{
   }
 }
 
-.chooseImageZoom{
+.chooseImageZoom {
   position: relative;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0px 0px;
   overflow: hidden;
-&::before{
-  background-image: url("../../assets/Images/LandingPage/Rozella-Image2.jpg");
-  position: relative;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  content: "";
-  animation: zoom-in-zoom-out 4s ease-out infinite;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
 
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(1, 1);
+  &::before {
+    background-image: url("../../assets/Images/LandingPage/Rozella-Image2.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    animation: zoom-in-zoom-out 4s ease-out infinite;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
   }
-  50% {
-    transform: scale(1.1, 1.1);
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+
+    100% {
+      transform: scale(1, 1);
+    }
   }
-  100% {
-    transform: scale(1, 1);
-  }
-}
 }
