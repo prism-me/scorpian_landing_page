@@ -1,10 +1,11 @@
 @import "./../../styles/variables";
 
 .events {
-  padding: 0 0 50px 0;
+  padding: 50px 0;
   color: #000;
   font-family: "Montserrat", sans-serif;
   // background: #3187c4;
+  background: #ebebeb;
 
   .rozella-row {
     @media #{$md} {

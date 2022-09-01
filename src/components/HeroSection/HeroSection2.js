@@ -57,14 +57,16 @@ class HeroSection extends React.Component {
                       ? language.chinese.topSection.paragraph
                       : language.english.topSection.paragraph}
                   </p>
-                  <p>
-                    {this.props.lan == "/" || this.props.lan == "/en"
-                      ? language.english.topSection.paragraph1
-                      : this.props.lan == "/ar"
-                      ? language.english.topSection.paragraph1
-                      : this.props.lan == "/ch"
-                      ? language.chinese.topSection.paragraph1
-                      : language.english.topSection.paragraph1}
+                  <p className="lead" style={{ fontWeight: "700" }}>
+                    <strong>
+                      {this.props.lan == "/" || this.props.lan == "/en"
+                        ? language.english.topSection.paragraph1
+                        : this.props.lan == "/ar"
+                        ? language.english.topSection.paragraph1
+                        : this.props.lan == "/ch"
+                        ? language.chinese.topSection.paragraph1
+                        : language.english.topSection.paragraph1}
+                    </strong>
                   </p>
                   {/* <button
                     className="rozella-btn"

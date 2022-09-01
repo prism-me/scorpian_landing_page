@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./contact.scss";
-import contactsection from "../../assets/contactsection.png";
+import contactsection from "../../assets/contactsection.jpg";
 import ZohoBannerForm from "../ZohoBannerForm/ZohoBannerForm.js";
 
 const Contact = (props) => {

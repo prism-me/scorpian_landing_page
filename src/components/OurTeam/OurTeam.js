@@ -13,7 +13,7 @@ const OurTeam = ({ data, lan }) => {
             {data?.data.english.amenities.header}
           </h3>
           <div className="owl-carousel owl-theme amenities-carousel arrow-indicator">
-            {data?.data.english.amenities.amenitiesData?.map((x, i) => (
+            {data?.data?.english?.amenities?.amenitiesData?.map((x, i) => (
               <div className="item" key={i}>
                 <div className="image-wraper">
                   <img src={x?.img} className="img-fluid" alt="Imageteam" />

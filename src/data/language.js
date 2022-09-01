@@ -3,7 +3,7 @@ export const language = {
     topSection: {
       header: "Invest in the Lucrative Dubai Real Estate Market Today!",
       paragraph:
-        "Scorpion Property provides a wide range of investment opportunities including high-profile real estate properties offering the highest ROI.",
+        "Scorpion Property provides a wide range of investment opportunities including high-profile real estate properties, offering the highest ROI.",
       paragraph1: "Contact us to get a 2% Waiver on the Total Price",
     },
     whyChooseUs: {

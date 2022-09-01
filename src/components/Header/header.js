@@ -22,26 +22,26 @@ class Header extends React.Component {
                 <li className="nav-item">
                   <a
                     className="nav-link page-scroll buhen-header-email"
-                    href="mailto:example@mail.com"
+                    href="mailto:info@scorpionproperty.ae"
                   >
                     <HiOutlineMail />{" "}
                     {this.props.lan == "/en"
-                      ? "example@mail.com"
+                      ? "info@scorpionproperty.ae"
                       : this.props.lan == "/ar"
-                      ? "example@mail.com"
+                      ? "info@scorpionproperty.ae"
                       : this.props.lan == "/ch"
-                      ? "example@mail.com"
-                      : "example@mail.com"}
+                      ? "info@scorpionproperty.ae"
+                      : "info@scorpionproperty.ae"}
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a
                     className="nav-link page-scroll buhen-header-email"
                     href="tel:+012 234 45678"
                   >
                     <HiOutlinePhone /> +012 234 45678
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>

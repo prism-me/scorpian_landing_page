@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./events.scss";
-import Contact from "../../assets/Contact.png";
+import Contact from "../../assets/post 1.jpg";
 import { language } from "../../data/language.js";
 
 const Events = (props) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./whyChooseUs.scss";
-import Contact from "../../assets/Contact.png";
+import Contact from "../../assets/aboutscropion.jpg";
 import { language } from "../../data/language.js";
 
 const WhyChooseUs = (props) => {

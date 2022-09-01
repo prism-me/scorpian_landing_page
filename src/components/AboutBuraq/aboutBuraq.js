@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./aboutBuraq.scss";
-import aboutsection from "../../assets/aboutsection.png";
 
 const AboutBuraq = ({ onChangeTab, lan, data }) => {
   console.log("tabdata", data);
@@ -53,7 +52,15 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
         <Row className={`rozella-row`} id="why-invest-in-dubai">
           <Col lg={6} md={12} xs={12} sm={12}>
             <img
-              src={aboutsection}
+              src={
+                lan == "/" || lan == "/en"
+                  ? data?.data.english.whyInvestInDubai.img
+                  : lan == "/ar"
+                  ? data?.data.arabic.whyInvestInDubai.img
+                  : lan == "/ch"
+                  ? data?.data.chinese.whyInvestInDubai.img
+                  : data?.data.english.whyInvestInDubai.img
+              }
               style={{ width: "100%" }}
               // className="zoom-in-out-box"
             />

@@ -8,6 +8,10 @@ import eslider2 from "../assets/Images/LandingPage/SliderSection/English/The-Hea
 import eslider3 from "../assets/Images/LandingPage/SliderSection/English/Hartland_Villas.jpg";
 import eslider4 from "../assets/Images/LandingPage/SliderSection/English/damac.jpg";
 
+import about1 from "../assets/Images/LandingPage/about/lagoosabout.jpg";
+import about2 from "../assets/Images/LandingPage/about/safabout.jpg";
+import about3 from "../assets/Images/LandingPage/about/paramountabout.jpg";
+
 import ameniti1 from "../assets/Images/LandingPage/amenities/ameniti1.png";
 import ameniti2 from "../assets/Images/LandingPage/amenities/ameniti2.png";
 import ameniti3 from "../assets/Images/LandingPage/amenities/ameniti3.png";
@@ -21,6 +25,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "Offering a True Mediterranean Holiday Lifestyle",
           firstLine: "Overseas real estate investment,",
+          img: about1,
           paragraph1:
             "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean-inspired community offering 3 to 6-bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
         },
@@ -111,18 +116,18 @@ export const tabsData = [
               img: ameniti4,
               name: "Outdoor bars",
             },
-            {
-              img: ameniti4,
-              name: "Kayaking",
-            },
-            {
-              img: ameniti4,
-              name: "Walking paths",
-            },
-            {
-              img: ameniti4,
-              name: "Clubhouse",
-            },
+            // {
+            //   img: ameniti4,
+            //   name: "Kayaking",
+            // },
+            // {
+            //   img: ameniti4,
+            //   name: "Walking paths",
+            // },
+            // {
+            //   img: ameniti4,
+            //   name: "Clubhouse",
+            // },
           ],
         },
       },
@@ -130,6 +135,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "为什么投资迪拜？",
           firstLine: "海外置业",
+          img: about1,
           paragraph1:
             "阿联酋投资友好的房地产法律法规有效降低了投资风险，房地产持续升值意味着更大的回报。除了资产保值增值外，全家获得黄金居民身份的可能性使其成为一揽子计划，吸引越来越多的中国人来迪拜投资房地产，并规划包括儿童房在内的完整定居点。教育、娱乐和养老。阿联酋房地产市场的一些显着特点是：",
           content: [
@@ -236,6 +242,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "Why Invest in Dubai",
           firstLine: "Overseas real estate investment,",
+          img: about1,
           paragraph1:
             "UAE’s investment-friendly real estate laws and regulations have effectively reduced investment risks and constant real estate appreciation means greater returns. In addition to the preservation and appreciation of assets, the possibility of obtaining the golden resident status for the whole family makes it a whole package, attracting more and more people from China to invest in real estate in Dubai and also plan a complete settlement including children's education, entertainment, and pension. Some of the distinctive features of UAE’s real estate market are:",
           content: [
@@ -347,6 +354,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "Luxury as Never Experienced Before",
           firstLine: "Overseas real estate investment,",
+          img: about2,
           paragraph1:
             "These ultra-luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
         },
@@ -410,6 +418,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "为什么投资迪拜？",
           firstLine: "海外置业",
+          img: about2,
           paragraph1:
             "阿联酋投资友好的房地产法律法规有效降低了投资风险，房地产持续升值意味着更大的回报。除了资产保值增值外，全家获得黄金居民身份的可能性使其成为一揽子计划，吸引越来越多的中国人来迪拜投资房地产，并规划包括儿童房在内的完整定居点。教育、娱乐和养老。阿联酋房地产市场的一些显着特点是：",
           content: [
@@ -489,6 +498,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "Why Invest in Dubai",
           firstLine: "Overseas real estate investment,",
+          img: about2,
           paragraph1:
             "UAE’s investment-friendly real estate laws and regulations have effectively reduced investment risks and constant real estate appreciation means greater returns. In addition to the preservation and appreciation of assets, the possibility of obtaining the golden resident status for the whole family makes it a whole package, attracting more and more people from China to invest in real estate in Dubai and also plan a complete settlement including children's education, entertainment, and pension. Some of the distinctive features of UAE’s real estate market are:",
           content: [
@@ -573,6 +583,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "A luxury hotel and residential tower",
           firstLine: "Overseas real estate investment,",
+          img: about3,
           paragraph1:
             "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
         },
@@ -635,6 +646,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "为什么投资迪拜？",
           firstLine: "海外置业",
+          img: about3,
           paragraph1:
             "阿联酋投资友好的房地产法律法规有效降低了投资风险，房地产持续升值意味着更大的回报。除了资产保值增值外，全家获得黄金居民身份的可能性使其成为一揽子计划，吸引越来越多的中国人来迪拜投资房地产，并规划包括儿童房在内的完整定居点。教育、娱乐和养老。阿联酋房地产市场的一些显着特点是：",
           content: [
@@ -714,6 +726,7 @@ export const tabsData = [
         whyInvestInDubai: {
           header: "Why Invest in Dubai",
           firstLine: "Overseas real estate investment,",
+          img: about3,
           paragraph1:
             "UAE’s investment-friendly real estate laws and regulations have effectively reduced investment risks and constant real estate appreciation means greater returns. In addition to the preservation and appreciation of assets, the possibility of obtaining the golden resident status for the whole family makes it a whole package, attracting more and more people from China to invest in real estate in Dubai and also plan a complete settlement including children's education, entertainment, and pension. Some of the distinctive features of UAE’s real estate market are:",
           content: [
