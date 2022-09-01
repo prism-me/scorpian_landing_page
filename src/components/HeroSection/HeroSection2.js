@@ -57,7 +57,7 @@ class HeroSection extends React.Component {
                       ? language.chinese.topSection.paragraph
                       : language.english.topSection.paragraph}
                   </p>
-                  <p className="lead" style={{ fontWeight: "700" }}>
+                  <p style={{ fontWeight: "700", fontSize: "16px" }}>
                     <strong>
                       {this.props.lan == "/" || this.props.lan == "/en"
                         ? language.english.topSection.paragraph1
