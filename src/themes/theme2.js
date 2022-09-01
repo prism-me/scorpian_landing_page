@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
 import Header from "../components/Header/header";
 import HeroSection from "../components/HeroSection/HeroSection2";
@@ -6,58 +6,48 @@ import FooterSection from "../components/Footer";
 import BuraqSlider from "../components/BuraqSlider";
 import AboutBuraq from "../components/AboutBuraq";
 import WhyChooseUs from "../components/WhyChooseUs/whyChooseUs";
-// import OurTeam from "../components/OurTeam/OurTeam"
+import OurTeam from "../components/OurTeam/OurTeam";
+import Contact from "../components/Contact/contact";
+import { tabsData } from "../data/tabsdata";
+import Events from "../components/Events/events";
 
-class Theme extends Component {
-  state = {
-    activeLanguage: "english",
+const Theme = () => {
+  // const [tabData, setTabData] = useState(tabsData);
+  const [activeTabData, setActiveTabData] = useState(tabsData[0]);
+
+  const onChangeTab = (tabtext) => {
+    tabsData.forEach((item) => {
+      if (item.tab === tabtext) {
+        setActiveTabData(item);
+      }
+    });
   };
-  setActiveLanguage = (language) => {
-    this.setState({ activeLanguage: language });
-  };
-  render() {
-    return (
-      <React.Fragment>
-        <Header
-          setLanguage={this.setActiveLanguage}
+
+  return (
+    <React.Fragment>
+      <Header lan={window.location.pathname} />
+      <div className="main">
+        <HeroSection lan={window.location.pathname} />
+
+        <AboutBuraq
           lan={window.location.pathname}
-        // bgColor="white"
+          onChangeTab={onChangeTab}
+          data={activeTabData}
         />
-        <div className="main">
-          <HeroSection
-            activeLanguage={this.state.activeLanguage}
-            lan={window.location.pathname}
-          />
 
-          <AboutBuraq
-            activeLanguage={this.state.activeLanguage}
-            lan={window.location.pathname}
-          />
+        <BuraqSlider lan={window.location.pathname} data={activeTabData} />
 
-          <WhyChooseUs
-            activeLanguage={this.state.activeLanguage}
-            lan={window.location.pathname}
-          />
+        <OurTeam lan={window.location.pathname} data={activeTabData} />
 
-          <BuraqSlider
-            activeLanguage={this.state.activeLanguage}
-            lan={window.location.pathname}
-          />
+        <WhyChooseUs lan={window.location.pathname} />
 
-          {/* <OurTeam
-            activeLanguage={this.state.activeLanguage}
-            lan={window.location.pathname}
-          /> */}
-
-        </div>
-        <FooterSection
-          activeLanguage={this.state.activeLanguage}
-          lan={window.location.pathname}
-        />
-        {/* <BottomTabNavigator /> */}
-      </React.Fragment>
-    );
-  }
-}
+        <Contact lan={window.location.pathname} />
+        <Events lan={window.location.pathname} />
+      </div>
+      <FooterSection lan={window.location.pathname} />
+      {/* <BottomTabNavigator /> */}
+    </React.Fragment>
+  );
+};
 
 export default Theme;

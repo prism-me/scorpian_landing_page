@@ -1,0 +1,60 @@
+@import "./../../styles/variables";
+
+.events {
+  padding: 0 0 50px 0;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  // background: #3187c4;
+
+  .rozella-row {
+    @media #{$md} {
+      text-align: center;
+    }
+    .rozella-heading {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 0.5rem;
+      text-transform: capitalize;
+    }
+    .first {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+
+      @media #{$sm} {
+        font-size: 20px;
+        text-align: center;
+      }
+      @media #{$md} {
+        text-align: center;
+      }
+    }
+    .rozella-para {
+      font-size: 16px;
+      text-align: justify;
+      font-weight: 400;
+      @media #{$sm} {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .zoom-in-out-box {
+    animation: zoom-in-zoom-out 3s ease infinite;
+  }
+
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+}

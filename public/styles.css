@@ -4,11 +4,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #36454F;
-  color: #FFFFFF;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
-.content {}
+.content {
+}
 
 .linestyle {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -21,9 +22,9 @@
 
 .btn-submit {
   border-radius: 0;
-  background-color: #01052d;
-  border-color: #01052d;
-  color: #FFFFFF;
+  background-color: #3187c4;
+  border-color: #3187c4;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
   width: 50%;

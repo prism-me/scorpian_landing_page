@@ -1,10 +1,13 @@
 import React from "react";
 import "./footer.scss";
 import {
-  FaFacebookF, FaLinkedinIn,
-  // FaTwitter,
-  FaInstagram
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
 } from "react-icons/fa";
+import { Col, Container, Row } from "react-bootstrap";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -18,89 +21,107 @@ class Footer extends React.Component {
      */
   }
 
-  scrollToBottom5 = () => {
-    const bottomEle = document.getElementById("top-banner-form");
-    bottomEle.scrollIntoView({ behavior: "smooth" });
-  }
-
   render() {
     return (
-      <React.Fragment>
-        <footer className="footer-section">
-          <div className="rozella-subscribe-wrap">
-            {/* <label id="rozella-footer-subscribe">
-              <input type="text" name="" placeholder="example@mail.com" /> */}
-            {/* <button>SUBSCRIBE</button> */}
-            <button class="rozella-btn rozella-btn2 my-5 py-3"
-              onClick={this.scrollToBottom5}
-            >
-              <span class="shine"></span>
-              <span>
-
-                {
-                  this.props.lan == '/' || this.props.lan == '/en' ?
-                    "ENQUIRE NOW" :
-                    this.props.lan == '/ch' ?
-                      "立即咨询" :
-                      this.props.lan == '/ar' ?
-                        "ENQUIRE NOW" :
-                        "ENQUIRE NOW"
-                }
-
+      <footer className="footerWrape">
+        <div className="footerTopWrape">
+          <Container>
+            <Row>
+              <Col sm={6}>
+                <h3 className="title">Head Office</h3>
+                <p className="subtitle">
+                  G-03 Al Fattan Marine Towers, JBR Walk, Dubai Marina, Dubai,
+                  UAE - 747
+                </p>
+              </Col>
+              <Col sm={6}>
+                <h3 className="title">Privacy Policy</h3>
+                <p className="subtitle">
+                  We have implemented measures designed to secure your personal
+                  information from accidental loss and from unauthorized access,
+                  use, alteration and disclosure. All information you provide to
+                  us is stored on our secure servers behind firewalls. Any
+                  payment transactions will be encrypted using SSL technology.
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <hr style={{ border: "0.5px solid white", width: "90%" }} />
+        <div className="footerbottomWrape">
+          <Container>
+            <p className={`copyright-text-para pb-0 mb-0`}>
+              {this.props.lan == "/" || this.props.lan == "/en" ? (
+                <span>
+                  Designed and managed by{" "}
+                  <a href="https://www.prism-me.com/" target="_blank">
+                    Prism Digital
+                  </a>
+                </span>
+              ) : this.props.lan == "/ch" ? (
+                <span>
+                  由{" "}
+                  <a href="https://www.prism-me.com/" target="_blank">
+                    Prism Digital
+                  </a>{" "}
+                  设计和管理{" "}
+                </span>
+              ) : this.props.lan == "/ar" ? (
+                <span>
+                  Designed and managed by{" "}
+                  <a href="https://www.prism-me.com/" target="_blank">
+                    Prism Digital
+                  </a>
+                </span>
+              ) : (
+                <span>
+                  Designed and managed by{" "}
+                  <a href="https://www.prism-me.com/" target="_blank">
+                    Prism Digital
+                  </a>
+                </span>
+              )}
+              <span className="iconsWrape">
+                <a
+                  href="https://www.facebook.com/Scorpion.Property2020/"
+                  className="rozella-social-icon"
+                  target="_blank"
+                >
+                  <FaFacebookF />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/scorpion-property-real-estate-brokers/"
+                  className="rozella-social-icon"
+                  target="_blank"
+                >
+                  <FaLinkedinIn />
+                </a>
+                <a
+                  href="https://twitter.com/dubai_scorpion"
+                  className="rozella-social-icon"
+                  target="_blank"
+                >
+                  <FaTwitter />
+                </a>
+                <a
+                  href="https://www.instagram.com/scorpionproperty/"
+                  className="rozella-social-icon"
+                  target="_blank"
+                >
+                  <FaInstagram />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCvjJLhBcYzuTZtdqS0sWoKQ"
+                  className="rozella-social-icon"
+                  target="_blank"
+                >
+                  <FaYoutube />
+                </a>
               </span>
-            </button>
-            {/* </label> */}
-          </div>
-          <div className="footer-bottom gray-light-bg pt-5 pb-2 buhin-footer">
-            <div className="container-fluid footer-wrap">
-              <div
-                className={`row  ${this.props.activeLanguage === "arabic"
-                  ? "footer-row-reverse"
-                  : "english"
-                  }`}
-              >
-                <div className="col-md-12 copyrights-text-wrap">
-                  <p
-                    className={`copyright-text-para pb-0 mb-0 ${this.props.activeLanguage === "arabic"
-                      ? "copyright-arabic-text"
-                      : "english"
-                      }`}
-                  >
-                    {
-                      this.props.lan == '/' || this.props.lan == '/en' ?
-                        <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span> :
-                        this.props.lan == '/ch' ?
-                          <span>由 <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a> 设计和管理 </span> :
-                          this.props.lan == '/ar' ?
-                            <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span> :
-                            <span>Designed and managed by <a href="https://www.prism-me.com/" target="_blank">Prism Digital</a></span>
-                    }
-                    <span>
-                      <a href="https://m.facebook.com/rozellarealestate/?ref=py_c" className="rozella-social-icon" target="_blank">
-                        <span class="shine"></span>
-                        <FaFacebookF />
-                      </a>
-                      <a href="https://www.linkedin.com/company/rosella-real-estate" className="rozella-social-icon" target="_blank">
-                        <span class="shine"></span>
-                        <FaLinkedinIn />
-                      </a>
-                      {/* <a href="" className="rozella-social-icon" target="_blank">
-                        <span class="shine"></span>
-                        <FaTwitter />
-                      </a> */}
-                      <a href="https://www.instagram.com/accounts/login/?next=/rozellarealestate/" className="rozella-social-icon" target="_blank">
-                        <span class="shine"></span>
-                        <FaInstagram />
-                      </a>
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-        {/* <BottomTabNavigator /> */}
-      </React.Fragment >
+            </p>
+          </Container>
+        </div>
+      </footer>
     );
   }
 }

@@ -1,14 +1,87 @@
 @import "./../../styles/variables";
 
-.about-buraq-wrap {
+.aboutWrap {
   padding: 0px 0px 50px;
-  //background-color: #111;
-  color: #FFFFFF;
-  font-family: Arial, sans-serif;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
 
-  @media #{$sm} {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .about-buraq-row {
+    // @media #{$sm} {
+    //   display: flex;
+    //   flex-direction: column;
+    // }
+    padding: 50px 0 0 0;
+    background: #3187c4;
+
+    .rozella-heading {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 2rem;
+      color: #ffffff;
+      text-transform: capitalize;
+    }
+
+    .tabBtn {
+      font-size: 18px;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.6);
+      color: #ffffff;
+      border: none;
+      padding: 1rem 2rem;
+      margin-right: 2rem;
+      text-transform: capitalize;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover,
+      &.active {
+        background: #ffffff;
+        color: #3187c4;
+      }
+      &:focus {
+        outline: 0;
+        color: #3187c4;
+        background: #ffffff;
+      }
+      @media #{$sm} {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .rozella-row {
+    padding: 50px 0px 0px 0px;
+
+    @media #{$md} {
+      text-align: center;
+    }
+    .rozella-heading {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 2rem;
+      text-transform: capitalize;
+    }
+    .first {
+      font-size: 25px;
+
+      @media #{$sm} {
+        font-size: 20px;
+        text-align: center;
+      }
+      @media #{$md} {
+        text-align: center;
+      }
+    }
+    .rozella-para {
+      font-size: 16px;
+      text-align: justify;
+      font-weight: 400;
+      @media #{$sm} {
+        font-size: 14px;
+      }
+    }
   }
 
   .zoom-in-out-box {
@@ -27,265 +100,5 @@
     100% {
       transform: scale(1, 1);
     }
-  }
-
-  .about-text-wrap {
-    height: 100%;
-    text-align: center;
-
-    @media #{$sm} {
-      margin-top: 1rem;
-      text-align: justify;
-    }
-
-    .about-buraq-heading {
-      padding: 0 0 2rem 0;
-      text-align: center;
-      // font-size  : 30px;
-      line-height: 45px;
-      font-weight: 900;
-      color: #000;
-
-      @media #{$xsm} {
-
-        font-size: 22px;
-        padding-bottom: 1rem;
-      }
-    }
-
-  }
-
-  .about-arabic-text-wrap {
-    @media #{$sm} {
-      text-align: right;
-    }
-  }
-
-  .about-image-wrap {
-    width: 80%;
-    height: 100%;
-
-    @media #{$sm} {
-      text-align: center;
-      width: 100%;
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-
-      @media #{$sm} {
-        width: 85%;
-      }
-    }
-  }
-
-  //! --Abrabic Style--
-  .about-arabic-style {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-  }
-
-  .about-buraq-row {
-    @media #{$sm} {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
-  .rozella-row {
-    padding: 50px 0px 0px 0px;
-  }
-
-  .rozella-btn2::before {
-    background: url('../../assets/ButtonIcons/rozella-btn-icon2.png'), linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-
-  .rozella-btn2 {
-    width: 100%;
-    height: 100px;
-    font-size: 22px !important;
-    background-color: #01052D;
-    line-height: 70px;
-    border: none;
-    margin-bottom: 15px;
-    padding: 1rem !important;
-  }
-
-  .first {
-    font-size: 25px;
-  }
-
-  .rozella-para {
-    font-size: 16px;
-    text-align: justify;
-  }
-}
-
-.rozella-heading {
-  font-size: 33px;
-  font-weight: 600;
-}
-
-.about-text-detail {
-  font-size: 16px;
-  color: #000;
-}
-
-.about-arabic-text {
-  h5 {
-    font-family: Arial, sans-serif;
-  }
-
-  p {
-    font-family: Arial, sans-serif;
-  }
-}
-
-.about-text-wrap {
-  text-align: justify;
-}
-
-@media (max-width: 768px) {
-
-  .about-buraq-wrap {
-    margin: 0px;
-  }
-}
-
-
-.rozella-line1 {
-  position: absolute;
-  bottom: 10px;
-  right: -60px;
-  z-index: -1;
-}
-
-.rozella-line2 {
-  position: absolute;
-  bottom: 10px;
-  right: -70px;
-  z-index: -1;
-}
-
-// Rozella Media Queries
-
-@media (min-width: 992px) and (max-width: 1200px) {
-
-  .rozella-line1 {
-    bottom: -5px;
-    left: 0px;
-  }
-
-  .rozella-line2 {
-    bottom: -5px;
-    left: 100px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .about-buraq-wrap .rozella-btn2 {
-    // height: 70px !important;
-  }
-}
-
-@media (max-width: 991px) {
-  #why-invest-in-dubai {
-    text-align: center;
-  }
-
-  .rozella-wing-wrape {
-    margin-top: 2rem;
-  }
-
-  .first {
-    text-align: center;
-  }
-
-  .rozella-line1 {
-    bottom: -5px;
-    left: -100px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .rozella-line2 {
-    bottom: -5px;
-    left: 30px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-}
-
-@media (max-width: 768px) {
-
-  .rozella-wing-wrape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: initial !important;
-  }
-
-  .rozella-wing-design {
-    position: initial !important;
-  }
-
-  .rozella-wing-wrape .rozella-wing-heading {
-    padding-left: 0px !important;
-  }
-
-  .about-buraq-wrap .rozella-btn2 {
-    font-size: 20px;
-  }
-
-  .rozella-heading {
-    font-size: 25px !important;
-  }
-
-  .first {
-    font-size: 20px !important;
-    text-align: center;
-  }
-
-  .rozella-para {
-    font-size: 14px !important;
-  }
-
-}
-
-@media (max-width: 400px) {
-  .rozella-line1 {
-    left: -25px;
-  }
-
-  .rozella-line2 {
-    left: 100px;
-  }
-}
-
-//rozella bird style
-
-.rozella-wing-wrape {
-  position: relative;
-
-  .rozella-wing-design {
-    position: absolute;
-    left: -23px;
-    top: -10px;
-    z-index: -1;
-    width: 50px;
-  }
-
-  .rozella-wing-heading {
-    padding-left: 30px;
   }
 }

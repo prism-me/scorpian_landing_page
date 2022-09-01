@@ -1,16 +1,14 @@
 @import "./../../styles/variables";
 
 .lead {
-
   font-size: 1.1rem !important;
-  margin-bottom: .6rem;
-  font-family: Arial, sans-serif;
+  margin-bottom: 0.6rem;
+  font-family: "Montserrat", sans-serif;
 
   // text-align   : right
 }
 
 .top-lead {
-
   margin-top: 2rem;
 }
 
@@ -19,10 +17,8 @@
 }
 
 .hero-animation-img {
-
   text-align: center;
 }
-
 
 .hero-section-wrap {
   position: relative;
@@ -37,14 +33,24 @@
 
   // animation          : zoom-in-zoom-out 4s ease-out infinite;
   &::before {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(1, 5, 45, 0.59) 0%, rgba(255, 255, 255, 0) 69.11%), url("../../assets/Images/LandingPage/Top-Section-Background.jpg");
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      linear-gradient(
+        180deg,
+        rgba(1, 5, 45, 0.59) 0%,
+        rgba(255, 255, 255, 0) 69.11%
+      ),
+      url("../../assets/Images/LandingPage/Top-Section-Background.jpg");
     transform: matrix(-1, 0, 0, 1, 0, 0);
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     content: "";
-    animation: zoom-in-zoom-out 4s ease-out infinite;
+    animation: zoom-in-zoom-out 6s ease-out infinite;
     width: 100%;
     height: 100%;
     top: 0;
@@ -65,7 +71,6 @@
     }
   }
 
-
   @media #{$sm} {
     height: 315px;
     margin-top: 80px;
@@ -82,7 +87,6 @@
   }
 
   @media #{$xsm} {
-
     height: 490px;
   }
 }
@@ -105,7 +109,6 @@
       height: 100%;
       //   display: none;
     }
-
   }
 }
 
@@ -166,7 +169,7 @@
 .banner-heading {
   font-size: 33px;
   font-weight: 600 !important;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   //text-align : right;
 }
@@ -179,33 +182,28 @@
   }
 
   h2 {
-    font-family: Arial, sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
   }
 
   p {
-    font-family: Arial, sans-serif;
-
+    font-family: "Montserrat", sans-serif;
   }
 }
-
 
 .android-store,
 .apple-store-wrap {
   background: transparent;
   border: none;
   width: 40%;
-
 }
 
 .android-store:focus,
 .apple-store-wrap:focus {
-
   outline: none;
 }
 
 .android-store img,
 .apple-store-wrap img {
-
   width: 100%;
 }
 
@@ -219,7 +217,6 @@
   }
 
   .form-control {
-
     height: calc(1.5em + 0.75rem + 2px);
   }
 
@@ -237,14 +234,11 @@
   //   padding      : 2rem;
   //   float        : left;
 
-
-
   //   @media #{$xsm} {
   //     padding: 2rem 0px !important;
   //   }
 
   // }
-
 }
 
 p.lead {
@@ -276,7 +270,6 @@ p.lead {
 
 .navbar-brand {
   @media #{$xsm} {
-
     width: 100%;
   }
 
@@ -286,26 +279,22 @@ p.lead {
     height: 70px;
     width: auto;
   }
-
 }
 
 .hero_banner_button {
-  background-color: #01052d;
+  background-color: #3187c4;
   border-radius: 0;
   text-transform: uppercase;
-  border-color: #FFF;
+  border-color: #fff;
 
   &:hover,
   &:focus {
-    background: url(../../../src/assets/ButtonIcons/rozella-btn-icon.png), linear-gradient(90deg, #C72AC7 -12.5%, #7249F4 69.46%, #1A6BD8 113.25%);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: #fff;
+    color: #3187c4;
   }
 }
 
-
 .banner-section {
-
   .banner-heading {
     font-size: 33px !important;
   }
@@ -316,21 +305,15 @@ p.lead {
 }
 
 @media (max-width: 1024px) {
-
   .banner-section {
-
     .banner-heading {
       font-size: 30px !important;
     }
-
   }
-
 }
 
 @media (max-width: 767px) {
-
   .banner-section {
-
     .banner-heading {
       font-size: 20px !important;
       text-align: center;
@@ -340,18 +323,17 @@ p.lead {
       text-align: center;
       font-size: 14px !important;
     }
-
   }
 }
 
 .video-play-icon {
-  background-color: #01052D80;
+  background-color: #3187c480;
   border: none;
 }
 
 .rozella-play-btn {
   font-size: 30px;
-  color: #01052D;
+  color: #3187c4;
 }
 
 .templateWidth {

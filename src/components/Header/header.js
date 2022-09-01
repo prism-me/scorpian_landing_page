@@ -1,21 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
-import whitelogo from "./../../assets/Images/logo/Header Logo.png";
+import whitelogo from "./../../assets/Images/logo/logo.png";
 import "./header.scss";
-import { BsEnvelope, BsPhone } from "react-icons/bs";
+import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 
 class Header extends React.Component {
-
   render() {
     return (
       <React.Fragment>
-        {console.log("setLanguage :: ", this.props.lan)}
         <header className="header">
-          <nav
-            className={
-              "navbar navbar-expand-lg fixed-top custom-nav"
-            }
-          >
+          <nav className={"navbar navbar-expand-lg fixed-top custom-nav"}>
             <div className="container">
               <a className="navbar-brand" href="/">
                 <img
@@ -26,13 +20,26 @@ class Header extends React.Component {
               </a>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link page-scroll buhen-header-email" href="mailto:info@rozellarealestate.com">
-                    <BsEnvelope /> {this.props.lan == '/en' ? 'info@rozellarealestate.com' : this.props.lan == '/ar' ? 'info@rozellarealestate.com' : this.props.lan == '/ch' ? 'info@rozellarealestate.com' : 'info@rozellarealestate.com'}
+                  <a
+                    className="nav-link page-scroll buhen-header-email"
+                    href="mailto:example@mail.com"
+                  >
+                    <HiOutlineMail />{" "}
+                    {this.props.lan == "/en"
+                      ? "example@mail.com"
+                      : this.props.lan == "/ar"
+                      ? "example@mail.com"
+                      : this.props.lan == "/ch"
+                      ? "example@mail.com"
+                      : "example@mail.com"}
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page-scroll buhen-header-email" href="tel:+971 45689 536">
-                    <BsPhone /> +971 45689 536
+                  <a
+                    className="nav-link page-scroll buhen-header-email"
+                    href="tel:+012 234 45678"
+                  >
+                    <HiOutlinePhone /> +012 234 45678
                   </a>
                 </li>
               </ul>
