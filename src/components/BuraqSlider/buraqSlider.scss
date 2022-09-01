@@ -18,6 +18,10 @@ $prevArrowSlider: url("./../../assets/Images/LandingPage/SliderSection/Slider-pr
     color: #ffffff;
     text-align: center;
     text-transform: capitalize;
+    @media (max-width: 767px) {
+      font-size: 22px;
+      text-align: center;
+    }
   }
 
   .sliderBtn {

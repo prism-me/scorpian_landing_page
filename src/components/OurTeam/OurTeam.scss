@@ -18,6 +18,9 @@
     margin-bottom: 2rem;
     text-align: center;
     text-transform: capitalize;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
   }
 
   .image-wraper {

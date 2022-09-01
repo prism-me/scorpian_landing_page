@@ -12,12 +12,18 @@
       font-size: 18px;
       color: #ffffff;
       margin-bottom: 1rem;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
     }
     .subtitle {
       font-weight: 400;
       font-size: 15px;
       color: #ffffff;
       text-align: justify;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
     }
   }
 
