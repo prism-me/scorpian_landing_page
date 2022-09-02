@@ -15,9 +15,7 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
           >
             {lan == "/" || lan == "/en"
               ? "Damac Lagoons"
-              : lan == "/ch"
-              ? "Damac Lagoons"
-              : lan == "/ar"
+              : lan == "/gu"
               ? "Damac Lagoons"
               : "Damac Lagoons"}
           </button>
@@ -27,9 +25,7 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
           >
             {lan == "/" || lan == "/en"
               ? "Safa Two"
-              : lan == "/ch"
-              ? "Safa Two"
-              : lan == "/ar"
+              : lan == "/gu"
               ? "Safa Two"
               : "Safa Two"}
           </button>
@@ -39,9 +35,7 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
           >
             {lan == "/" || lan == "/en"
               ? "Paramount Tower Hotel & Residences"
-              : lan == "/ch"
-              ? "Paramount Tower Hotel & Residences"
-              : lan == "/ar"
+              : lan == "/gu"
               ? "Paramount Tower Hotel & Residences"
               : "Paramount Tower Hotel & Residences"}
           </button>
@@ -54,12 +48,10 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
             <img
               src={
                 lan == "/" || lan == "/en"
-                  ? data?.data.english.whyInvestInDubai.img
-                  : lan == "/ar"
-                  ? data?.data.arabic.whyInvestInDubai.img
-                  : lan == "/ch"
-                  ? data?.data.chinese.whyInvestInDubai.img
-                  : data?.data.english.whyInvestInDubai.img
+                  ? data?.data.en.whyInvestInDubai.img
+                  : lan == "/gu"
+                  ? data?.data.gu.whyInvestInDubai.img
+                  : data?.data.en.whyInvestInDubai.img
               }
               style={{ width: "100%" }}
               // className="zoom-in-out-box"
@@ -68,30 +60,17 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
           <Col lg={6} md={12} xs={12} sm={12}>
             <div class="rozella-heading">
               {lan == "/" || lan == "/en"
-                ? data?.data.english.whyInvestInDubai.header
-                : lan == "/ar"
-                ? data?.data.arabic.whyInvestInDubai.header
-                : lan == "/ch"
-                ? data?.data.chinese.whyInvestInDubai.header
-                : data?.data.english.whyInvestInDubai.header}
+                ? data?.data.en.whyInvestInDubai.header
+                : lan == "/gu"
+                ? data?.data.gu.whyInvestInDubai.header
+                : data?.data.en.whyInvestInDubai.header}
             </div>
-            {/* <p className="first">t
-              {lan == "/" || lan == "/en"
-                ? data.english.whyInvestInDubai.firstLine
-                : lan == "/ar"
-                ? data.arabic.whyInvestInDubai.firstLine
-                : lan == "/ch"
-                ? data.chinese.whyInvestInDubai.firstLine
-                : data.english.whyInvestInDubai.firstLine}
-            </p> */}
             <p className="rozella-para">
               {lan == "/" || lan == "/en"
-                ? data?.data.english.whyInvestInDubai.paragraph1
-                : lan == "/ar"
-                ? data?.data.arabic.whyInvestInDubai.paragraph1
-                : lan == "/ch"
-                ? data?.data.chinese.whyInvestInDubai.paragraph1
-                : data?.data.english.whyInvestInDubai.paragraph1}
+                ? data?.data.en.whyInvestInDubai.paragraph1
+                : lan == "/gu"
+                ? data?.data.gu.whyInvestInDubai.paragraph1
+                : data?.data.en.whyInvestInDubai.paragraph1}
             </p>
           </Col>
         </Row>

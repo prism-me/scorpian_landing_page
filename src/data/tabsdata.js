@@ -48,7 +48,7 @@ export const tabsData = [
   {
     tab: "tab1",
     data: {
-      english: {
+      en: {
         whyInvestInDubai: {
           header: "Offering a True Mediterranean Holiday Lifestyle",
           firstLine: "Overseas real estate investment,",
@@ -158,117 +158,7 @@ export const tabsData = [
           ],
         },
       },
-      chinese: {
-        whyInvestInDubai: {
-          header: "Offering a True Mediterranean Holiday Lifestyle",
-          firstLine: "Overseas real estate investment,",
-          img: about1,
-          paragraph1:
-            "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean-inspired community offering 3 to 6-bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
-        },
-        reasonsToInvestInDubai: [
-          {
-            PropertyTab: "malta",
-            data: {
-              slider: [
-                {
-                  sliderImage: malta1,
-                  sliderTitle: "Malta",
-                  sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
-                },
-                {
-                  sliderImage: malta2,
-                  sliderTitle: "Malta",
-                  sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
-                },
-                {
-                  sliderImage: malta3,
-                  sliderTitle: "Malta",
-                  sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
-                },
-                {
-                  sliderImage: malta4,
-                  sliderTitle: "Malta",
-                  sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
-                },
-              ],
-            },
-          },
-          {
-            PropertyTab: "venice",
-            data: {
-              slider: [
-                {
-                  sliderImage: venice1,
-                  sliderTitle: "Venice",
-                  sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
-                },
-                {
-                  sliderImage: venice2,
-                  sliderTitle: "Venice",
-                  sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
-                },
-                {
-                  sliderImage: venice3,
-                  sliderTitle: "Venice",
-                  sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
-                },
-                {
-                  sliderImage: venice4,
-                  sliderTitle: "Venice",
-                  sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
-                },
-              ],
-            },
-          },
-        ],
-        amenities: {
-          header: "Luxury Amenities that You can Enjoy",
-          amenitiesData: [
-            {
-              img: DamacIcon1,
-              name: "Refreshing views of lagoons",
-            },
-            {
-              img: DamacIcon2,
-              name: "White sandy beaches",
-            },
-            {
-              img: DamacIcon3,
-              name: "Waterfalls",
-            },
-            {
-              img: DamacIcon4,
-              name: "Outdoor gym",
-            },
-            {
-              img: DamacIcon5,
-              name: "Outdoor bars",
-            },
-            // {
-            //   img: DamacIcon6,
-            //   name: "Kayaking",
-            // },
-            // {
-            //   img: DamacIcon7,
-            //   name: "Walking paths",
-            // },
-            // {
-            //   img: DamacIcon8,
-            //   name: "Clubhouse",
-            // },
-          ],
-        },
-      },
-      arabic: {
+      gu: {
         whyInvestInDubai: {
           header: "Offering a True Mediterranean Holiday Lifestyle",
           firstLine: "Overseas real estate investment,",
@@ -383,7 +273,7 @@ export const tabsData = [
   {
     tab: "tab2",
     data: {
-      english: {
+      en: {
         whyInvestInDubai: {
           header: "Luxury as Never Experienced Before",
           firstLine: "Overseas real estate investment,",
@@ -453,77 +343,7 @@ export const tabsData = [
           ],
         },
       },
-      chinese: {
-        whyInvestInDubai: {
-          header: "Luxury as Never Experienced Before",
-          firstLine: "Overseas real estate investment,",
-          img: about2,
-          paragraph1:
-            "These ultra-luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
-        },
-        reasonsToInvestInDubai: {
-          header: "Safa 2",
-          slider: [
-            {
-              sliderImage: safa1,
-              sliderTitle: "Safa 2",
-              sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
-            },
-            {
-              sliderImage: safa2,
-              sliderTitle: "Safa 2",
-              sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
-            },
-            {
-              sliderImage: safa3,
-              sliderTitle: "Gardenia Villas",
-              sliderTitle: "Safa 2",
-              sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
-            },
-            {
-              sliderImage: safa4,
-              sliderTitle: "Safa 2",
-              sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
-            },
-            {
-              sliderImage: safa5,
-              sliderTitle: "Safa 2",
-              sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
-            },
-          ],
-        },
-        amenities: {
-          header: "Luxury Amenities that You can Enjoy",
-          amenitiesData: [
-            {
-              img: SafaIcon1,
-              name: "Infinity pool",
-            },
-            {
-              img: SafaIcon2,
-              name: "A fog forest in the sky",
-            },
-            {
-              img: SafaIcon3,
-              name: "The ruby heart",
-            },
-            {
-              img: SafaIcon4,
-              name: "Observatory",
-            },
-            {
-              img: SafaIcon5,
-              name: "Cafés & restaurants",
-            },
-          ],
-        },
-      },
-      arabic: {
+      gu: {
         whyInvestInDubai: {
           header: "Luxury as Never Experienced Before",
           firstLine: "Overseas real estate investment,",
@@ -598,7 +418,7 @@ export const tabsData = [
   {
     tab: "tab3",
     data: {
-      english: {
+      en: {
         whyInvestInDubai: {
           header: "A luxury hotel and residential tower",
           firstLine: "Overseas real estate investment,",
@@ -607,29 +427,29 @@ export const tabsData = [
             "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
         },
         reasonsToInvestInDubai: {
-          header: "Paramount Hotel & Residences",
+          header: "Paramount Tower Hotel & Residences",
           slider: [
             {
               sliderImage: paramount1,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount2,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount3,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount4,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
@@ -661,7 +481,7 @@ export const tabsData = [
           ],
         },
       },
-      chinese: {
+      gu: {
         whyInvestInDubai: {
           header: "A luxury hotel and residential tower",
           firstLine: "Overseas real estate investment,",
@@ -670,92 +490,29 @@ export const tabsData = [
             "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
         },
         reasonsToInvestInDubai: {
-          header: "Paramount Hotel & Residences",
+          header: "Paramount Tower Hotel & Residences",
           slider: [
             {
               sliderImage: paramount1,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount2,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount3,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount4,
-              sliderTitle: "Paramount Hotel & Residences",
-              sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
-            },
-          ],
-        },
-        amenities: {
-          header: "Luxury Amenities that You can Enjoy",
-          amenitiesData: [
-            {
-              img: ParamountIcon1,
-              name: "Rooftop infinity pool",
-            },
-            {
-              img: ParamountIcon2,
-              name: "Luxury spa and fitness",
-            },
-            {
-              img: ParamountIcon3,
-              name: "Fitness and wellness center",
-            },
-            {
-              img: ParamountIcon4,
-              name: "Rooftop terrace with seating",
-            },
-            {
-              img: ParamountIcon5,
-              name: "Meeting and events facilities",
-            },
-          ],
-        },
-      },
-      arabic: {
-        whyInvestInDubai: {
-          header: "A luxury hotel and residential tower",
-          firstLine: "Overseas real estate investment,",
-          img: about3,
-          paragraph1:
-            "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
-        },
-        reasonsToInvestInDubai: {
-          header: "Paramount Hotel & Residences",
-          slider: [
-            {
-              sliderImage: paramount1,
-              sliderTitle: "Paramount Hotel & Residences",
-              sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
-            },
-            {
-              sliderImage: paramount2,
-              sliderTitle: "Paramount Hotel & Residences",
-              sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
-            },
-            {
-              sliderImage: paramount3,
-              sliderTitle: "Paramount Hotel & Residences",
-              sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
-            },
-            {
-              sliderImage: paramount4,
-              sliderTitle: "Paramount Hotel & Residences",
+              sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },

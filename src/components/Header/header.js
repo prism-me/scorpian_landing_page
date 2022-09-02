@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import whitelogo from "./../../assets/Images/logo/logo.png";
 import "./header.scss";
-import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
+// import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
 
 class Header extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Header extends React.Component {
                   className="img-fluid divinci-logo buhen-logo"
                 />
               </a>
-              <ul className="navbar-nav ml-auto">
+              {/* <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <a
                     className="nav-link page-scroll buhen-header-email"
@@ -27,22 +27,20 @@ class Header extends React.Component {
                     <HiOutlineMail />{" "}
                     {this.props.lan == "/en"
                       ? "info@scorpionproperty.ae"
-                      : this.props.lan == "/ar"
-                      ? "info@scorpionproperty.ae"
-                      : this.props.lan == "/ch"
+                      : this.props.lan == "/gu"
                       ? "info@scorpionproperty.ae"
                       : "info@scorpionproperty.ae"}
                   </a>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <a
                     className="nav-link page-scroll buhen-header-email"
                     href="tel:+012 234 45678"
                   >
                     <HiOutlinePhone /> +012 234 45678
                   </a>
-                </li> */}
-              </ul>
+                </li>
+              </ul> */}
             </div>
           </nav>
         </header>

@@ -12,30 +12,24 @@ const WhyChooseUs = (props) => {
           <Col lg={6} md={12} xs={12} sm={12}>
             <div class="rozella-heading">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.whyChooseUs.header
-                : props.lan == "/ar"
-                ? language.arabic.whyChooseUs.header
-                : props.lan == "/ch"
-                ? language.chinese.whyChooseUs.header
-                : language.english.whyChooseUs.header}
+                ? language.en.whyChooseUs.header
+                : props.lan == "/gu"
+                ? language.gu.whyChooseUs.header
+                : language.en.whyChooseUs.header}
             </div>
             <p className="first">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.whyChooseUs.firstLine
-                : props.lan == "/ar"
-                ? language.arabic.whyChooseUs.firstLine
-                : props.lan == "/ch"
-                ? language.chinese.whyChooseUs.firstLine
-                : language.english.whyChooseUs.firstLine}
+                ? language.en.whyChooseUs.firstLine
+                : props.lan == "/gu"
+                ? language.gu.whyChooseUs.firstLine
+                : language.en.whyChooseUs.firstLine}
             </p>
             <p className="rozella-para">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.whyChooseUs.paragraph1
-                : props.lan == "/ar"
-                ? language.arabic.whyChooseUs.paragraph1
-                : props.lan == "/ch"
-                ? language.chinese.whyChooseUs.paragraph1
-                : language.english.whyChooseUs.paragraph1}
+                ? language.en.whyChooseUs.paragraph1
+                : props.lan == "/gu"
+                ? language.gu.whyChooseUs.paragraph1
+                : language.en.whyChooseUs.paragraph1}
             </p>
           </Col>
           <Col lg={6} md={12} xs={12} sm={12}>

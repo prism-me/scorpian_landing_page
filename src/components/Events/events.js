@@ -18,30 +18,24 @@ const Events = (props) => {
           >
             <div class="rozella-heading">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.events.header
-                : props.lan == "/ar"
-                ? language.arabic.events.header
-                : props.lan == "/ch"
-                ? language.chinese.events.header
-                : language.english.events.header}
+                ? language.en.events.header
+                : props.lan == "/gu"
+                ? language.gu.events.header
+                : language.en.events.header}
             </div>
             <p className="first">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.events.firstLine
-                : props.lan == "/ar"
-                ? language.arabic.events.firstLine
-                : props.lan == "/ch"
-                ? language.chinese.events.firstLine
-                : language.english.events.firstLine}
+                ? language.en.events.firstLine
+                : props.lan == "/gu"
+                ? language.gu.events.firstLine
+                : language.en.events.firstLine}
             </p>
             <p className="rozella-para">
               {props.lan == "/" || props.lan == "/en"
-                ? language.english.events.paragraph1
-                : props.lan == "/ar"
-                ? language.arabic.events.paragraph1
-                : props.lan == "/ch"
-                ? language.chinese.events.paragraph1
-                : language.english.events.paragraph1}
+                ? language.en.events.paragraph1
+                : props.lan == "/gu"
+                ? language.gu.events.paragraph1
+                : language.en.events.paragraph1}
             </p>
           </Col>
           <Col lg={6} md={12} xs={12} sm={12}>

@@ -41,31 +41,25 @@ class HeroSection extends React.Component {
                 <div className={`hero-content-left text-white banner-section`}>
                   <h2 className="text-white banner-heading">
                     {this.props.lan == "/" || this.props.lan == "/en"
-                      ? language.english.topSection.header
-                      : this.props.lan == "/ar"
-                      ? language.arabic.topSection.header
-                      : this.props.lan == "/ch"
-                      ? language.chinese.topSection.header
-                      : language.english.topSection.header}
+                      ? language.en.topSection.header
+                      : this.props.lan == "/gu"
+                      ? language.gu.topSection.header
+                      : language.en.topSection.header}
                   </h2>
                   <p className="lead">
                     {this.props.lan == "/" || this.props.lan == "/en"
-                      ? language.english.topSection.paragraph
-                      : this.props.lan == "/ar"
-                      ? language.english.topSection.paragraph
-                      : this.props.lan == "/ch"
-                      ? language.chinese.topSection.paragraph
-                      : language.english.topSection.paragraph}
+                      ? language.en.topSection.paragraph
+                      : this.props.lan == "/gu"
+                      ? language.gu.topSection.paragraph
+                      : language.en.topSection.paragraph}
                   </p>
-                  <p style={{ fontSize: "16px" }}>
+                  <p style={{ fontSize: "18px" }}>
                     <strong style={{ fontWeight: "700" }}>
                       {this.props.lan == "/" || this.props.lan == "/en"
-                        ? language.english.topSection.paragraph1
-                        : this.props.lan == "/ar"
-                        ? language.english.topSection.paragraph1
-                        : this.props.lan == "/ch"
-                        ? language.chinese.topSection.paragraph1
-                        : language.english.topSection.paragraph1}
+                        ? language.en.topSection.paragraph1
+                        : this.props.lan == "/gu"
+                        ? language.gu.topSection.paragraph1
+                        : language.en.topSection.paragraph1}
                     </strong>
                   </p>
                   {/* <button
@@ -74,10 +68,8 @@ class HeroSection extends React.Component {
                   >
                     {this.props.lan == "/" || this.props.lan == "/en"
                       ? "CTA Example"
-                      : this.props.lan == "/ch"
+                      : this.props.lan == "gu"
                       ? "为什么投资迪拜？"
-                      : this.props.lan == "/ar"
-                      ? "CTA Example"
                       : "CTA Example"}
                   </button> */}
                   <button

@@ -49,7 +49,7 @@ function ZohoBannerForm() {
         />
 
         <div class="zcwf_title" style={{ maxWidth: "600px" }}>
-          Register your Request
+          Register your Interest
         </div>
         <div class="zcwf_row">
           <div
@@ -189,7 +189,7 @@ function ZohoBannerForm() {
             style={{ fontSize: "12px", fontFamily: "'Montserrat'" }}
           >
             <label for="LEADCF3">
-              What Your Looking For ? <span style={{ color: "red" }}>*</span>
+              What are you looking for? <span style={{ color: "red" }}>*</span>
             </label>
           </div>
           <div class="zcwf_col_fld">

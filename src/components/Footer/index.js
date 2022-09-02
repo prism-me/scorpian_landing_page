@@ -7,6 +7,8 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
 import { Col, Container, Row } from "react-bootstrap";
 
 class Footer extends React.Component {
@@ -29,10 +31,16 @@ class Footer extends React.Component {
             <Row>
               <Col sm={6}>
                 <h3 className="title">Head Office</h3>
-                <p className="subtitle">
+                <p className="subtitle mb-2">
                   G-03 Al Fattan Marine Towers, JBR Walk, Dubai Marina, Dubai,
                   UAE - 747
                 </p>
+                <a
+                  className="footerEmail"
+                  href="mailto:info@scorpionproperty.ae"
+                >
+                  <HiOutlineMail /> info@scorpionproperty.ae
+                </a>
               </Col>
               <Col sm={6}>
                 <h3 className="title">Privacy Policy</h3>
@@ -58,20 +66,13 @@ class Footer extends React.Component {
                     Prism Digital
                   </a>
                 </span>
-              ) : this.props.lan == "/ch" ? (
+              ) : this.props.lan == "/gu" ? (
                 <span>
                   由{" "}
                   <a href="https://www.prism-me.com/" target="_blank">
                     Prism Digital
                   </a>{" "}
                   设计和管理{" "}
-                </span>
-              ) : this.props.lan == "/ar" ? (
-                <span>
-                  Designed and managed by{" "}
-                  <a href="https://www.prism-me.com/" target="_blank">
-                    Prism Digital
-                  </a>
                 </span>
               ) : (
                 <span>

@@ -25,6 +25,15 @@
         text-align: center;
       }
     }
+    .footerEmail {
+      font-weight: 600;
+      font-size: 17px;
+      color: #ffffff;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
   }
 
   .footerbottomWrape {

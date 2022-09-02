@@ -5,7 +5,15 @@ import { Container } from "react-bootstrap";
 import "./buraqSlider.scss";
 
 function VideoSlider({ data, lan }) {
-  const propertyData = data?.data?.english?.reasonsToInvestInDubai;
+  let propertyData;
+  if (lan === "/en") {
+    propertyData = data?.data?.en?.reasonsToInvestInDubai;
+  } else if (lan === "/gu") {
+    propertyData = data?.data?.gu?.reasonsToInvestInDubai;
+  } else {
+    propertyData = data?.data?.en?.reasonsToInvestInDubai;
+  }
+
   const [activePropertyData, setPropertyData] = useState(propertyData[0]);
 
   const onChangePropertyTab = (tabtext) => {
@@ -27,10 +35,7 @@ function VideoSlider({ data, lan }) {
 
   if (data?.tab === "tab1") {
     const englishPropertySlider = activePropertyData?.data.slider;
-    const arabicPropertySlider =
-      data?.data.english.reasonsToInvestInDubai.slider;
-    const chinesePropertySlider =
-      data?.data.chinese.reasonsToInvestInDubai.slider;
+    const gujratiPropertySlider = activePropertyData?.data.slider;
 
     if (lan == "/" || lan == "/en") {
       PropertySlider = englishPropertySlider.map((x, index) => {
@@ -50,26 +55,8 @@ function VideoSlider({ data, lan }) {
           </div>
         );
       });
-    } else if (lan == "/ar") {
-      PropertySlider = arabicPropertySlider.map((x, index) => {
-        return (
-          <div key={index}>
-            <div className="video-image-wrapper">
-              <img src={x.sliderImage} alt="" loading="lazy" />
-            </div>
-            <div className="slide-content py-3 px-3">
-              <h5>{x.sliderTitle}</h5>
-              <div className="description">{x.sliderDescription}</div>
-              <br />
-              <button className="rozella-btn" onClick={scrollToBottom7}>
-                Enquire Now
-              </button>
-            </div>
-          </div>
-        );
-      });
-    } else if (lan == "/ch") {
-      PropertySlider = chinesePropertySlider.map((x, index) => {
+    } else if (lan == "/gu") {
+      PropertySlider = gujratiPropertySlider.map((x, index) => {
         return (
           <div key={index}>
             <div className="video-image-wrapper">
@@ -106,9 +93,8 @@ function VideoSlider({ data, lan }) {
       });
     }
   } else {
-    const englishSlider = data?.data.english.reasonsToInvestInDubai.slider;
-    const arabicSlider = data?.data.english.reasonsToInvestInDubai.slider;
-    const chineseSlider = data?.data.chinese.reasonsToInvestInDubai.slider;
+    const englishSlider = data?.data.en.reasonsToInvestInDubai.slider;
+    const gujratiSlider = data?.data.gu.reasonsToInvestInDubai.slider;
 
     if (lan == "/" || lan == "/en") {
       languageSlider = englishSlider.map((x, index) => {
@@ -128,26 +114,8 @@ function VideoSlider({ data, lan }) {
           </div>
         );
       });
-    } else if (lan == "/ar") {
-      languageSlider = arabicSlider.map((x, index) => {
-        return (
-          <div key={index}>
-            <div className="video-image-wrapper">
-              <img src={x.sliderImage} alt="" loading="lazy" />
-            </div>
-            <div className="slide-content py-3 px-3">
-              <h5>{x.sliderTitle}</h5>
-              <div className="description">{x.sliderDescription}</div>
-              <br />
-              <button className="rozella-btn" onClick={scrollToBottom7}>
-                Enquire Now
-              </button>
-            </div>
-          </div>
-        );
-      });
-    } else if (lan == "/ch") {
-      languageSlider = chineseSlider.map((x, index) => {
+    } else if (lan == "/gu") {
+      languageSlider = gujratiSlider.map((x, index) => {
         return (
           <div key={index}>
             <div className="video-image-wrapper">
