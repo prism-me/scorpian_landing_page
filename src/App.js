@@ -1,23 +1,33 @@
 import React from "react";
-import { createStore } from "redux";
-import { Provider } from "react-redux";
-import { composeWithDevTools } from "redux-devtools-extension";
-import AgencyCoApp from "./reducers";
+import { BrowserRouter } from "react-router-dom";
 import Routes from "./routers";
-
-// create store
-const store = createStore(
-  AgencyCoApp,
-  composeWithDevTools()
-  // applyMiddleware(...middleware),
-  // other store enhancers if any
-);
+import ScrollToTop from "./data/ScrollToTop";
+import { Suspense } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Routes />
-    </Provider>
+    <BrowserRouter>
+      <Suspense
+        fallback={
+          <div
+            className={`d-flex flex-column text-center align-items-center justify-content-center`}
+            style={{
+              position: "absolute",
+              zIndex: 99999,
+              height: "100%",
+              width: "100%",
+              background: "rgba(49, 135, 196, 0.3)",
+            }}
+          >
+            <BounceLoader color={"#3187c4"} size={100} />
+          </div>
+        }
+      >
+        <ScrollToTop />
+        <Routes />
+      </Suspense>
+    </BrowserRouter>
   );
 }
 

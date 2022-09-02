@@ -1,7 +1,29 @@
 import React from "react";
 import "./OurTeam.scss";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const OurTeam = ({ data, lan }) => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 4,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 600 },
+      items: 3,
+    },
+    mobile: {
+      breakpoint: { max: 600, min: 0 },
+      items: 2,
+    },
+  };
+
   const englishSlider = data?.data?.en?.amenities?.amenitiesData;
   const gujratiSlider = data?.data?.gu?.amenities?.amenitiesData;
 
@@ -51,9 +73,24 @@ const OurTeam = ({ data, lan }) => {
       ) : (
         <h3 className="rozella-heading">{data?.data.en.amenities.header}</h3>
       )}
-      <div className="owl-carousel owl-theme amenities-carousel arrow-indicator">
+      <Carousel
+        responsive={responsive}
+        swipeable={true}
+        showDots={false}
+        arrows={true}
+        ssr={true} // means to render carousel on server-side.
+        infinite={false}
+        draggable={true}
+        autoPlay={false}
+        autoPlaySpeed={3000}
+        keyBoardControl={true}
+        customTransition="all .5s"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        itemClass="listStyle"
+      >
         {languageSlider}
-      </div>
+      </Carousel>
     </div>
   );
 };

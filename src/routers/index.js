@@ -1,13 +1,8 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
-
-// importing all the themes
-import Theme2 from "../themes/theme2";
+import React, { lazy } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from "../themes/404";
+
+const Theme2 = lazy(() => import("../themes/theme2"));
 
 export default class Routes extends React.PureComponent {
   render() {

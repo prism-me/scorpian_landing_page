@@ -52,4 +52,33 @@
       }
     }
   }
+
+  .react-multiple-carousel__arrow--right {
+    right: calc(0% + 1px);
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+  }
+  .react-multiple-carousel__arrow:hover {
+    background: #3187c4;
+    &::before {
+      color: #ffffff;
+    }
+  }
+
+  .react-multiple-carousel__arrow:focus {
+    outline: 0;
+    background: #3187c4;
+    &::before {
+      color: #ffffff;
+    }
+  }
+
+  .react-multiple-carousel__arrow {
+    box-shadow: 0 0 0 1px #ebebeb;
+    background: #ffffff;
+  }
+  .react-multiple-carousel__arrow::before {
+    color: #3187c4;
+  }
 }
