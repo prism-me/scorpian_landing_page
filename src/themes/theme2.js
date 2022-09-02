@@ -26,6 +26,7 @@ const Theme = () => {
   return (
     <React.Fragment>
       <Header lan={window.location.pathname} />
+
       <div className="main">
         <HeroSection lan={window.location.pathname} />
 
@@ -42,6 +43,7 @@ const Theme = () => {
         <WhyChooseUs lan={window.location.pathname} />
 
         <Contact lan={window.location.pathname} />
+
         <Events lan={window.location.pathname} />
       </div>
       <FooterSection lan={window.location.pathname} />

@@ -157,8 +157,8 @@
     <script src="/assets/js/scripts.js"></script>
 
     <script>
-      function validateEmail5200448000001156513() {
-        var form = document.forms["WebToLeads5200448000001156513"];
+      function validateEmail5461540000000383487() {
+        var form = document.forms["WebToLeads5461540000000383487"];
         var emailFld = form.querySelectorAll("[ftype=email]");
         var i;
         for (i = 0; i < emailFld.length; i++) {
@@ -180,28 +180,24 @@
         return true;
       }
 
-      function checkMandatory5200448000001156513() {
+      function checkMandatory5461540000000383487() {
         var mndFileds = new Array(
           "First Name",
           "Last Name",
           "Email",
-          "Phone",
-          "LEADCF1",
-          "LEADCF2",
-          "LEADCF6"
+          "Mobile",
+          "LEADCF3"
         );
         var fldLangVal = new Array(
           "First\x20Name",
           "Last\x20Name",
           "Email",
-          "Phone",
-          "Budget",
-          "What\x20are\x20you\x20looking\x20for\x3F",
-          "Country\x20Code"
+          "Mobile",
+          "What\x20Your\x20Looking\x20For"
         );
         for (i = 0; i < mndFileds.length; i++) {
           var fieldObj =
-            document.forms["WebToLeads5200448000001156513"][mndFileds[i]];
+            document.forms["WebToLeads5461540000000383487"][mndFileds[i]];
           if (fieldObj) {
             if (fieldObj.value.replace(/^\s+|\s+$/g, "").length == 0) {
               if (fieldObj.type == "file") {
@@ -232,7 +228,7 @@
             } catch (e) {}
           }
         }
-        if (!validateEmail5200448000001156513()) {
+        if (!validateEmail5461540000000383487()) {
           return false;
         }
         document
@@ -240,7 +236,7 @@
           .setAttribute("disabled", true);
       }
 
-      function tooltipShow5200448000001156513(el) {
+      function tooltipShow5461540000000383487(el) {
         var tooltip = el.nextElementSibling;
         var tooltipDisplay = tooltip.style.display;
         if (tooltipDisplay == "none") {
@@ -254,11 +250,5 @@
         }
       }
     </script>
-    <!-- Do not remove this --- Analytics Tracking code starts -->
-    <script
-      id="wf_anal"
-      src="https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=d3e32f7b53c1c7240f0dcd5fb75b72038accd1497e058dcffbed24c5939cb5abgid22c852729e96c7ad7066616f422dead1bdebdf45daecdbff6851ba9bb4bbd4a6gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a"
-    ></script>
-    <!-- Do not remove this --- Analytics Tracking code ends. -->
   </body>
 </html>
