@@ -35,12 +35,11 @@ class Footer extends React.Component {
                   G-03 Al Fattan Marine Towers, JBR Walk, Dubai Marina, Dubai,
                   UAE - 747
                 </p>
-                <a
-                  className="footerEmail"
-                  href="mailto:info@scorpionproperty.ae"
-                >
-                  <HiOutlineMail /> info@scorpionproperty.ae
-                </a>
+                <p className="footerEmail">
+                  <a href="mailto:info@scorpionproperty.ae">
+                    <HiOutlineMail /> info@scorpionproperty.ae
+                  </a>
+                </p>
               </Col>
               <Col sm={6}>
                 <h3 className="title">Privacy Policy</h3>
