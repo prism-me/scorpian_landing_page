@@ -8,7 +8,13 @@ const AboutBuraq = ({ onChangeTab, lan, data }) => {
     <div className="aboutWrap">
       <div className={`about-buraq-row`}>
         <Container>
-          <h2 className="rozella-heading">Premium Properties on Offer</h2>
+          <h2 className="rozella-heading">
+            {lan == "/" || lan == "/en"
+              ? "Premium Properties on Offer"
+              : lan == "/gu"
+              ? "ઓફર પર પ્રીમીયમ પ્રોપર્ટી"
+              : "Premium Properties on Offer"}
+          </h2>
           <button
             className={`tabBtn ${data.tab === "tab1" && "active"}`}
             onClick={() => onChangeTab("tab1")}

@@ -51,7 +51,6 @@ export const tabsData = [
       en: {
         whyInvestInDubai: {
           header: "Offering a True Mediterranean Holiday Lifestyle",
-          firstLine: "Overseas real estate investment,",
           img: about1,
           paragraph1:
             "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean-inspired community offering 3 to 6-bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
@@ -160,11 +159,10 @@ export const tabsData = [
       },
       gu: {
         whyInvestInDubai: {
-          header: "Offering a True Mediterranean Holiday Lifestyle",
-          firstLine: "Overseas real estate investment,",
+          header: "એક સાચી ભૂમધ્ય રજાઓની જીવનશૈલી ઓફર કરે છે",
           img: about1,
           paragraph1:
-            "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean-inspired community offering 3 to 6-bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
+            "Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan  શેરીના રોડક્રોસ પર સ્થિત, Damac Lagoonsis ભૂમધ્ય-પ્રેરિત સમૂહ છે જે 3 થી 6 બેડરૂમના ટાઉનહાઉસ અને ક્રિસ્ટલ Lagoonsથી ઘેરાયેલા વિલાની ઓફર કરે છે. તે ખરેખર પ્રખ્યાત ભૂમધ્ય શહેરોની સ્થાપત્ય સુઘડતાને એકસાથે લાવે છે, જેમાં તમે દરેક સંભવિત વૈભવી સુવિધાઓ વિચારી શકો છો. વૈભવી સમાજ એ શહેરની ચર્ચા છે અને રોકાણ કરવા માટેનું એક મુખ્ય સ્થાન છે",
         },
         reasonsToInvestInDubai: [
           {
@@ -175,25 +173,25 @@ export const tabsData = [
                   sliderImage: malta1,
                   sliderTitle: "Malta",
                   sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
+                    "Damac Lagoons માં એક નવો રહેણાંક સમૂહ જેમાં 4 અને 5 બેડરૂમના ટાઉનહાઉસ છે.",
                 },
                 {
                   sliderImage: malta2,
                   sliderTitle: "Malta",
                   sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
+                    "Damac Lagoons માં એક નવો રહેણાંક સમૂહ જેમાં 4 અને 5 બેડરૂમના ટાઉનહાઉસ છે.",
                 },
                 {
                   sliderImage: malta3,
                   sliderTitle: "Malta",
                   sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
+                    "Damac Lagoons માં એક નવો રહેણાંક સમૂહ જેમાં 4 અને 5 બેડરૂમના ટાઉનહાઉસ છે.",
                 },
                 {
                   sliderImage: malta4,
                   sliderTitle: "Malta",
                   sliderDescription:
-                    "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
+                    "Damac Lagoons માં એક નવો રહેણાંક સમૂહ જેમાં 4 અને 5 બેડરૂમના ટાઉનહાઉસ છે.",
                 },
               ],
             },
@@ -206,65 +204,65 @@ export const tabsData = [
                   sliderImage: venice1,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice2,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice3,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice4,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
                 },
               ],
             },
           },
         ],
         amenities: {
-          header: "Luxury Amenities that You can Enjoy",
+          header: "વૈભવી સુવિધાઓ જેનો તમે આનંદ માણી શકો છો",
           amenitiesData: [
             {
               img: DamacIcon1,
-              name: "Refreshing views of lagoons",
+              name: "Lagoons નાં પ્રેરણાદાયક દૃશ્યો",
             },
             {
               img: DamacIcon2,
-              name: "White sandy beaches",
+              name: "સફેદ રેતાળ દરિયાકિનારો",
             },
             {
               img: DamacIcon3,
-              name: "Waterfalls",
+              name: "ધોધ",
             },
             {
               img: DamacIcon4,
-              name: "Outdoor gym",
+              name: "આઉટડોર જિમ",
             },
             {
               img: DamacIcon5,
-              name: "Outdoor bars",
+              name: "આઉટડોર બીયર બાર",
             },
-            // {
-            //   img: DamacIcon6,
-            //   name: "Kayaking",
-            // },
-            // {
-            //   img: DamacIcon7,
-            //   name: "Walking paths",
-            // },
-            // {
-            //   img: DamacIcon8,
-            //   name: "Clubhouse",
-            // },
+            {
+              img: DamacIcon6,
+              name: "કાયાકિંગ",
+            },
+            {
+              img: DamacIcon7,
+              name: "ચાલવાના રસ્તાઓ",
+            },
+            {
+              img: DamacIcon8,
+              name: "ક્લબહાઉસ",
+            },
           ],
         },
       },
@@ -276,7 +274,6 @@ export const tabsData = [
       en: {
         whyInvestInDubai: {
           header: "Luxury as Never Experienced Before",
-          firstLine: "Overseas real estate investment,",
           img: about2,
           paragraph1:
             "These ultra-luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
@@ -345,11 +342,10 @@ export const tabsData = [
       },
       gu: {
         whyInvestInDubai: {
-          header: "Luxury as Never Experienced Before",
-          firstLine: "Overseas real estate investment,",
+          header: "એવી વૈભવીશ્રેણી જે પહેલાં ક્યારેય અનુભવી ન હતી",
           img: about2,
           paragraph1:
-            "These ultra-luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
+            "આ અલ્ટ્રા-લક્ઝરી બ્રાન્ડેડ એપાર્ટમેન્ટ્સ ફક્ત સ્વિટ્ઝર્લૅન્ડના De Grisogono દ્વારા બનાવવામાં આવ્યા હતા અને તે રૂબીના લાલ રંગની તેજસ્વીતાથી પ્રેરિત છે, જે સુઘડતા અને ઉત્તેજનાની તાજગીનો અનુભવ કરે છે જે અગાઉ ક્યારેય અનુભવાયો ન હતો. Safa two, જે કાપેલા હીરા જેવું લાગે છે અને તેમાં અનંત પૂલ અને ધુમ્મસનું જંગલ પણ છે, તે શહેરના 'ગોલ્ડન માઇલ' ની સાથે વૈભવીના પ્રતીક તરીકે સ્થાપિત થવાની આશા રાખે છે",
         },
         reasonsToInvestInDubai: {
           header: "Safa 2",
@@ -358,57 +354,57 @@ export const tabsData = [
               sliderImage: safa1,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 દુબઈ શહેર માટે અનોખા વૈભવી અનુભવો સાથે વૈભવી સ્ટુડિયો, 1,2, અને 3 બેડરૂમ એપાર્ટમેન્ટ્સની પસંદગીનું આયોજન કરે છે",
             },
             {
               sliderImage: safa2,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 દુબઈ શહેર માટે અનોખા વૈભવી અનુભવો સાથે વૈભવી સ્ટુડિયો, 1,2, અને 3 બેડરૂમ એપાર્ટમેન્ટ્સની પસંદગીનું આયોજન કરે છે",
             },
             {
               sliderImage: safa3,
               sliderTitle: "Gardenia Villas",
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 દુબઈ શહેર માટે અનોખા વૈભવી અનુભવો સાથે વૈભવી સ્ટુડિયો, 1,2, અને 3 બેડરૂમ એપાર્ટમેન્ટ્સની પસંદગીનું આયોજન કરે છે",
             },
             {
               sliderImage: safa4,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 દુબઈ શહેર માટે અનોખા વૈભવી અનુભવો સાથે વૈભવી સ્ટુડિયો, 1,2, અને 3 બેડરૂમ એપાર્ટમેન્ટ્સની પસંદગીનું આયોજન કરે છે",
             },
             {
               sliderImage: safa5,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 દુબઈ શહેર માટે અનોખા વૈભવી અનુભવો સાથે વૈભવી સ્ટુડિયો, 1,2, અને 3 બેડરૂમ એપાર્ટમેન્ટ્સની પસંદગીનું આયોજન કરે છે",
             },
           ],
         },
         amenities: {
-          header: "Luxury Amenities that You can Enjoy",
+          header: "વૈભવી સુવિધાઓ જેનો તમે આનંદ માણી શકો છો",
           amenitiesData: [
             {
               img: SafaIcon1,
-              name: "Infinity pool",
+              name: "અનંત પૂલ",
             },
             {
               img: SafaIcon2,
-              name: "A fog forest in the sky",
+              name: "આકાશમાં ધુમ્મસવાળું જંગલ",
             },
             {
               img: SafaIcon3,
-              name: "The ruby heart",
+              name: "રૂબી હૃદય",
             },
             {
               img: SafaIcon4,
-              name: "Observatory",
+              name: "વેધશાળા",
             },
             {
               img: SafaIcon5,
-              name: "Cafés & restaurants",
+              name: "કાફે અને રેસ્ટોરાં",
             },
           ],
         },
@@ -421,7 +417,6 @@ export const tabsData = [
       en: {
         whyInvestInDubai: {
           header: "A luxury hotel and residential tower",
-          firstLine: "Overseas real estate investment,",
           img: about3,
           paragraph1:
             "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
@@ -483,63 +478,64 @@ export const tabsData = [
       },
       gu: {
         whyInvestInDubai: {
-          header: "A luxury hotel and residential tower",
-          firstLine: "Overseas real estate investment,",
+          header: `સર્વોચ ટાવર હોટેલ અને રહેઠાણો સાથે
+          એક વૈભવી હોટેલ અને રહેણાંક ટાવર
+          `,
           img: about3,
           paragraph1:
-            "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
+            "Damacની આ વૈભવી પ્રોપર્ટી હોલીવુડ ગ્લેમર અને કેલિફોર્નિયા કૂલને એકસાથે લાવે છે. 63 માળની આર્કિટેક્ચરલ અજાયબીમાં સ્ટુડિયો એપાર્ટમેન્ટ, હોટેલ રૂમ અને વિશાળ વૈભવી નિવાસ છે. તમે દરેક પ્રીમીયમ સુવિધાઓ સાથે-સાથે રૂફ-ટોપ ઇન્ફિનિટી પૂલ અને દુબઇ સ્કાયલાઇનના મનોહર દૃશ્યોની અપેક્ષા રાખી શકો છો. ",
         },
         reasonsToInvestInDubai: {
-          header: "Paramount Tower Hotel & Residences",
+          header: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
           slider: [
             {
               sliderImage: paramount1,
-              sliderTitle: "Paramount Tower Hotel & Residences",
+              sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount2,
-              sliderTitle: "Paramount Tower Hotel & Residences",
+              sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount3,
-              sliderTitle: "Paramount Tower Hotel & Residences",
+              sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount4,
-              sliderTitle: "Paramount Tower Hotel & Residences",
+              sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
           ],
         },
         amenities: {
-          header: "Luxury Amenities that You can Enjoy",
+          header: "વૈભવી સુવિધાઓ જેનો તમે આનંદ માણી શકો છો",
           amenitiesData: [
             {
               img: ParamountIcon1,
-              name: "Rooftop infinity pool",
+              name: "રૂફટોપનો અનંત પૂલ",
             },
             {
               img: ParamountIcon2,
-              name: "Luxury spa and fitness",
+              name: "વૈભવી સ્પા અને ફિટનેસ સેન્ટર",
             },
             {
               img: ParamountIcon3,
-              name: "Fitness and wellness center",
+              name: "ફિટનેસ અને વેલનેસ સેન્ટર",
             },
             {
               img: ParamountIcon4,
-              name: "Rooftop terrace with seating",
+              name: "બેસવાની સુવિધા સાથે રૂફટોપ ટેરેસ",
             },
             {
               img: ParamountIcon5,
-              name: "Meeting and events facilities",
+              name: "મીટિંગ અને ઇવેન્ટની સુવિધાઓ",
             },
           ],
         },

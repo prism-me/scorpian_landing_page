@@ -67,7 +67,7 @@ function VideoSlider({ data, lan }) {
               <div className="description">{x.sliderDescription}</div>
               <br />
               <button className="rozella-btn" onClick={scrollToBottom7}>
-                联系我们
+                હવે પૂછપરછ કરો
               </button>
             </div>
           </div>
@@ -126,7 +126,7 @@ function VideoSlider({ data, lan }) {
               <div className="description">{x.sliderDescription}</div>
               <br />
               <button className="rozella-btn" onClick={scrollToBottom7}>
-                联系我们
+                હવે પૂછપરછ કરો
               </button>
             </div>
           </div>

@@ -8,6 +8,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { language } from "../../data/language";
 
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -30,7 +31,13 @@ class Footer extends React.Component {
           <Container>
             <Row>
               <Col sm={6}>
-                <h3 className="title">Head Office</h3>
+                <h3 className="title">
+                  {this.props.lan == "/" || this.props.lan == "/en"
+                    ? language.en.footer.address
+                    : this.props.lan == "/gu"
+                    ? language.gu.footer.address
+                    : language.en.footer.address}
+                </h3>
                 <p className="subtitle mb-2">
                   G-03 Al Fattan Marine Towers, JBR Walk, Dubai Marina, Dubai,
                   UAE - 747
@@ -42,13 +49,19 @@ class Footer extends React.Component {
                 </p>
               </Col>
               <Col sm={6}>
-                <h3 className="title">Privacy Policy</h3>
+                <h3 className="title">
+                  {this.props.lan == "/" || this.props.lan == "/en"
+                    ? language.en.footer.PrivacyTitle
+                    : this.props.lan == "/gu"
+                    ? language.gu.footer.PrivacyTitle
+                    : language.en.footer.PrivacyTitle}
+                </h3>
                 <p className="subtitle">
-                  We have implemented measures designed to secure your personal
-                  information from accidental loss and from unauthorized access,
-                  use, alteration and disclosure. All information you provide to
-                  us is stored on our secure servers behind firewalls. Any
-                  payment transactions will be encrypted using SSL technology.
+                  {this.props.lan == "/" || this.props.lan == "/en"
+                    ? language.en.footer.paragraph
+                    : this.props.lan == "/gu"
+                    ? language.gu.footer.paragraph
+                    : language.en.footer.paragraph}
                 </p>
               </Col>
             </Row>
@@ -67,11 +80,10 @@ class Footer extends React.Component {
                 </span>
               ) : this.props.lan == "/gu" ? (
                 <span>
-                  由{" "}
+                  દ્વારા ડિઝાઇન અને સંચાલિત{" "}
                   <a href="https://www.prism-me.com/" target="_blank">
                     Prism Digital
-                  </a>{" "}
-                  设计和管理{" "}
+                  </a>
                 </span>
               ) : (
                 <span>
