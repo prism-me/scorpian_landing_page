@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 import whitelogo from "./../../assets/Images/logo/logo.png";
 import "./header.scss";
 // import { HiOutlinePhone, HiOutlineMail } from "react-icons/hi";
@@ -49,4 +48,4 @@ class Header extends React.Component {
   }
 }
 
-export default connect((state) => ({}))(Header);
+export default Header;

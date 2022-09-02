@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 
 class HeroSection extends React.Component {
   constructor(props) {
@@ -50,6 +49,4 @@ class HeroSection extends React.Component {
   }
 }
 
-export default connect(state => ({
-  state,
-}))(HeroSection);
+export default HeroSection;

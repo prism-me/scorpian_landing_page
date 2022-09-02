@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 import PopupForm from "../popup/PopupForm.js";
 import "./HerroSection2.scss";
 import { language } from "./../../data/language.js";
@@ -92,6 +91,4 @@ class HeroSection extends React.Component {
   }
 }
 
-export default connect((state) => ({
-  state,
-}))(HeroSection);
+export default HeroSection;

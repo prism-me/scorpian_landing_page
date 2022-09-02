@@ -143,18 +143,18 @@ export const tabsData = [
               img: DamacIcon5,
               name: "Outdoor bars",
             },
-            // {
-            //   img: DamacIcon6,
-            //   name: "Kayaking",
-            // },
-            // {
-            //   img: DamacIcon7,
-            //   name: "Walking paths",
-            // },
-            // {
-            //   img: DamacIcon8,
-            //   name: "Clubhouse",
-            // },
+            {
+              img: DamacIcon6,
+              name: "Kayaking",
+            },
+            {
+              img: DamacIcon7,
+              name: "Walking paths",
+            },
+            {
+              img: DamacIcon8,
+              name: "Clubhouse",
+            },
           ],
         },
       },
