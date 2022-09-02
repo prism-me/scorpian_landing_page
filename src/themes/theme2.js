@@ -12,7 +12,7 @@ import { tabsData } from "../data/tabsdata";
 import Events from "../components/Events/events";
 
 const Theme = () => {
-  // const [tabData, setTabData] = useState(tabsData);
+  const [tabData, setTabData] = useState(tabsData);
   const [activeTabData, setActiveTabData] = useState(tabsData[0]);
 
   const onChangeTab = (tabtext) => {

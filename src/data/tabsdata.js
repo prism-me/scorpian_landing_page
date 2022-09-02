@@ -8,6 +8,27 @@ import eslider2 from "../assets/Images/LandingPage/SliderSection/English/The-Hea
 import eslider3 from "../assets/Images/LandingPage/SliderSection/English/Hartland_Villas.jpg";
 import eslider4 from "../assets/Images/LandingPage/SliderSection/English/damac.jpg";
 
+import venice1 from "../assets/Images/LandingPage/venice/venice1.jpg";
+import venice2 from "../assets/Images/LandingPage/venice/venice2.jpg";
+import venice3 from "../assets/Images/LandingPage/venice/venice3.jpg";
+import venice4 from "../assets/Images/LandingPage/venice/venice4.jpg";
+
+import malta1 from "../assets/Images/LandingPage/malta/malta1.jpg";
+import malta2 from "../assets/Images/LandingPage/malta/malta2.jpg";
+import malta3 from "../assets/Images/LandingPage/malta/malta3.jpg";
+import malta4 from "../assets/Images/LandingPage/malta/malta4.jpg";
+
+import safa1 from "../assets/Images/LandingPage/safa/safa1.jpg";
+import safa2 from "../assets/Images/LandingPage/safa/safa2.jpg";
+import safa3 from "../assets/Images/LandingPage/safa/safa3.jpg";
+import safa4 from "../assets/Images/LandingPage/safa/safa4.jpg";
+import safa5 from "../assets/Images/LandingPage/safa/safa5.jpg";
+
+import paramount1 from "../assets/Images/LandingPage/paramount/paramount1.jpg";
+import paramount2 from "../assets/Images/LandingPage/paramount/paramount2.jpg";
+import paramount3 from "../assets/Images/LandingPage/paramount/paramount3.jpg";
+import paramount4 from "../assets/Images/LandingPage/paramount/paramount4.jpg";
+
 import about1 from "../assets/Images/LandingPage/about/lagoosabout.jpg";
 import about2 from "../assets/Images/LandingPage/about/safabout.jpg";
 import about3 from "../assets/Images/LandingPage/about/paramountabout.jpg";
@@ -16,6 +37,27 @@ import ameniti1 from "../assets/Images/LandingPage/amenities/ameniti1.png";
 import ameniti2 from "../assets/Images/LandingPage/amenities/ameniti2.png";
 import ameniti3 from "../assets/Images/LandingPage/amenities/ameniti3.png";
 import ameniti4 from "../assets/Images/LandingPage/amenities/ameniti4.png";
+
+import DamacIcon1 from "../assets/Images/LandingPage/amenities/DamacIcons/window.png";
+import DamacIcon2 from "../assets/Images/LandingPage/amenities/DamacIcons/beach.png";
+import DamacIcon3 from "../assets/Images/LandingPage/amenities/DamacIcons/waterfall.png";
+import DamacIcon4 from "../assets/Images/LandingPage/amenities/DamacIcons/weightlifter.png";
+import DamacIcon5 from "../assets/Images/LandingPage/amenities/DamacIcons/bar.png";
+import DamacIcon6 from "../assets/Images/LandingPage/amenities/DamacIcons/kayak.png";
+import DamacIcon7 from "../assets/Images/LandingPage/amenities/DamacIcons/walking.png";
+import DamacIcon8 from "../assets/Images/LandingPage/amenities/DamacIcons/clubhouse.png";
+
+import SafaIcon1 from "../assets/Images/LandingPage/amenities/safaicons/Infinitypool.png";
+import SafaIcon2 from "../assets/Images/LandingPage/amenities/safaicons/Afogforestinthesky.png";
+import SafaIcon3 from "../assets/Images/LandingPage/amenities/safaicons/rubyheart.png";
+import SafaIcon4 from "../assets/Images/LandingPage/amenities/safaicons/observatory.png";
+import SafaIcon5 from "../assets/Images/LandingPage/amenities/safaicons/Cafésrestaurants.png";
+
+import ParamountIcon1 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopinfinitypool.png";
+import ParamountIcon2 from "../assets/Images/LandingPage/amenities/paramounticons/Luxuryspaandfitness.png";
+import ParamountIcon3 from "../assets/Images/LandingPage/amenities/paramounticons/Fitnessandwellnesscenter.png";
+import ParamountIcon4 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopterracewithseating.png";
+import ParamountIcon5 from "../assets/Images/LandingPage/amenities/paramounticons/Meetingandeventsfacilities.png";
 
 export const tabsData = [
   {
@@ -35,25 +77,25 @@ export const tabsData = [
             data: {
               slider: [
                 {
-                  sliderImage: eslider1,
+                  sliderImage: malta1,
                   sliderTitle: "Malta",
                   sliderDescription:
                     "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
                 },
                 {
-                  sliderImage: eslider2,
+                  sliderImage: malta2,
                   sliderTitle: "Malta",
                   sliderDescription:
                     "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
                 },
                 {
-                  sliderImage: eslider3,
+                  sliderImage: malta3,
                   sliderTitle: "Malta",
                   sliderDescription:
                     "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
                 },
                 {
-                  sliderImage: eslider4,
+                  sliderImage: malta4,
                   sliderTitle: "Malta",
                   sliderDescription:
                     "A new residential cluster in Damac Lagoons featuring 4 & 5 bedrooms townhouses.",
@@ -66,25 +108,25 @@ export const tabsData = [
             data: {
               slider: [
                 {
-                  sliderImage: eslider1,
+                  sliderImage: venice1,
                   sliderTitle: "Venice",
                   sliderDescription:
                     "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
-                  sliderImage: eslider2,
+                  sliderImage: venice2,
                   sliderTitle: "Venice",
                   sliderDescription:
                     "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
-                  sliderImage: eslider3,
+                  sliderImage: venice3,
                   sliderTitle: "Venice",
                   sliderDescription:
                     "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
-                  sliderImage: eslider4,
+                  sliderImage: venice4,
                   sliderTitle: "Venice",
                   sliderDescription:
                     "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
@@ -97,35 +139,35 @@ export const tabsData = [
           header: "Luxury Amenities that You can Enjoy",
           amenitiesData: [
             {
-              img: ameniti1,
+              img: DamacIcon1,
               name: "Refreshing views of lagoons",
             },
             {
-              img: ameniti2,
+              img: DamacIcon2,
               name: "White sandy beaches",
             },
             {
-              img: ameniti3,
+              img: DamacIcon3,
               name: "Waterfalls",
             },
             {
-              img: ameniti4,
+              img: DamacIcon4,
               name: "Outdoor gym",
             },
             {
-              img: ameniti4,
+              img: DamacIcon5,
               name: "Outdoor bars",
             },
             // {
-            //   img: ameniti4,
+            //   img: DamacIcon6,
             //   name: "Kayaking",
             // },
             // {
-            //   img: ameniti4,
+            //   img: DamacIcon7,
             //   name: "Walking paths",
             // },
             // {
-            //   img: ameniti4,
+            //   img: DamacIcon8,
             //   name: "Clubhouse",
             // },
           ],
@@ -362,26 +404,32 @@ export const tabsData = [
           header: "Safa 2",
           slider: [
             {
-              sliderImage: eslider1,
+              sliderImage: safa1,
               sliderTitle: "Safa 2",
               sliderDescription:
                 "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
-              sliderImage: eslider2,
+              sliderImage: safa2,
               sliderTitle: "Safa 2",
               sliderDescription:
                 "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
-              sliderImage: eslider3,
+              sliderImage: safa3,
               sliderTitle: "Gardenia Villas",
               sliderTitle: "Safa 2",
               sliderDescription:
                 "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
-              sliderImage: eslider4,
+              sliderImage: safa4,
+              sliderTitle: "Safa 2",
+              sliderDescription:
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+            },
+            {
+              sliderImage: safa5,
               sliderTitle: "Safa 2",
               sliderDescription:
                 "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
@@ -392,23 +440,23 @@ export const tabsData = [
           header: "Luxury Amenities that You can Enjoy",
           amenitiesData: [
             {
-              img: ameniti1,
+              img: SafaIcon1,
               name: "Infinity pool",
             },
             {
-              img: ameniti2,
+              img: SafaIcon2,
               name: "A fog forest in the sky",
             },
             {
-              img: ameniti3,
+              img: SafaIcon3,
               name: "The ruby heart",
             },
             {
-              img: ameniti4,
+              img: SafaIcon4,
               name: "Observatory",
             },
             {
-              img: ameniti4,
+              img: SafaIcon5,
               name: "Cafés & restaurants",
             },
           ],
@@ -591,25 +639,25 @@ export const tabsData = [
           header: "Paramount Hotel & Residences",
           slider: [
             {
-              sliderImage: eslider1,
+              sliderImage: paramount1,
               sliderTitle: "Paramount Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
-              sliderImage: eslider2,
+              sliderImage: paramount2,
               sliderTitle: "Paramount Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
-              sliderImage: eslider3,
+              sliderImage: paramount3,
               sliderTitle: "Paramount Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
             },
             {
-              sliderImage: eslider4,
+              sliderImage: paramount4,
               sliderTitle: "Paramount Hotel & Residences",
               sliderDescription:
                 "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
@@ -620,23 +668,23 @@ export const tabsData = [
           header: "Luxury Amenities that You can Enjoy",
           amenitiesData: [
             {
-              img: ameniti1,
+              img: ParamountIcon1,
               name: "Rooftop infinity pool",
             },
             {
-              img: ameniti2,
+              img: ParamountIcon2,
               name: "Luxury spa and fitness",
             },
             {
-              img: ameniti3,
+              img: ParamountIcon3,
               name: "Fitness and wellness center",
             },
             {
-              img: ameniti4,
+              img: ParamountIcon4,
               name: "Rooftop terrace with seating",
             },
             {
-              img: ameniti4,
+              img: ParamountIcon5,
               name: "Meeting and events facilities",
             },
           ],

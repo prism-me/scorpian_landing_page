@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./events.scss";
-import Contact from "../../assets/post 1.jpg";
+import Contact from "../../assets/post.jpg";
 import { language } from "../../data/language.js";
 
 const Events = (props) => {
@@ -9,7 +9,13 @@ const Events = (props) => {
     <div className="events">
       <Container>
         <Row className={`rozella-row`} id="why-choose">
-          <Col lg={6} md={12} xs={12} sm={12}>
+          <Col
+            lg={6}
+            md={12}
+            xs={12}
+            sm={12}
+            className="d-flex flex-column justify-content-center"
+          >
             <div class="rozella-heading">
               {props.lan == "/" || props.lan == "/en"
                 ? language.english.events.header
