@@ -43,7 +43,10 @@ class Footer extends React.Component {
                   UAE - 747
                 </p>
                 <p className="footerEmail">
-                  <a href="mailto:info@scorpionproperty.ae">
+                  <a
+                    href="mailto:info@scorpionproperty.ae"
+                    style={{ pointerEvents: "none", cursor: "default" }}
+                  >
                     <HiOutlineMail /> info@scorpionproperty.ae
                   </a>
                 </p>

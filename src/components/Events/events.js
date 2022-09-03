@@ -5,6 +5,10 @@ import Contact from "../../assets/post.jpg";
 import { language } from "../../data/language.js";
 
 const Events = (props) => {
+  const scrollToBottom2 = () => {
+    const bottomEle = document.getElementById("top-banner-form");
+    bottomEle.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="events">
       <Container>
@@ -41,8 +45,9 @@ const Events = (props) => {
           <Col lg={6} md={12} xs={12} sm={12}>
             <img
               src={Contact}
-              style={{ width: "100%" }}
+              style={{ width: "100%", cursor: "pointer" }}
               // className="zoom-in-out-box"
+              onClick={scrollToBottom2}
             />
           </Col>
         </Row>

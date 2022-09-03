@@ -4,7 +4,8 @@ export const language = {
       header: "Invest in the Lucrative Dubai Real Estate Market Today!",
       paragraph:
         "Scorpion Property provides a wide range of investment opportunities including high-profile real estate properties, offering the highest ROI.",
-      paragraph1: "Contact us to get a 2% Waiver on the Total Price",
+      paragraph1:
+        "Contact Us to Know About Incredible Properties for Sale with Attractive Offers.",
     },
     whyChooseUs: {
       header: "About Scorpion Property",
@@ -33,7 +34,8 @@ export const language = {
       header: "આજે દુબઈ ના આકર્ષક રીયલ એસ્ટેટ માર્કેટમાં રોકાણ કરો!",
       paragraph:
         "સ્કોર્પિયન પ્રોપર્ટી ઉચ્ચતમ વળતર ઓફર કરતી હાઇ-પ્રોફાઇલ રિયલ એસ્ટેટ પ્રોપર્ટીઝ સહિત રોકાણની વિશાળ શ્રેણી પૂરી પાડે છે.",
-      paragraph1: "કુલ કીમત પર 2% ની છૂટ મેળવવા માટે અમારો સંપર્ક કરો.",
+      paragraph1:
+        "આકર્ષક ઑફર્સ સાથે વેચાણ માટે અતુલ્ય પ્રોપર્ટીઝ વિશે જાણવા માટે અમારો સંપર્ક કરો .",
     },
     whyChooseUs: {
       header: "વિશે વધુ માહિતી",

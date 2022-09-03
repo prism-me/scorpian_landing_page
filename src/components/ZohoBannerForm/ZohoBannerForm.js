@@ -67,6 +67,7 @@ function ZohoBannerForm() {
               id="First_Name"
               name="First Name"
               maxlength="40"
+              required
             />
             <div class="zcwf_col_help"></div>
           </div>
@@ -81,7 +82,13 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-            <input type="text" id="Last_Name" name="Last Name" maxlength="80" />
+            <input
+              type="text"
+              id="Last_Name"
+              name="Last Name"
+              maxlength="80"
+              required
+            />
             <div class="zcwf_col_help"></div>
           </div>
         </div>
@@ -101,6 +108,7 @@ function ZohoBannerForm() {
               id="Email"
               name="Email"
               maxlength="100"
+              required
             />
             <div class="zcwf_col_help"></div>
           </div>
@@ -115,7 +123,13 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-            <input type="text" id="Mobile" name="Mobile" maxlength="30" />
+            <input
+              type="text"
+              id="Mobile"
+              name="Mobile"
+              maxlength="30"
+              required
+            />
             <div class="zcwf_col_help" style={{ display: "none" }}>
               {" "}
               <span
@@ -194,7 +208,13 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-            <input type="text" id="LEADCF3" name="LEADCF3" maxlength="255" />
+            <input
+              type="text"
+              id="LEADCF3"
+              name="LEADCF3"
+              maxlength="255"
+              required
+            />
             <div class="zcwf_col_help"></div>
           </div>
         </div>
