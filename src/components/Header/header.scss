@@ -40,13 +40,17 @@
     background: #2e3751 !important;
   }
 
+  .container {
+    @media #{$sm} {
+      justify-content: center;
+    }
+  }
+
   .page-scroll {
     @media #{$xsm} {
       display: none;
     }
   }
-
-
 
 }
 
@@ -67,7 +71,7 @@
 
   .buhen-logo {
     margin: auto auto;
-    margin-right: 10px;
+    // margin-right: 10px;
   }
 
   .buhen-logo-name {

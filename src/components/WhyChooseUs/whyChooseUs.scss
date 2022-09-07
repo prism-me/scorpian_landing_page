@@ -43,6 +43,13 @@
         font-size: 14px;
       }
     }
+    .why-choose-us-img{
+      width: 100%;
+      height: 360px;
+      @media #{$sm} {
+        height: 210px;
+      }
+    }
   }
 
   .zoom-in-out-box {

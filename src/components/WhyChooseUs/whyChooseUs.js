@@ -35,8 +35,8 @@ const WhyChooseUs = (props) => {
           <Col lg={6} md={12} xs={12} sm={12}>
             <img
               src={Contact}
-              style={{ width: "100%" , height : '360px' }}
-              // className="zoom-in-out-box"
+              // style={{ width: "100%" , height : '360px' }}
+              className="why-choose-us-img"
             />
           </Col>
         </Row>

@@ -34,16 +34,12 @@
 
   // animation          : zoom-in-zoom-out 4s ease-out infinite;
   &::before {
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
-      ),
-      linear-gradient(
-        180deg,
+        rgba(0, 0, 0, 0.2)),
+      linear-gradient(180deg,
         rgba(1, 5, 45, 0.59) 0%,
-        rgba(255, 255, 255, 0) 69.11%
-      ),
+        rgba(255, 255, 255, 0) 69.11%),
       url("../../assets/Images/LandingPage/Top-Section-Background.jpg");
     transform: matrix(-1, 0, 0, 1, 0, 0);
     position: absolute;
@@ -255,6 +251,12 @@ p.lead {
   }
 }
 
+.navbar {
+  @media #{$sm} {
+    padding: 0px;
+  }
+}
+
 .zohoFormDisplayOnDesktop {
   display: block;
   // margin-top: 4rem;
@@ -303,6 +305,10 @@ p.lead {
   .lead {
     font-size: 16px !important;
   }
+  @media #{$sm} {
+    margin-top: 3rem;
+  }
+  
 }
 
 @media (max-width: 1024px) {

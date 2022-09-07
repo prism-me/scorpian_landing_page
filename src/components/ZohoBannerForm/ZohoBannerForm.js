@@ -46,7 +46,7 @@ function ZohoBannerForm() {
           style={{ display: "none" }}
           name="returnURL"
           // value="http&#x3a;&#x2f;&#x2f;www.Scorpionrealeastate.com"
-          value="http://scorpionproperty.prismcloudhosting.com/"
+          value="https://realestate.scorpionproperty.ae/thankyou.html"
         />
 
         <div class="zcwf_title" style={{ maxWidth: "600px" }}>
