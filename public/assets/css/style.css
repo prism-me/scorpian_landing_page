@@ -673,7 +673,7 @@ select.form-control.has-value {
 }
 
 .affix {
-  background-color: #202877;
+  background-color: #071c35 !important;
   -webkit-transition: padding 0.2s ease-out;
   -moz-transition: padding 0.2s ease-out;
   -o-transition: padding 0.2s ease-out;
@@ -682,8 +682,8 @@ select.form-control.has-value {
 
 .white-bg.affix,
 .custom-nav.affix {
-  background: #000;
-  border-bottom: 1px solid #000;
+  /* background: #000;
+  border-bottom: 1px solid #000; */
 }
 
 .white-bg.affix ul li a {
@@ -732,7 +732,7 @@ select.form-control.has-value {
 @media (min-width: 320px) and (max-width: 992px) {
   .navbar {
     /* background: #202877 !important; */
-    background: #ef6f61 !important;
+    /* background: #ef6f61 !important; */
     padding: 0.95rem 1rem;
   }
 
@@ -2726,11 +2726,11 @@ blockquote:before {
 .arrow-indicator.owl-theme .owl-nav [class*="owl-"] span {
   font-size: 25px;
   line-height: 20px;
-  color: #3187c4;
+  color: #071c35;
 }
 
 .arrow-indicator.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: #3187c4 !important;
+  background: #071c35 !important;
 }
 
 .arrow-indicator.owl-theme .owl-nav [class*="owl-"]:hover span {
@@ -3841,19 +3841,19 @@ body {
   font-weight: 700;
   font-size: 14px;
   color: #ffffff;
-  background: #3187c4;
+  background: #071c35;
   border: 2px solid #ffffff;
   padding: 0.7rem 3rem;
   text-transform: capitalize;
 }
 
 .rozella-btn:hover {
-  color: #3187c4;
+  color: #071c35;
   background: #ffffff;
 }
 
 .rozella-btn:focus {
   outline: 0;
-  color: #3187c4;
+  color: #071c35;
   background: #ffffff;
 }

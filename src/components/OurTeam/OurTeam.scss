@@ -11,13 +11,13 @@
   }
 
   .rozella-heading {
-    color: #3187c4;
+    color: #071c35;
     font-size: 25px;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 2rem;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     @media (max-width: 767px) {
       font-size: 22px;
     }
@@ -33,7 +33,7 @@
       height: 100%;
       object-fit: cover;
       padding: 0.5rem;
-      // border: 2px solid #3187c4;
+      // border: 2px solid #071c35;
       // border-radius: 100%;
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.14);
       max-width: 150px;
@@ -45,7 +45,7 @@
       color: #000;
       padding: 1.5rem 0.5rem 0.5rem 0.5rem;
       text-align: center;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       margin-bottom: 0;
       @media (max-width: 767px) {
         font-size: 16px;
@@ -60,7 +60,7 @@
     left: calc(0% + 1px);
   }
   .react-multiple-carousel__arrow:hover {
-    background: #3187c4;
+    background: #071c35;
     &::before {
       color: #ffffff;
     }
@@ -68,7 +68,7 @@
 
   .react-multiple-carousel__arrow:focus {
     outline: 0;
-    background: #3187c4;
+    background: #071c35;
     &::before {
       color: #ffffff;
     }
@@ -79,6 +79,6 @@
     background: #ffffff;
   }
   .react-multiple-carousel__arrow::before {
-    color: #3187c4;
+    color: #071c35;
   }
 }

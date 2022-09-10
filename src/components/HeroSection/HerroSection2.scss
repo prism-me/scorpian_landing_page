@@ -166,6 +166,7 @@
 .banner-heading {
   font-size: 33px;
   font-weight: 600 !important;
+  text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
 
   //text-align : right;
@@ -279,13 +280,13 @@ p.lead {
   img {
     margin: 0px auto;
     display: block;
-    height: 130px !important;
+    height: 100px !important;
     width: auto;
   }
 }
 
 .hero_banner_button {
-  background-color: #3187c4;
+  background-color: #071c35;
   border-radius: 0;
   text-transform: uppercase;
   border-color: #fff;
@@ -293,7 +294,7 @@ p.lead {
   &:hover,
   &:focus {
     background: #fff;
-    color: #3187c4;
+    color: #071c35;
   }
 }
 
@@ -334,13 +335,13 @@ p.lead {
 }
 
 .video-play-icon {
-  background-color: #3187c480;
+  background-color: #071c3580;
   border: none;
 }
 
 .rozella-play-btn {
   font-size: 30px;
-  color: #3187c4;
+  color: #071c35;
 }
 
 .templateWidth {

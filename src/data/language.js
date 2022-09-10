@@ -5,11 +5,11 @@ export const language = {
       paragraph:
         "Scorpion Property provides a wide range of investment opportunities including high-profile real estate properties, offering the highest ROI.",
       paragraph1:
-        "Contact Us to Know About Incredible Properties for Sale with Attractive Offers.",
+        "Contact us to know about incredible properties for sale with attractive offers.",
     },
     whyChooseUs: {
       header: "About Scorpion Property",
-      firstLine: "Your Real Estate Partner in Dubai",
+      firstLine: "Your real estate partner in Dubai",
       paragraph1:
         "Scorpion property is a real estate company, located at the heart of Dubai “JBR Walk”. We deal in buying, selling, renting, and managing properties all over Dubai. The company strives to offer a new level of service and to provide the best value possible to our clients through a dedicated & experienced team of real estate agents. We adopt a tailored approach for every client to ensure we can gain a detailed understanding, put your best interests first and exceed expectations.",
     },

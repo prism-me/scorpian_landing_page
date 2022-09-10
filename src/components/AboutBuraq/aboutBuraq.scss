@@ -11,7 +11,7 @@
     //   flex-direction: column;
     // }
     padding: 50px 0 0 0;
-    background: #3187c4;
+    background: #071c35;
 
     .rozella-heading {
       font-size: 25px;
@@ -19,7 +19,8 @@
       line-height: normal;
       margin-bottom: 2rem;
       color: #ffffff;
-      text-transform: capitalize;
+      text-transform: uppercase;
+
       @media (max-width: 767px) {
         font-size: 22px;
         text-align: center;
@@ -34,27 +35,38 @@
       border: none;
       padding: 1rem 2rem;
       margin-right: 2rem;
-      text-transform: capitalize;
+      text-transform: uppercase;
+
+      @media #{$sm} {
+
+        margin-right: 0rem;
+      }
+
       &:last-child {
         margin-right: 0;
       }
+
       &:hover,
       &.active {
         background: #ffffff;
-        color: #3187c4;
+        color: #071c35;
       }
+
       &:focus {
         outline: 0;
-        color: #3187c4;
+        color: #071c35;
         background: #ffffff;
       }
+
       @media (max-width: 767px) {
         font-size: 16px;
         width: 100%;
       }
+
       @media (max-width: 861px) {
         font-size: 15px;
       }
+
     }
   }
 
@@ -64,17 +76,20 @@
     @media #{$md} {
       text-align: center;
     }
+
     .rozella-heading {
       font-size: 25px;
       font-weight: 700;
       line-height: normal;
       margin-bottom: 2rem;
-      text-transform: capitalize;
+
+      // text-transform: uppercase;
       @media (max-width: 767px) {
         font-size: 22px;
         text-align: center;
       }
     }
+
     .first {
       font-size: 25px;
 
@@ -82,14 +97,17 @@
         font-size: 20px;
         text-align: center;
       }
+
       @media #{$md} {
         text-align: center;
       }
     }
+
     .rozella-para {
       font-size: 16px;
       text-align: justify;
       font-weight: 400;
+
       @media #{$sm} {
         font-size: 14px;
       }

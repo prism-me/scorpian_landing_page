@@ -1,5 +1,12 @@
 @import "./../../styles/variables";
 
+
+.navbar .affix {
+  background: #071c35 !important;
+  border-bottom: 1px solid #071c35 !important;
+
+}
+
 .language-option-list {
   color: #fff !important;
 }
@@ -21,7 +28,7 @@
 }
 
 .language-toggle-list {
-  color: #2e3751 !important;
+  color: #071c35 !important;
   display: none;
 
   @media #{$sm} {
@@ -37,7 +44,7 @@
 .navbar {
 
   @media #{$xsm} {
-    background: #2e3751 !important;
+    background: #071c35 !important;
   }
 
   .container {
@@ -83,14 +90,15 @@
 @media (max-width: 1024px) {
 
   .navbar {
-    background: #1b1b1b !important;
-    border-bottom: 1px solid #1b1b1b;
+    // background: #1b1b1b !important;
+    // border-bottom: 1px solid #1b1b1b;
     padding: 1.5rem 1rem;
   }
 
   .custom-nav ul li a {
     color: #FFFFFF !important;
   }
+
 
   .navbar-brand {
 

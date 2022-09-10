@@ -20,7 +20,7 @@ function App() {
               background: "rgba(49, 135, 196, 0.3)",
             }}
           >
-            <BounceLoader color={"#3187c4"} size={100} />
+            <BounceLoader color={"#071c35"} size={100} />
           </div>
         }
       >

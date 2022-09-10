@@ -123,13 +123,24 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
+            <div class="phone-wrap"> 
+            <input
+              value="+971"
+              type="text"
+              name="mobile_number_prefix"
+              editable="false"
+              className="mobile_number_prefix"
+            /> 
             <input
               type="text"
               id="Mobile"
               name="Mobile"
-              maxlength="30"
+              maxlength="9"
+              minlength="9"
+              placeholder="507xxxxxx"
               required
             />
+            </div>
             <div class="zcwf_col_help" style={{ display: "none" }}>
               {" "}
               <span
@@ -208,13 +219,20 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-            <input
+
+            <select name="LEADCF3" id="LEADCF3" required>
+              <option value="villa"> Villa </option> 
+              <option value="apartment"> Apartment </option> 
+              <option value="townhouse"> Townhouse </option> 
+            </select>
+            
+            {/* <input
               type="text"
               id="LEADCF3"
               name="LEADCF3"
               maxlength="255"
               required
-            />
+            /> */}
             <div class="zcwf_col_help"></div>
           </div>
         </div>

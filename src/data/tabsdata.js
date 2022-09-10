@@ -23,26 +23,26 @@ import about1 from "../assets/Images/LandingPage/about/lagoosabout.jpg";
 import about2 from "../assets/Images/LandingPage/about/safabout.jpg";
 import about3 from "../assets/Images/LandingPage/about/paramountabout.jpg";
 
-import DamacIcon1 from "../assets/Images/LandingPage/amenities/DamacIcons/window.png";
-import DamacIcon2 from "../assets/Images/LandingPage/amenities/DamacIcons/beach.png";
-import DamacIcon3 from "../assets/Images/LandingPage/amenities/DamacIcons/waterfall.png";
-import DamacIcon4 from "../assets/Images/LandingPage/amenities/DamacIcons/weightlifter.png";
-import DamacIcon5 from "../assets/Images/LandingPage/amenities/DamacIcons/bar.png";
-import DamacIcon6 from "../assets/Images/LandingPage/amenities/DamacIcons/kayak.png";
-import DamacIcon7 from "../assets/Images/LandingPage/amenities/DamacIcons/walking.png";
-import DamacIcon8 from "../assets/Images/LandingPage/amenities/DamacIcons/clubhouse.png";
+// import DamacIcon1 from "../assets/Images/LandingPage/amenities/DamacIcons/window.png";
+import DamacIcon2 from "../assets/Images/LandingPage/amenities/DamacIcons/beach.jpg";
+import DamacIcon3 from "../assets/Images/LandingPage/amenities/DamacIcons/waterfall.jpg";
+import DamacIcon4 from "../assets/Images/LandingPage/amenities/DamacIcons/weightlifter.jpg";
+import DamacIcon5 from "../assets/Images/LandingPage/amenities/DamacIcons/bar.jpg";
+import DamacIcon6 from "../assets/Images/LandingPage/amenities/DamacIcons/kayak.jpg";
+import DamacIcon7 from "../assets/Images/LandingPage/amenities/DamacIcons/walking.jpg";
+import DamacIcon8 from "../assets/Images/LandingPage/amenities/DamacIcons/clubhouse.jpg";
 
-import SafaIcon1 from "../assets/Images/LandingPage/amenities/safaicons/Infinitypool.png";
-import SafaIcon2 from "../assets/Images/LandingPage/amenities/safaicons/Afogforestinthesky.png";
-import SafaIcon3 from "../assets/Images/LandingPage/amenities/safaicons/rubyheart.png";
-import SafaIcon4 from "../assets/Images/LandingPage/amenities/safaicons/observatory.png";
-import SafaIcon5 from "../assets/Images/LandingPage/amenities/safaicons/Cafésrestaurants.png";
+import SafaIcon1 from "../assets/Images/LandingPage/amenities/safaicons/emenity1.jpg";
+import SafaIcon2 from "../assets/Images/LandingPage/amenities/safaicons/emenity2.jpg";
+import SafaIcon3 from "../assets/Images/LandingPage/amenities/safaicons/emenity3.jpg";
+import SafaIcon4 from "../assets/Images/LandingPage/amenities/safaicons/emenity4.jpg";
+// import SafaIcon5 from "../assets/Images/LandingPage/amenities/safaicons/Cafésrestaurants.png";
 
-import ParamountIcon1 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopinfinitypool.png";
-import ParamountIcon2 from "../assets/Images/LandingPage/amenities/paramounticons/Luxuryspaandfitness.png";
-import ParamountIcon3 from "../assets/Images/LandingPage/amenities/paramounticons/Fitnessandwellnesscenter.png";
-import ParamountIcon4 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopterracewithseating.png";
-import ParamountIcon5 from "../assets/Images/LandingPage/amenities/paramounticons/Meetingandeventsfacilities.png";
+import ParamountIcon1 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopinfinitypool.jpg";
+import ParamountIcon2 from "../assets/Images/LandingPage/amenities/paramounticons/Luxuryspaandfitness.jpg";
+import ParamountIcon3 from "../assets/Images/LandingPage/amenities/paramounticons/Fitnessandwellnesscenter.jpg";
+// import ParamountIcon4 from "../assets/Images/LandingPage/amenities/paramounticons/Rooftopterracewithseating.jpg";
+import ParamountIcon5 from "../assets/Images/LandingPage/amenities/paramounticons/Meetingandeventsfacilities.jpg";
 
 export const tabsData = [
   {
@@ -50,10 +50,10 @@ export const tabsData = [
     data: {
       en: {
         whyInvestInDubai: {
-          header: "Offering a True Mediterranean Holiday Lifestyle",
+          header: "Offering a true mediterranean holiday lifestyle",
           img: about1,
           paragraph1:
-            "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean-inspired community offering 3 to 6-bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
+            "Located at the intersection of Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan Street, Damac Lagoons is a Mediterranean inspired community offering 3 to 6 bedroom townhouses & villas surrounded by crystal lagoons. It truly brings the architectural elegance of famous Mediterranean cities together, all while having every possible luxury amenity that you can think of. The luxury community is the talk of the town and a prime location to invest.",
         },
         reasonsToInvestInDubai: [
           {
@@ -95,25 +95,25 @@ export const tabsData = [
                   sliderImage: venice1,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "Spacious Venetian style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
                   sliderImage: venice2,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "Spacious Venetian style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
                   sliderImage: venice3,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "Spacious Venetian style villas with sweeping lagoon views and quintessential architecture.",
                 },
                 {
                   sliderImage: venice4,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "Spacious Venetian-style villas with sweeping lagoon views and quintessential architecture.",
+                    "Spacious Venetian style villas with sweeping lagoon views and quintessential architecture.",
                 },
               ],
             },
@@ -122,10 +122,10 @@ export const tabsData = [
         amenities: {
           header: "Luxury Amenities that You can Enjoy",
           amenitiesData: [
-            {
-              img: DamacIcon1,
-              name: "Refreshing views of lagoons",
-            },
+            // {
+            //   img: DamacIcon1,
+            //   name: "Refreshing views of lagoons",
+            // },
             {
               img: DamacIcon2,
               name: "White sandy beaches",
@@ -162,7 +162,7 @@ export const tabsData = [
           header: "એક સાચી ભૂમધ્ય રજાઓની જીવનશૈલી ઓફર કરે છે",
           img: about1,
           paragraph1:
-            "Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan  શેરીના રોડક્રોસ પર સ્થિત, Damac Lagoonsis ભૂમધ્ય-પ્રેરિત સમૂહ છે જે 3 થી 6 બેડરૂમના ટાઉનહાઉસ અને ક્રિસ્ટલ Lagoonsથી ઘેરાયેલા વિલાની ઓફર કરે છે. તે ખરેખર પ્રખ્યાત ભૂમધ્ય શહેરોની સ્થાપત્ય સુઘડતાને એકસાથે લાવે છે, જેમાં તમે દરેક સંભવિત વૈભવી સુવિધાઓ વિચારી શકો છો. વૈભવી સમાજ એ શહેરની ચર્ચા છે અને રોકાણ કરવા માટેનું એક મુખ્ય સ્થાન છે",
+            "Hessa Street & Sheikh Zayed Bin Hamdan Al Nahyan  શેરીના રોડક્રોસ પર સ્થિત, Damac Lagoonsis ભૂમધ્ય પ્રેરિત સમૂહ છે જે 3 થી 6 બેડરૂમના ટાઉનહાઉસ અને ક્રિસ્ટલ Lagoonsથી ઘેરાયેલા વિલાની ઓફર કરે છે. તે ખરેખર પ્રખ્યાત ભૂમધ્ય શહેરોની સ્થાપત્ય સુઘડતાને એકસાથે લાવે છે, જેમાં તમે દરેક સંભવિત વૈભવી સુવિધાઓ વિચારી શકો છો. વૈભવી સમાજ એ શહેરની ચર્ચા છે અને રોકાણ કરવા માટેનું એક મુખ્ય સ્થાન છે",
         },
         reasonsToInvestInDubai: [
           {
@@ -204,25 +204,25 @@ export const tabsData = [
                   sliderImage: venice1,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice2,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice3,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન શૈલીના વિલા.",
                 },
                 {
                   sliderImage: venice4,
                   sliderTitle: "Venice",
                   sliderDescription:
-                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન-શૈલીના વિલા.",
+                    "વિશાળ lagoonના દૃશ્યો અને ઉત્કૃષ્ટ આર્કિટેક્ચર સાથે વિશાળ વિનીશીયન શૈલીના વિલા.",
                 },
               ],
             },
@@ -231,10 +231,10 @@ export const tabsData = [
         amenities: {
           header: "વૈભવી સુવિધાઓ જેનો તમે આનંદ માણી શકો છો",
           amenitiesData: [
-            {
-              img: DamacIcon1,
-              name: "Lagoons નાં પ્રેરણાદાયક દૃશ્યો",
-            },
+            // {
+            //   img: DamacIcon1,
+            //   name: "Lagoons નાં પ્રેરણાદાયક દૃશ્યો",
+            // },
             {
               img: DamacIcon2,
               name: "સફેદ રેતાળ દરિયાકિનારો",
@@ -273,10 +273,10 @@ export const tabsData = [
     data: {
       en: {
         whyInvestInDubai: {
-          header: "Luxury as Never Experienced Before",
+          header: "Luxury as never experienced before",
           img: about2,
           paragraph1:
-            "These ultra-luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
+            "These ultra luxury branded apartments were exclusively created by De Grisogono of Switzerland and are inspired by the crimson brilliance of ruby, which exudes an air of elegance and excitement never before experienced. Safa Two, which resembles a cut diamond & houses an infinity pool & a fog forest, is expected to establish itself as a symbol of luxury along the city's 'golden mile.'",
         },
         reasonsToInvestInDubai: {
           header: "Safa 2",
@@ -285,32 +285,32 @@ export const tabsData = [
               sliderImage: safa1,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3 bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
               sliderImage: safa2,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3 bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
               sliderImage: safa3,
               sliderTitle: "Gardenia Villas",
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3 bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
               sliderImage: safa4,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3 bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
             {
               sliderImage: safa5,
               sliderTitle: "Safa 2",
               sliderDescription:
-                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3-bedroom apartments with luxury experiences unique to the city of Dubai.",
+                "Safa 2 hosts a selection of luxury studios, 1, 2, and 3 bedroom apartments with luxury experiences unique to the city of Dubai.",
             },
           ],
         },
@@ -333,10 +333,10 @@ export const tabsData = [
               img: SafaIcon4,
               name: "Observatory",
             },
-            {
-              img: SafaIcon5,
-              name: "Cafés & restaurants",
-            },
+            // {
+            //   img: SafaIcon5,
+            //   name: "Cafés & restaurants",
+            // },
           ],
         },
       },
@@ -345,7 +345,7 @@ export const tabsData = [
           header: "એવી વૈભવીશ્રેણી જે પહેલાં ક્યારેય અનુભવી ન હતી",
           img: about2,
           paragraph1:
-            "આ અલ્ટ્રા-લક્ઝરી બ્રાન્ડેડ એપાર્ટમેન્ટ્સ ફક્ત સ્વિટ્ઝર્લૅન્ડના De Grisogono દ્વારા બનાવવામાં આવ્યા હતા અને તે રૂબીના લાલ રંગની તેજસ્વીતાથી પ્રેરિત છે, જે સુઘડતા અને ઉત્તેજનાની તાજગીનો અનુભવ કરે છે જે અગાઉ ક્યારેય અનુભવાયો ન હતો. Safa two, જે કાપેલા હીરા જેવું લાગે છે અને તેમાં અનંત પૂલ અને ધુમ્મસનું જંગલ પણ છે, તે શહેરના 'ગોલ્ડન માઇલ' ની સાથે વૈભવીના પ્રતીક તરીકે સ્થાપિત થવાની આશા રાખે છે",
+            "આ અલ્ટ્રા લક્ઝરી બ્રાન્ડેડ એપાર્ટમેન્ટ્સ ફક્ત સ્વિટ્ઝર્લૅન્ડના De Grisogono દ્વારા બનાવવામાં આવ્યા હતા અને તે રૂબીના લાલ રંગની તેજસ્વીતાથી પ્રેરિત છે, જે સુઘડતા અને ઉત્તેજનાની તાજગીનો અનુભવ કરે છે જે અગાઉ ક્યારેય અનુભવાયો ન હતો. Safa two, જે કાપેલા હીરા જેવું લાગે છે અને તેમાં અનંત પૂલ અને ધુમ્મસનું જંગલ પણ છે, તે શહેરના 'ગોલ્ડન માઇલ' ની સાથે વૈભવીના પ્રતીક તરીકે સ્થાપિત થવાની આશા રાખે છે",
         },
         reasonsToInvestInDubai: {
           header: "Safa 2",
@@ -402,10 +402,10 @@ export const tabsData = [
               img: SafaIcon4,
               name: "વેધશાળા",
             },
-            {
-              img: SafaIcon5,
-              name: "કાફે અને રેસ્ટોરાં",
-            },
+            // {
+            //   img: SafaIcon5,
+            //   name: "કાફે અને રેસ્ટોરાં",
+            // },
           ],
         },
       },
@@ -419,7 +419,7 @@ export const tabsData = [
           header: "A luxury hotel and residential tower",
           img: about3,
           paragraph1:
-            "This luxury property by Damac brings together Hollywood glamour & California cool. The 63-story architectural wonder houses studio apartments, hotel rooms &  spacious luxury residences. You can expect all the premium amenities along with a roof-top infinity pool and panoramic views of the Dubai skyline. ",
+            "This luxury property by Damac brings together Hollywood glamour & California cool. The 63 story architectural wonder houses studio apartments, hotel rooms & spacious luxury residences. You can expect all the premium amenities along with a roof top infinity pool and panoramic views of the Dubai skyline. ",
         },
         reasonsToInvestInDubai: {
           header: "Paramount Tower Hotel & Residences",
@@ -428,25 +428,25 @@ export const tabsData = [
               sliderImage: paramount1,
               sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "A hotel & residential tower that hosts a selection of high end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount2,
               sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "A hotel & residential tower that hosts a selection of high end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount3,
               sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "A hotel & residential tower that hosts a selection of high end hotel rooms inspired by the Hollywood studio.",
             },
             {
               sliderImage: paramount4,
               sliderTitle: "Paramount Tower Hotel & Residences",
               sliderDescription:
-                "A hotel & residential tower that hosts a selection of high-end hotel rooms inspired by the Hollywood studio.",
+                "A hotel & residential tower that hosts a selection of high end hotel rooms inspired by the Hollywood studio.",
             },
           ],
         },
@@ -465,10 +465,10 @@ export const tabsData = [
               img: ParamountIcon3,
               name: "Fitness and wellness center",
             },
-            {
-              img: ParamountIcon4,
-              name: "Rooftop terrace with seating",
-            },
+            // {
+            //   img: ParamountIcon4,
+            //   name: "Rooftop terrace with seating",
+            // },
             {
               img: ParamountIcon5,
               name: "Meeting and events facilities",
@@ -483,7 +483,7 @@ export const tabsData = [
           `,
           img: about3,
           paragraph1:
-            "Damacની આ વૈભવી પ્રોપર્ટી હોલીવુડ ગ્લેમર અને કેલિફોર્નિયા કૂલને એકસાથે લાવે છે. 63 માળની આર્કિટેક્ચરલ અજાયબીમાં સ્ટુડિયો એપાર્ટમેન્ટ, હોટેલ રૂમ અને વિશાળ વૈભવી નિવાસ છે. તમે દરેક પ્રીમીયમ સુવિધાઓ સાથે-સાથે રૂફ-ટોપ ઇન્ફિનિટી પૂલ અને દુબઇ સ્કાયલાઇનના મનોહર દૃશ્યોની અપેક્ષા રાખી શકો છો. ",
+            "Damacની આ વૈભવી પ્રોપર્ટી હોલીવુડ ગ્લેમર અને કેલિફોર્નિયા કૂલને એકસાથે લાવે છે. 63 માળની આર્કિટેક્ચરલ અજાયબીમાં સ્ટુડિયો એપાર્ટમેન્ટ, હોટેલ રૂમ અને વિશાળ વૈભવી નિવાસ છે. તમે દરેક પ્રીમીયમ સુવિધાઓ સાથે સાથે રૂફ ટોપ ઇન્ફિનિટી પૂલ અને દુબઇ સ્કાયલાઇનના મનોહર દૃશ્યોની અપેક્ષા રાખી શકો છો. ",
         },
         reasonsToInvestInDubai: {
           header: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
@@ -492,25 +492,25 @@ export const tabsData = [
               sliderImage: paramount1,
               sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount2,
               sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount3,
               sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
             {
               sliderImage: paramount4,
               sliderTitle: "પેરામાઉન્ટ હોટેલ અને નિવાસ",
               sliderDescription:
-                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ-એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
+                "એક હોટેલ અને રહેણાંક ટાવર કે જે હોલીવુડ સ્ટુડિયોથી પ્રેરિત થઇ હાઇ એન્ડ હોટેલ રૂમની પસંદગીનું આયોજન કરે છે.",
             },
           ],
         },
@@ -529,10 +529,10 @@ export const tabsData = [
               img: ParamountIcon3,
               name: "ફિટનેસ અને વેલનેસ સેન્ટર",
             },
-            {
-              img: ParamountIcon4,
-              name: "બેસવાની સુવિધા સાથે રૂફટોપ ટેરેસ",
-            },
+            // {
+            //   img: ParamountIcon4,
+            //   name: "બેસવાની સુવિધા સાથે રૂફટોપ ટેરેસ",
+            // },
             {
               img: ParamountIcon5,
               name: "મીટિંગ અને ઇવેન્ટની સુવિધાઓ",
