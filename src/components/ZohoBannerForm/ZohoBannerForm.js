@@ -1,5 +1,8 @@
 import React from "react";
 import "./ZohoBannerForm.scss";
+import countryCodes from './../../data/country_codes.json';
+
+import countryFlag from "./../../assets/blank.gif";
 
 function ZohoBannerForm() {
   return (
@@ -124,19 +127,28 @@ function ZohoBannerForm() {
           </div>
           <div class="zcwf_col_fld">
             <div class="phone-wrap"> 
-            <input
+            {/* <input
               value="+971"
               type="text"
               name="mobile_number_prefix"
               editable="false"
               className="mobile_number_prefix"
-            /> 
+            />  */}
+            <select id="LEADCF2" name="LEADCF2" className="mobile_number_prefix" required>
+              {
+                countryCodes.map(country => (
+                  <>
+                  <option value={country.dial_code}>{country.dial_code}</option>  
+                  </>
+                ))
+              }
+            </select>
             <input
               type="text"
               id="Mobile"
               name="Mobile"
-              maxlength="9"
-              minlength="9"
+              // maxlength="9"
+              // minlength="9"
               placeholder="507xxxxxx"
               required
             />
