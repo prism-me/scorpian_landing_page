@@ -44,7 +44,7 @@ const Theme = () => {
 
         <Contact lan={window.location.pathname} />
 
-        {/* <Events lan={window.location.pathname} /> */}
+        <Events lan={window.location.pathname} />
       </div>
       <FooterSection lan={window.location.pathname} />
       {/* <BottomTabNavigator /> */}

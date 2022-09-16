@@ -15,7 +15,7 @@ export const language = {
     },
     events: {
       header: "Dubai Property Expo by Damac",
-      firstLine: "Sep 2022, Ahmedabad",
+      firstLine: "Oct 2022, Ahmedabad",
       paragraph1:
         "Come and meet the real estate experts & get to know about the most luxurious properties on offer in Dubai by Damac. Connect with key stakeholders in Dubai real estate and find unparalleled investment opportunities, offering the best ROI.",
     },
@@ -45,7 +45,7 @@ export const language = {
     },
     events: {
       header: "દુબઈ પ્રોપટી એક્ષ્પો Damac દ્વારા",
-      firstLine: "સપ્ટે 2022, અમદાવાદ",
+      firstLine: "ઓક્ટોબર 2022, અમદાવાદ",
       paragraph1:
         "પધારો અને રિયલ એસ્ટેટ નિષ્ણાતોને મળો અને Damac દ્વારા દુબઈમાં ઓફર કરવામાં આવતી સૌથી વૈભવી મિલકતો વિશે જાણો. દુબઈ રિયલ એસ્ટેટના મુખ્ય હિસ્સેદારો સાથે જોડાઓ અને શ્રેષ્ઠ વળતર ઓફર કરીને અદભુત રોકાણની તકો શોધો.",
     },

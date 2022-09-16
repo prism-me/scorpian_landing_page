@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./aboutBuraq.scss";
 
 const AboutBuraq = ({ onChangeTab, lan, data }) => {
-  console.log("tabdata", data);
   return (
     <div className="aboutWrap">
       <div className={`about-buraq-row`}>
