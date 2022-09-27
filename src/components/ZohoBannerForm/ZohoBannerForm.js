@@ -3,21 +3,21 @@ import "./ZohoBannerForm.scss";
 
 function ZohoBannerForm() {
   const countryCodes = [
-    {
-      dial_code: "+971",
-    },
+    // {
+    //   dial_code: "+971",
+    // },
     {
       dial_code: "+91",
     },
   ];
 
-  const [country, setCountry] = useState("");
-  const handleChange = (e) => {
-    const country = e.target.value;
-    setCountry({
-      country: country,
-    });
-  };
+  // const [country, setCountry] = useState("");
+  // const handleChange = (e) => {
+  //   const country = e.target.value;
+  //   setCountry({
+  //     country: country,
+  //   });
+  // };
 
   return (
     <div
@@ -153,7 +153,7 @@ function ZohoBannerForm() {
                 name="LEADCF2"
                 className="mobile_number_prefix"
                 required
-                onChange={handleChange}
+                // onChange={handleChange}
               >
                 {countryCodes.map((country) => (
                   <>
@@ -167,11 +167,14 @@ function ZohoBannerForm() {
                 type="text"
                 id="Mobile"
                 name="Mobile"
-                maxlength={`${country.country === "+91" ? "10" : "9"}`}
-                minlength={`${country.country === "+91" ? "10" : "9"}`}
-                placeholder={`${
-                  country.country === "+91" ? "507xxxxxxx" : "507xxxxxx"
-                }`}
+                maxlength="10"
+                minlength="10"
+                placeholder="507xxxxxxx"
+                // maxlength={`${country.country === "+91" ? "10" : "9"}`}
+                // minlength={`${country.country === "+91" ? "10" : "9"}`}
+                // placeholder={`${
+                //   country.country === "+91" ? "507xxxxxxx" : "507xxxxxx"
+                // }`}
                 required
                 onKeyPress={(event) => {
                   if (!/[0-9]/.test(event.key)) {
