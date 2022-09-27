@@ -45,7 +45,9 @@ body {
 }
 
 .zcwf_lblRight .zcwf_col_fld input[type="text"],
-.zcwf_lblRight .zcwf_col_fld textarea , .zcwf_col_fld select {
+.zcwf_lblRight .zcwf_col_fld input[type="email"],
+.zcwf_lblRight .zcwf_col_fld textarea,
+.zcwf_col_fld select {
   width: 100%;
   border: 1px solid #ccc !important;
   resize: vertical;
@@ -233,7 +235,6 @@ body {
 }
 
 @media all and (max-width: 600px) {
-
   .zcwf_lblRight .zcwf_col_lab,
   .zcwf_lblRight .zcwf_col_fld {
     width: auto;

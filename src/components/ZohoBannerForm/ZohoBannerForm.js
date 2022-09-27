@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ZohoBannerForm.scss";
-import countryCodes from './../../data/country_codes.json';
-
-import countryFlag from "./../../assets/blank.gif";
 
 function ZohoBannerForm() {
+  const countryCodes = [
+    {
+      dial_code: "+971",
+    },
+    {
+      dial_code: "+91",
+    },
+  ];
+
+  const [country, setCountry] = useState("");
+  const handleChange = (e) => {
+    const country = e.target.value;
+    setCountry({
+      country: country,
+    });
+  };
+
   return (
     <div
       id="crmWebToEntityForm"
@@ -106,8 +120,8 @@ function ZohoBannerForm() {
           </div>
           <div class="zcwf_col_fld">
             <input
-              type="text"
-              ftype="email"
+              // type="text"
+              type="email"
               id="Email"
               name="Email"
               maxlength="100"
@@ -126,32 +140,45 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-            <div class="phone-wrap"> 
-            {/* <input
+            <div class="phone-wrap">
+              {/* <input
               value="+971"
               type="text"
               name="mobile_number_prefix"
               editable="false"
               className="mobile_number_prefix"
             />  */}
-            <select id="LEADCF2" name="LEADCF2" className="mobile_number_prefix" required>
-              {
-                countryCodes.map(country => (
+              <select
+                id="LEADCF2"
+                name="LEADCF2"
+                className="mobile_number_prefix"
+                required
+                onChange={handleChange}
+              >
+                {countryCodes.map((country) => (
                   <>
-                  <option value={country.dial_code}>{country.dial_code}</option>  
+                    <option value={country.dial_code}>
+                      {country.dial_code}
+                    </option>
                   </>
-                ))
-              }
-            </select>
-            <input
-              type="text"
-              id="Mobile"
-              name="Mobile"
-              // maxlength="9"
-              // minlength="9"
-              placeholder="507xxxxxx"
-              required
-            />
+                ))}
+              </select>
+              <input
+                type="text"
+                id="Mobile"
+                name="Mobile"
+                maxlength={`${country.country === "+91" ? "10" : "9"}`}
+                minlength={`${country.country === "+91" ? "10" : "9"}`}
+                placeholder={`${
+                  country.country === "+91" ? "507xxxxxxx" : "507xxxxxx"
+                }`}
+                required
+                onKeyPress={(event) => {
+                  if (!/[0-9]/.test(event.key)) {
+                    event.preventDefault();
+                  }
+                }}
+              />
             </div>
             <div class="zcwf_col_help" style={{ display: "none" }}>
               {" "}
@@ -231,13 +258,12 @@ function ZohoBannerForm() {
             </label>
           </div>
           <div class="zcwf_col_fld">
-
             <select name="LEADCF3" id="LEADCF3" required>
-              <option value="villa"> Villa </option> 
-              <option value="apartment"> Apartment </option> 
-              <option value="townhouse"> Townhouse </option> 
+              <option value="villa"> Villa </option>
+              <option value="apartment"> Apartment </option>
+              <option value="townhouse"> Townhouse </option>
             </select>
-            
+
             {/* <input
               type="text"
               id="LEADCF3"
